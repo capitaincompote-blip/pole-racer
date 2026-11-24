@@ -90,6 +90,7 @@ collections:
               - { name: title, label: Titre, widget: string }
               - { name: date, label: Date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
               - { name: body, label: Texte (une ligne vide = nouveau paragraphe), widget: text }
+              - { name: url, label: "Lien « Lire la suite » (facultatif, ex. page itch.io)", widget: string, required: false }
               - { name: image, label: Image (facultatif), widget: image, required: false }
           - { name: cta_title, label: "Titre du grand bandeau rouge (bas de page)", widget: string, i18n: true }
           - { name: cta_text, label: "Texte du bandeau rouge", widget: text, i18n: true }
