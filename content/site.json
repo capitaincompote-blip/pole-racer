@@ -1,19 +1,18 @@
 {
   "fr": {
     "hero_title": "POLE RACER",
-    "hero_tagline": "La Formule 1 en 16 bits. Pied au plancher.",
+    "hero_tagline": "La Formule 1 en low poly, inspirée des jeux 16 bits.",
     "status_badge": "En développement",
     "hero_image": "",
-    "buy_label": "Suivre le développement",
-    "buy_url": "#suivre",
+    "buy_url": "",
     "facts": [
       {
         "label": "Genre",
-        "value": "Course F1 arcade"
+        "value": "Course de Formule 1"
       },
       {
         "label": "Style",
-        "value": "Rendu 16 bits, Mode 7"
+        "value": "Low poly, esprit 16 bits"
       },
       {
         "label": "Statut",
@@ -24,19 +23,19 @@
         "value": "Indiana Games"
       }
     ],
-    "about": "Des circuits qui filent vers l'horizon, des voitures en pixels nets, une course de Formule 1 directe et lisible. Pole Racer reprend le rendu Mode 7 des grandes années 16 bits pour la vitesse pure.",
+    "about": "Des voitures et des circuits en low poly, des volumes simples et des couleurs franches, dans l'esprit des jeux de course 16 bits. Pole Racer remet la Formule 1 dans une image lisible, directe et pleine de caractère.",
     "features": [
       {
-        "title": "Une sensation de vitesse immédiate",
-        "text": "Prise en main en quelques secondes : accélère, freine, double."
+        "title": "La Formule 1, version low poly",
+        "text": "Des voitures et des circuits aux formes simples et marquées, pour une image lisible à pleine vitesse."
       },
       {
-        "title": "Le Mode 7, comme à l'époque",
-        "text": "Des circuits en perspective inspirés des grands classiques 16 bits."
+        "title": "L'esprit des jeux 16 bits",
+        "text": "Une inspiration assumée des jeux de course des années 90."
       },
       {
-        "title": "Une image qui a du caractère",
-        "text": "Pixels nets, couleurs franches, direction artistique soignée."
+        "title": "Une direction artistique soignée",
+        "text": "Couleurs franches, volumes simples, un style reconnaissable au premier regard."
       }
     ],
     "videos": [],
@@ -59,23 +58,23 @@
         "label": "Page Facebook Indiana Games",
         "url": "https://www.facebook.com/indianagames09"
       }
-    ]
+    ],
+    "demo_url": ""
   },
   "en": {
     "hero_title": "POLE RACER",
-    "hero_tagline": "Formula 1 in 16-bit. Flat out.",
+    "hero_tagline": "Formula 1 in low poly, inspired by 16-bit games.",
     "status_badge": "In development",
     "hero_image": "",
-    "buy_label": "Follow development",
-    "buy_url": "#suivre",
+    "buy_url": "",
     "facts": [
       {
         "label": "Genre",
-        "value": "Arcade F1 racing"
+        "value": "Formula 1 racing"
       },
       {
         "label": "Look",
-        "value": "16-bit, Mode 7"
+        "value": "Low poly, 16-bit spirit"
       },
       {
         "label": "Status",
@@ -86,19 +85,19 @@
         "value": "Indiana Games"
       }
     ],
-    "about": "Tracks racing toward the horizon, crisp pixel cars, a Formula 1 race that is direct and easy to read. Pole Racer brings back the Mode 7 look of the golden 16-bit years for pure speed.",
+    "about": "Low-poly cars and tracks, simple shapes and bold colours, in the spirit of 16-bit racing games. Pole Racer puts Formula 1 into an image that is clear, direct and full of character.",
     "features": [
       {
-        "title": "Instant sense of speed",
-        "text": "Pick it up in seconds: accelerate, brake, overtake."
+        "title": "Formula 1, low-poly style",
+        "text": "Cars and tracks built from simple, bold shapes for an image that stays readable at full speed."
       },
       {
-        "title": "Mode 7, just like back then",
-        "text": "Perspective tracks inspired by the great 16-bit classics."
+        "title": "The spirit of 16-bit games",
+        "text": "An open nod to the racing games of the 1990s."
       },
       {
-        "title": "A look with character",
-        "text": "Crisp pixels, bold colours, careful art direction."
+        "title": "Careful art direction",
+        "text": "Bold colours, simple volumes, a style you recognise at a glance."
       }
     ],
     "videos": [],
@@ -121,23 +120,23 @@
         "label": "Indiana Games Facebook page",
         "url": "https://www.facebook.com/indianagames09"
       }
-    ]
+    ],
+    "demo_url": ""
   },
   "de": {
     "hero_title": "POLE RACER",
-    "hero_tagline": "Formel 1 in 16 Bit. Vollgas.",
+    "hero_tagline": "Formel 1 in Low Poly, inspiriert von 16-Bit-Spielen.",
     "status_badge": "In Entwicklung",
     "hero_image": "",
-    "buy_label": "Entwicklung verfolgen",
-    "buy_url": "#suivre",
+    "buy_url": "",
     "facts": [
       {
         "label": "Genre",
-        "value": "Arcade-Formel-1-Rennspiel"
+        "value": "Formel-1-Rennspiel"
       },
       {
         "label": "Look",
-        "value": "16 Bit, Mode 7"
+        "value": "Low Poly, 16-Bit-Geist"
       },
       {
         "label": "Status",
@@ -148,19 +147,19 @@
         "value": "Indiana Games"
       }
     ],
-    "about": "Strecken, die dem Horizont entgegenrasen, gestochen scharfe Pixel-Boliden, ein direktes und übersichtliches Formel-1-Rennen. Pole Racer bringt den Mode-7-Look der großen 16-Bit-Jahre zurück, für pure Geschwindigkeit.",
+    "about": "Low-Poly-Autos und -Strecken, einfache Formen und kräftige Farben, im Geist der 16-Bit-Rennspiele. Pole Racer bringt die Formel 1 in ein Bild, das klar, direkt und voller Charakter ist.",
     "features": [
       {
-        "title": "Sofortiges Geschwindigkeitsgefühl",
-        "text": "In Sekunden verstanden: beschleunigen, bremsen, überholen."
+        "title": "Formel 1 im Low-Poly-Stil",
+        "text": "Autos und Strecken aus einfachen, kräftigen Formen, damit das Bild bei voller Geschwindigkeit lesbar bleibt."
       },
       {
-        "title": "Mode 7 wie damals",
-        "text": "Strecken in Perspektive, inspiriert von den großen 16-Bit-Klassikern."
+        "title": "Der Geist der 16-Bit-Spiele",
+        "text": "Eine bewusste Verbeugung vor den Rennspielen der 90er."
       },
       {
-        "title": "Ein Look mit Charakter",
-        "text": "Scharfe Pixel, kräftige Farben, sorgfältige Art Direction."
+        "title": "Sorgfältige Art Direction",
+        "text": "Kräftige Farben, einfache Volumen, ein Stil, den man sofort erkennt."
       }
     ],
     "videos": [],
@@ -183,23 +182,23 @@
         "label": "Facebook-Seite von Indiana Games",
         "url": "https://www.facebook.com/indianagames09"
       }
-    ]
+    ],
+    "demo_url": ""
   },
   "es": {
     "hero_title": "POLE RACER",
-    "hero_tagline": "La Fórmula 1 en 16 bits. A fondo.",
+    "hero_tagline": "La Fórmula 1 en low poly, inspirada en los juegos de 16 bits.",
     "status_badge": "En desarrollo",
     "hero_image": "",
-    "buy_label": "Seguir el desarrollo",
-    "buy_url": "#suivre",
+    "buy_url": "",
     "facts": [
       {
         "label": "Género",
-        "value": "Carreras de F1 arcade"
+        "value": "Carreras de Fórmula 1"
       },
       {
         "label": "Estilo",
-        "value": "16 bits, Mode 7"
+        "value": "Low poly, espíritu 16 bits"
       },
       {
         "label": "Estado",
@@ -210,19 +209,19 @@
         "value": "Indiana Games"
       }
     ],
-    "about": "Circuitos que corren hacia el horizonte, coches de píxeles nítidos, una carrera de Fórmula 1 directa y fácil de leer. Pole Racer recupera el aspecto Mode 7 de los grandes años de los 16 bits para ofrecer velocidad pura.",
+    "about": "Coches y circuitos en low poly, formas simples y colores intensos, con el espíritu de los juegos de carreras de 16 bits. Pole Racer lleva la Fórmula 1 a una imagen clara, directa y llena de carácter.",
     "features": [
       {
-        "title": "Sensación de velocidad inmediata",
-        "text": "Se aprende en segundos: acelera, frena, adelanta."
+        "title": "La Fórmula 1 en versión low poly",
+        "text": "Coches y circuitos de formas simples y marcadas, para una imagen legible a toda velocidad."
       },
       {
-        "title": "Mode 7, como antes",
-        "text": "Circuitos en perspectiva inspirados en los grandes clásicos de 16 bits."
+        "title": "El espíritu de los juegos de 16 bits",
+        "text": "Un homenaje claro a los juegos de carreras de los años 90."
       },
       {
-        "title": "Una imagen con carácter",
-        "text": "Píxeles nítidos, colores intensos y una dirección artística cuidada."
+        "title": "Una dirección artística cuidada",
+        "text": "Colores intensos, volúmenes simples, un estilo reconocible a primera vista."
       }
     ],
     "videos": [],
@@ -245,23 +244,23 @@
         "label": "Página de Facebook de Indiana Games",
         "url": "https://www.facebook.com/indianagames09"
       }
-    ]
+    ],
+    "demo_url": ""
   },
   "it": {
     "hero_title": "POLE RACER",
-    "hero_tagline": "La Formula 1 a 16 bit. Gas a fondo.",
+    "hero_tagline": "La Formula 1 in low poly, ispirata ai giochi a 16 bit.",
     "status_badge": "In sviluppo",
     "hero_image": "",
-    "buy_label": "Segui lo sviluppo",
-    "buy_url": "#suivre",
+    "buy_url": "",
     "facts": [
       {
         "label": "Genere",
-        "value": "Corse F1 arcade"
+        "value": "Corse di Formula 1"
       },
       {
         "label": "Stile",
-        "value": "16 bit, Mode 7"
+        "value": "Low poly, spirito 16 bit"
       },
       {
         "label": "Stato",
@@ -272,19 +271,19 @@
         "value": "Indiana Games"
       }
     ],
-    "about": "Circuiti che corrono verso l'orizzonte, auto in pixel nitidi, una gara di Formula 1 diretta e leggibile. Pole Racer riporta l'aspetto Mode 7 dei grandi anni a 16 bit per la velocità pura.",
+    "about": "Auto e circuiti in low poly, forme semplici e colori decisi, nello spirito dei giochi di corse a 16 bit. Pole Racer porta la Formula 1 in un'immagine chiara, diretta e piena di carattere.",
     "features": [
       {
-        "title": "Sensazione di velocità immediata",
-        "text": "Si impara in pochi secondi: accelera, frena, sorpassa."
+        "title": "La Formula 1 in versione low poly",
+        "text": "Auto e circuiti dalle forme semplici e decise, per un'immagine leggibile a tutta velocità."
       },
       {
-        "title": "Mode 7, come ai vecchi tempi",
-        "text": "Circuiti in prospettiva ispirati ai grandi classici a 16 bit."
+        "title": "Lo spirito dei giochi a 16 bit",
+        "text": "Un omaggio dichiarato ai giochi di corse degli anni '90."
       },
       {
-        "title": "Un'immagine con carattere",
-        "text": "Pixel nitidi, colori decisi, direzione artistica curata."
+        "title": "Una direzione artistica curata",
+        "text": "Colori decisi, volumi semplici, uno stile riconoscibile al primo sguardo."
       }
     ],
     "videos": [],
@@ -307,23 +306,23 @@
         "label": "Pagina Facebook di Indiana Games",
         "url": "https://www.facebook.com/indianagames09"
       }
-    ]
+    ],
+    "demo_url": ""
   },
   "ar": {
     "hero_title": "POLE RACER",
-    "hero_tagline": "فورمولا 1 بنظام 16 بت. بأقصى سرعة.",
+    "hero_tagline": "فورمولا 1 بأسلوب لو بولي، مستوحاة من ألعاب 16 بت.",
     "status_badge": "قيد التطوير",
     "hero_image": "",
-    "buy_label": "تابعوا التطوير",
-    "buy_url": "#suivre",
+    "buy_url": "",
     "facts": [
       {
         "label": "النوع",
-        "value": "سباقات فورمولا 1 أركيد"
+        "value": "سباقات فورمولا 1"
       },
       {
         "label": "الأسلوب",
-        "value": "16 بت، Mode 7"
+        "value": "لو بولي بروح 16 بت"
       },
       {
         "label": "الحالة",
@@ -334,19 +333,19 @@
         "value": "Indiana Games"
       }
     ],
-    "about": "حلبات تنطلق نحو الأفق، وسيارات ببكسلات واضحة، وسباق فورمولا 1 مباشر وسهل المتابعة. تعيد Pole Racer مظهر Mode 7 من أجمل سنوات ألعاب 16 بت من أجل سرعة خالصة.",
+    "about": "سيارات وحلبات بأسلوب لو بولي، بأشكال بسيطة وألوان جريئة، بروح ألعاب السباق ذات 16 بت. تقدّم Pole Racer فورمولا 1 بصورة واضحة ومباشرة ومليئة بالشخصية.",
     "features": [
       {
-        "title": "إحساس فوري بالسرعة",
-        "text": "تتعلّمها في ثوانٍ: تسارع، فرمل، تجاوز."
+        "title": "فورمولا 1 بأسلوب لو بولي",
+        "text": "سيارات وحلبات بأشكال بسيطة وواضحة، لصورة مقروءة بأقصى سرعة."
       },
       {
-        "title": "Mode 7 كما في الماضي",
-        "text": "حلبات بمنظور مستوحاة من أشهر ألعاب 16 بت."
+        "title": "روح ألعاب 16 بت",
+        "text": "تحية صريحة لألعاب السباق في التسعينيات."
       },
       {
-        "title": "صورة لها شخصية",
-        "text": "بكسلات حادة وألوان جريئة وإخراج فني متقن."
+        "title": "إخراج فني متقن",
+        "text": "ألوان جريئة وأحجام بسيطة وأسلوب يُعرف من النظرة الأولى."
       }
     ],
     "videos": [],
@@ -369,6 +368,7 @@
         "label": "صفحة Indiana Games على فيسبوك",
         "url": "https://www.facebook.com/indianagames09"
       }
-    ]
+    ],
+    "demo_url": ""
   }
 }
