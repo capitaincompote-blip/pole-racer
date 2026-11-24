@@ -153,8 +153,11 @@ h1 .w:nth-child(2){animation-delay:.14s}
 @media (max-width:900px){
   .hero-inner{grid-template-columns:1fr;gap:40px}
   .split{grid-template-columns:1fr}
-  .menu{display:none}
-  .nav{gap:12px}
+  .nav{gap:6px 12px;flex-wrap:wrap;padding-block:10px}
+  .menu{order:3;flex-basis:100%;margin:0;gap:24px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+  .menu::-webkit-scrollbar{display:none}
+  .menu a{white-space:nowrap;font-size:15px;padding:4px 0}
+  html{scroll-padding-top:104px}
   .nav-right{margin-inline-start:auto}
   .news article{grid-template-columns:1fr}
 }
@@ -199,3 +202,4 @@ h1 .w:nth-child(2){animation-delay:.14s}
 @media(max-width:760px){.showcase{grid-template-columns:1fr 1fr}.showcase li:first-child{grid-column:span 2;grid-row:auto}.showcase li:first-child button{aspect-ratio:16/9}}
 @media(prefers-reduced-motion:reduce){.showcase img{transition:none}}
 .video-main:empty{display:none}
+@media (max-width:520px){.nav-right{gap:8px}.nav-right .btn-sm{padding:8px 12px;font-size:14px}.lang{max-width:110px}.nav{padding-inline:16px}}
