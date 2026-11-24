@@ -1,8 +1,46 @@
 {
   "fr": {
     "hero_title": "POLE RACER",
-    "hero_tagline": "Le jeu de course F1 comme à l'époque de la Super Nintendo.",
+    "hero_tagline": "La Formule 1 en 16 bits. Pied au plancher.",
     "status_badge": "En développement",
+    "hero_image": "",
+    "buy_label": "Suivre le développement",
+    "buy_url": "#suivre",
+    "facts": [
+      {
+        "label": "Genre",
+        "value": "Course F1 arcade"
+      },
+      {
+        "label": "Style",
+        "value": "Rendu 16 bits, Mode 7"
+      },
+      {
+        "label": "Statut",
+        "value": "En développement"
+      },
+      {
+        "label": "Studio",
+        "value": "Indiana Games"
+      }
+    ],
+    "about": "Des circuits qui filent vers l'horizon, des voitures en pixels nets, une course de Formule 1 directe et lisible. Pole Racer reprend le rendu Mode 7 des grandes années 16 bits pour la vitesse pure.",
+    "features": [
+      {
+        "title": "Une sensation de vitesse immédiate",
+        "text": "Prise en main en quelques secondes : accélère, freine, double."
+      },
+      {
+        "title": "Le Mode 7, comme à l'époque",
+        "text": "Des circuits en perspective inspirés des grands classiques 16 bits."
+      },
+      {
+        "title": "Une image qui a du caractère",
+        "text": "Pixels nets, couleurs franches, direction artistique soignée."
+      }
+    ],
+    "videos": [],
+    "gallery": [],
     "news": [
       {
         "title": "Bienvenue sur le site de Pole Racer",
@@ -10,23 +48,8 @@
         "body": "Le site officiel de Pole Racer est en ligne. Vous y trouverez ici les actualités du développement, des captures d'écran et des vidéos.\n\nRevenez régulièrement : le jeu avance."
       }
     ],
-    "about": "Pole Racer est un jeu de course de Formule 1 au look de l'ère Super Nintendo : piste en pseudo-3D façon Mode 7, sprites pixélisés et ambiance arcade.\n\nUn jeu créé par Indiana Games.",
-    "features": [
-      {
-        "title": "Rendu Mode 7",
-        "text": "Des circuits en perspective inspirés des grands classiques 16 bits."
-      },
-      {
-        "title": "Esprit arcade",
-        "text": "Prise en main immédiate, sensations de vitesse avant tout."
-      },
-      {
-        "title": "Direction artistique rétro",
-        "text": "Une image pensée comme sur une console des années 90."
-      }
-    ],
-    "gallery": [],
-    "videos": [],
+    "cta_title": "Prêt pour le départ ?",
+    "cta_text": "Pole Racer est en développement. Suis le projet pour connaître la date de sortie dès qu'elle est annoncée.",
     "links": [
       {
         "label": "Chaîne YouTube Indiana Games",
@@ -40,8 +63,46 @@
   },
   "en": {
     "hero_title": "POLE RACER",
-    "hero_tagline": "The F1 racing game, just like the Super Nintendo days.",
+    "hero_tagline": "Formula 1 in 16-bit. Flat out.",
     "status_badge": "In development",
+    "hero_image": "",
+    "buy_label": "Follow development",
+    "buy_url": "#suivre",
+    "facts": [
+      {
+        "label": "Genre",
+        "value": "Arcade F1 racing"
+      },
+      {
+        "label": "Look",
+        "value": "16-bit, Mode 7"
+      },
+      {
+        "label": "Status",
+        "value": "In development"
+      },
+      {
+        "label": "Studio",
+        "value": "Indiana Games"
+      }
+    ],
+    "about": "Tracks racing toward the horizon, crisp pixel cars, a Formula 1 race that is direct and easy to read. Pole Racer brings back the Mode 7 look of the golden 16-bit years for pure speed.",
+    "features": [
+      {
+        "title": "Instant sense of speed",
+        "text": "Pick it up in seconds: accelerate, brake, overtake."
+      },
+      {
+        "title": "Mode 7, just like back then",
+        "text": "Perspective tracks inspired by the great 16-bit classics."
+      },
+      {
+        "title": "A look with character",
+        "text": "Crisp pixels, bold colours, careful art direction."
+      }
+    ],
+    "videos": [],
+    "gallery": [],
     "news": [
       {
         "title": "Welcome to the Pole Racer website",
@@ -49,23 +110,8 @@
         "body": "The official Pole Racer website is live. Here you'll find development news, screenshots and videos.\n\nCome back often: the game is moving forward."
       }
     ],
-    "about": "Pole Racer is a Formula 1 racing game with a Super Nintendo-era look: Mode 7-style pseudo-3D tracks, pixel-art sprites and an arcade feel.\n\nA game by Indiana Games.",
-    "features": [
-      {
-        "title": "Mode 7 rendering",
-        "text": "Perspective tracks inspired by the great 16-bit classics."
-      },
-      {
-        "title": "Arcade spirit",
-        "text": "Instant pick-up-and-play, speed above all."
-      },
-      {
-        "title": "Retro art direction",
-        "text": "A look designed like a 90s console."
-      }
-    ],
-    "gallery": [],
-    "videos": [],
+    "cta_title": "Ready for the start?",
+    "cta_text": "Pole Racer is in development. Follow the project to hear the release date as soon as it's announced.",
     "links": [
       {
         "label": "Indiana Games YouTube channel",
@@ -79,8 +125,46 @@
   },
   "de": {
     "hero_title": "POLE RACER",
-    "hero_tagline": "Das F1-Rennspiel wie zu Super-Nintendo-Zeiten.",
+    "hero_tagline": "Formel 1 in 16 Bit. Vollgas.",
     "status_badge": "In Entwicklung",
+    "hero_image": "",
+    "buy_label": "Entwicklung verfolgen",
+    "buy_url": "#suivre",
+    "facts": [
+      {
+        "label": "Genre",
+        "value": "Arcade-Formel-1-Rennspiel"
+      },
+      {
+        "label": "Look",
+        "value": "16 Bit, Mode 7"
+      },
+      {
+        "label": "Status",
+        "value": "In Entwicklung"
+      },
+      {
+        "label": "Studio",
+        "value": "Indiana Games"
+      }
+    ],
+    "about": "Strecken, die dem Horizont entgegenrasen, gestochen scharfe Pixel-Boliden, ein direktes und übersichtliches Formel-1-Rennen. Pole Racer bringt den Mode-7-Look der großen 16-Bit-Jahre zurück, für pure Geschwindigkeit.",
+    "features": [
+      {
+        "title": "Sofortiges Geschwindigkeitsgefühl",
+        "text": "In Sekunden verstanden: beschleunigen, bremsen, überholen."
+      },
+      {
+        "title": "Mode 7 wie damals",
+        "text": "Strecken in Perspektive, inspiriert von den großen 16-Bit-Klassikern."
+      },
+      {
+        "title": "Ein Look mit Charakter",
+        "text": "Scharfe Pixel, kräftige Farben, sorgfältige Art Direction."
+      }
+    ],
+    "videos": [],
+    "gallery": [],
     "news": [
       {
         "title": "Willkommen auf der Pole-Racer-Website",
@@ -88,23 +172,8 @@
         "body": "Die offizielle Pole-Racer-Website ist online. Hier findest du Neuigkeiten zur Entwicklung, Screenshots und Videos.\n\nSchau regelmäßig vorbei: Das Spiel kommt voran."
       }
     ],
-    "about": "Pole Racer ist ein Formel-1-Rennspiel im Look der Super-Nintendo-Ära: Strecken in Mode-7-Pseudo-3D, Pixel-Sprites und Arcade-Atmosphäre.\n\nEin Spiel von Indiana Games.",
-    "features": [
-      {
-        "title": "Mode-7-Rendering",
-        "text": "Strecken in Perspektive, inspiriert von den großen 16-Bit-Klassikern."
-      },
-      {
-        "title": "Arcade-Geist",
-        "text": "Sofort spielbar, das Geschwindigkeitsgefühl steht an erster Stelle."
-      },
-      {
-        "title": "Retro-Look",
-        "text": "Ein Bild wie auf einer Konsole der 90er."
-      }
-    ],
-    "gallery": [],
-    "videos": [],
+    "cta_title": "Bereit für den Start?",
+    "cta_text": "Pole Racer befindet sich in Entwicklung. Folge dem Projekt, um den Release-Termin zu erfahren, sobald er feststeht.",
     "links": [
       {
         "label": "YouTube-Kanal von Indiana Games",
@@ -118,8 +187,46 @@
   },
   "es": {
     "hero_title": "POLE RACER",
-    "hero_tagline": "El juego de carreras de F1 como en la época de la Super Nintendo.",
+    "hero_tagline": "La Fórmula 1 en 16 bits. A fondo.",
     "status_badge": "En desarrollo",
+    "hero_image": "",
+    "buy_label": "Seguir el desarrollo",
+    "buy_url": "#suivre",
+    "facts": [
+      {
+        "label": "Género",
+        "value": "Carreras de F1 arcade"
+      },
+      {
+        "label": "Estilo",
+        "value": "16 bits, Mode 7"
+      },
+      {
+        "label": "Estado",
+        "value": "En desarrollo"
+      },
+      {
+        "label": "Estudio",
+        "value": "Indiana Games"
+      }
+    ],
+    "about": "Circuitos que corren hacia el horizonte, coches de píxeles nítidos, una carrera de Fórmula 1 directa y fácil de leer. Pole Racer recupera el aspecto Mode 7 de los grandes años de los 16 bits para ofrecer velocidad pura.",
+    "features": [
+      {
+        "title": "Sensación de velocidad inmediata",
+        "text": "Se aprende en segundos: acelera, frena, adelanta."
+      },
+      {
+        "title": "Mode 7, como antes",
+        "text": "Circuitos en perspectiva inspirados en los grandes clásicos de 16 bits."
+      },
+      {
+        "title": "Una imagen con carácter",
+        "text": "Píxeles nítidos, colores intensos y una dirección artística cuidada."
+      }
+    ],
+    "videos": [],
+    "gallery": [],
     "news": [
       {
         "title": "Bienvenido al sitio de Pole Racer",
@@ -127,23 +234,8 @@
         "body": "El sitio oficial de Pole Racer ya está en línea. Aquí encontrarás las novedades del desarrollo, capturas de pantalla y vídeos.\n\nVuelve a menudo: el juego avanza."
       }
     ],
-    "about": "Pole Racer es un juego de carreras de Fórmula 1 con el aspecto de la era Super Nintendo: pistas en pseudo-3D estilo Mode 7, sprites pixelados y ambiente arcade.\n\nUn juego creado por Indiana Games.",
-    "features": [
-      {
-        "title": "Renderizado Mode 7",
-        "text": "Circuitos en perspectiva inspirados en los grandes clásicos de 16 bits."
-      },
-      {
-        "title": "Espíritu arcade",
-        "text": "Control inmediato, sensación de velocidad ante todo."
-      },
-      {
-        "title": "Dirección artística retro",
-        "text": "Una imagen pensada como en una consola de los 90."
-      }
-    ],
-    "gallery": [],
-    "videos": [],
+    "cta_title": "¿Listo para la salida?",
+    "cta_text": "Pole Racer está en desarrollo. Sigue el proyecto para conocer la fecha de lanzamiento en cuanto se anuncie.",
     "links": [
       {
         "label": "Canal de YouTube de Indiana Games",
@@ -157,8 +249,46 @@
   },
   "it": {
     "hero_title": "POLE RACER",
-    "hero_tagline": "Il gioco di corse di F1 come ai tempi del Super Nintendo.",
+    "hero_tagline": "La Formula 1 a 16 bit. Gas a fondo.",
     "status_badge": "In sviluppo",
+    "hero_image": "",
+    "buy_label": "Segui lo sviluppo",
+    "buy_url": "#suivre",
+    "facts": [
+      {
+        "label": "Genere",
+        "value": "Corse F1 arcade"
+      },
+      {
+        "label": "Stile",
+        "value": "16 bit, Mode 7"
+      },
+      {
+        "label": "Stato",
+        "value": "In sviluppo"
+      },
+      {
+        "label": "Studio",
+        "value": "Indiana Games"
+      }
+    ],
+    "about": "Circuiti che corrono verso l'orizzonte, auto in pixel nitidi, una gara di Formula 1 diretta e leggibile. Pole Racer riporta l'aspetto Mode 7 dei grandi anni a 16 bit per la velocità pura.",
+    "features": [
+      {
+        "title": "Sensazione di velocità immediata",
+        "text": "Si impara in pochi secondi: accelera, frena, sorpassa."
+      },
+      {
+        "title": "Mode 7, come ai vecchi tempi",
+        "text": "Circuiti in prospettiva ispirati ai grandi classici a 16 bit."
+      },
+      {
+        "title": "Un'immagine con carattere",
+        "text": "Pixel nitidi, colori decisi, direzione artistica curata."
+      }
+    ],
+    "videos": [],
+    "gallery": [],
     "news": [
       {
         "title": "Benvenuti sul sito di Pole Racer",
@@ -166,23 +296,8 @@
         "body": "Il sito ufficiale di Pole Racer è online. Qui troverai le novità sullo sviluppo, screenshot e video.\n\nTorna a trovarci: il gioco va avanti."
       }
     ],
-    "about": "Pole Racer è un gioco di corse di Formula 1 dall'aspetto dell'era Super Nintendo: piste in pseudo-3D in stile Mode 7, sprite pixelati e atmosfera arcade.\n\nUn gioco creato da Indiana Games.",
-    "features": [
-      {
-        "title": "Rendering Mode 7",
-        "text": "Circuiti in prospettiva ispirati ai grandi classici a 16 bit."
-      },
-      {
-        "title": "Spirito arcade",
-        "text": "Si gioca subito, la sensazione di velocità prima di tutto."
-      },
-      {
-        "title": "Direzione artistica retro",
-        "text": "Un'immagine pensata come su una console degli anni '90."
-      }
-    ],
-    "gallery": [],
-    "videos": [],
+    "cta_title": "Pronto per la partenza?",
+    "cta_text": "Pole Racer è in sviluppo. Segui il progetto per conoscere la data di uscita non appena sarà annunciata.",
     "links": [
       {
         "label": "Canale YouTube di Indiana Games",
@@ -196,8 +311,46 @@
   },
   "ar": {
     "hero_title": "POLE RACER",
-    "hero_tagline": "لعبة سباقات الفورمولا 1 بروح عصر سوبر نينتندو.",
+    "hero_tagline": "فورمولا 1 بنظام 16 بت. بأقصى سرعة.",
     "status_badge": "قيد التطوير",
+    "hero_image": "",
+    "buy_label": "تابعوا التطوير",
+    "buy_url": "#suivre",
+    "facts": [
+      {
+        "label": "النوع",
+        "value": "سباقات فورمولا 1 أركيد"
+      },
+      {
+        "label": "الأسلوب",
+        "value": "16 بت، Mode 7"
+      },
+      {
+        "label": "الحالة",
+        "value": "قيد التطوير"
+      },
+      {
+        "label": "الاستوديو",
+        "value": "Indiana Games"
+      }
+    ],
+    "about": "حلبات تنطلق نحو الأفق، وسيارات ببكسلات واضحة، وسباق فورمولا 1 مباشر وسهل المتابعة. تعيد Pole Racer مظهر Mode 7 من أجمل سنوات ألعاب 16 بت من أجل سرعة خالصة.",
+    "features": [
+      {
+        "title": "إحساس فوري بالسرعة",
+        "text": "تتعلّمها في ثوانٍ: تسارع، فرمل، تجاوز."
+      },
+      {
+        "title": "Mode 7 كما في الماضي",
+        "text": "حلبات بمنظور مستوحاة من أشهر ألعاب 16 بت."
+      },
+      {
+        "title": "صورة لها شخصية",
+        "text": "بكسلات حادة وألوان جريئة وإخراج فني متقن."
+      }
+    ],
+    "videos": [],
+    "gallery": [],
     "news": [
       {
         "title": "مرحبًا بكم في موقع Pole Racer",
@@ -205,23 +358,8 @@
         "body": "موقع Pole Racer الرسمي أصبح متاحًا. ستجدون هنا أخبار التطوير ولقطات الشاشة ومقاطع الفيديو.\n\nعودوا إلينا باستمرار: اللعبة تتقدّم."
       }
     ],
-    "about": "Pole Racer لعبة سباقات فورمولا 1 بمظهر حقبة سوبر نينتندو: حلبات شبه ثلاثية الأبعاد بأسلوب Mode 7، وشخصيات بكسلية، وأجواء ألعاب الأركيد.\n\nلعبة من تطوير Indiana Games.",
-    "features": [
-      {
-        "title": "عرض Mode 7",
-        "text": "حلبات بمنظور ثلاثي الأبعاد مستوحاة من أشهر ألعاب 16 بت."
-      },
-      {
-        "title": "روح الأركيد",
-        "text": "سهلة التحكم فورًا، والسرعة أولًا."
-      },
-      {
-        "title": "هوية بصرية كلاسيكية",
-        "text": "صورة مصمّمة كما في جهاز ألعاب التسعينيات."
-      }
-    ],
-    "gallery": [],
-    "videos": [],
+    "cta_title": "هل أنت مستعد للانطلاق؟",
+    "cta_text": "Pole Racer قيد التطوير. تابعوا المشروع لتعرفوا موعد الإصدار فور الإعلان عنه.",
     "links": [
       {
         "label": "قناة Indiana Games على يوتيوب",
