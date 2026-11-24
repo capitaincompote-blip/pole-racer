@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pole Racer — La Formule 1 en 16 bits</title>
-<meta name="description" content="Pole Racer, un jeu de course de Formule 1 au rendu Mode 7, par Indiana Games.">
+<title>Pole Racer — La Formule 1 en low poly</title>
+<meta name="description" content="Pole Racer, un jeu de course de Formule 1 en low poly inspiré des jeux 16 bits, par Indiana Games.">
 <meta name="theme-color" content="#181c25">
 <meta property="og:title" content="Pole Racer">
-<meta property="og:description" content="La Formule 1 en 16 bits. Pied au plancher.">
+<meta property="og:description" content="La Formule 1 en low poly, inspirée des jeux 16 bits.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://pole-racer.com/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -43,6 +43,7 @@
         <p class="tagline" id="tagline"></p>
         <div class="cta-row">
           <a id="buyBtn" class="btn btn-primary" href="#suivre"></a>
+          <a id="demoBtn" class="btn btn-light" href="#suivre" hidden></a>
           <a id="trailerBtn" class="btn btn-ghost" href="#trailer" data-i18n="watch_trailer" hidden>Voir le trailer</a>
         </div>
       </div>
@@ -90,6 +91,10 @@
     <div class="wrap cta-inner">
       <h2 id="ctaTitle" class="cta-title"></h2>
       <p id="ctaText" class="cta-text"></p>
+      <div class="cta-actions">
+        <a id="ctaBuy" class="btn btn-white" href="#" hidden></a>
+        <a id="ctaDemo" class="btn btn-outline" href="#" hidden></a>
+      </div>
       <div id="links" class="links"></div>
     </div>
   </section>
