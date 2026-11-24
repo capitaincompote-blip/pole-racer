@@ -165,9 +165,11 @@
     get("gallery").filter(function (it) { return it.image; }).forEach(function (it, i) {
       var alt = it.caption || "Pole Racer";
       shots.push({ src: safeUrl(it.image), alt: alt });
-      var gi = el("img", { src: safeUrl(it.image), alt: "", loading: "lazy" });
-      gi.addEventListener("load", function () { if (gi.naturalHeight > gi.naturalWidth) gi.parentNode.classList.add("tall"); });
-      var b = el("button", { type: "button", "aria-label": alt }, [gi]);
+      var im = el("img", { src: safeUrl(it.image), alt: "", loading: "lazy" });
+      var b = el("button", { type: "button", "aria-label": alt }, [im]);
+      var mark = function () { if (im.naturalHeight > im.naturalWidth) b.className = "tall"; };
+      im.addEventListener("load", mark);
+      if (im.complete) mark();
       if (it.caption) b.appendChild(el("span", { "class": "cap", text: it.caption }));
       b.addEventListener("click", function () { openLightbox(i); });
       gal.appendChild(b);
