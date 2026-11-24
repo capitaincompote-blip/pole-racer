@@ -1,0 +1,81 @@
+backend:
+  name: github
+  repo: capitaincompote-blip/pole-racer
+  branch: main
+
+locale: fr
+site_url: https://pole-racer.com
+media_folder: images/uploads
+public_folder: /images/uploads
+
+# Langues du site = langues du jeu. Le français est la langue de référence :
+# si un champ est vide dans une langue, le site affiche la version française.
+i18n:
+  structure: single_file
+  locales: [fr, en, de, es, ar, it]
+  default_locale: fr
+
+collections:
+  - name: site
+    label: Site Pole Racer
+    files:
+      - name: contenu
+        label: Contenu du site
+        file: content/site.json
+        format: json
+        i18n: true
+        fields:
+          - { name: hero_title, label: Titre principal, widget: string, i18n: duplicate }
+          - { name: hero_tagline, label: Phrase d'accroche, widget: string, i18n: true }
+          - { name: status_badge, label: "Badge d'état (ex. En développement, vide = masqué)", widget: string, required: false, i18n: true }
+          - name: news
+            label: Actus
+            label_singular: actu
+            widget: list
+            i18n: true
+            required: false
+            summary: "{{fields.date}} — {{fields.title}}"
+            fields:
+              - { name: title, label: Titre, widget: string }
+              - { name: date, label: Date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { name: body, label: Texte (une ligne vide = nouveau paragraphe), widget: text }
+              - { name: image, label: Image (facultatif), widget: image, required: false }
+          - { name: about, label: Présentation du jeu, widget: text, i18n: true }
+          - name: features
+            label: Points forts
+            label_singular: point fort
+            widget: list
+            i18n: true
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: Titre, widget: string }
+              - { name: text, label: Description, widget: text }
+          - name: gallery
+            label: Galerie (captures d'écran, identique dans toutes les langues)
+            label_singular: image
+            widget: list
+            required: false
+            i18n: duplicate
+            fields:
+              - { name: image, label: Image, widget: image }
+              - { name: caption, label: Légende (courte, neutre), widget: string, required: false }
+          - name: videos
+            label: Vidéos YouTube (identiques dans toutes les langues)
+            label_singular: vidéo
+            widget: list
+            required: false
+            i18n: duplicate
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: Titre, widget: string }
+              - { name: youtube, label: Lien ou identifiant YouTube, widget: string }
+          - name: links
+            label: Liens
+            label_singular: lien
+            widget: list
+            required: false
+            i18n: true
+            summary: "{{fields.label}}"
+            fields:
+              - { name: label, label: Texte du lien, widget: string }
+              - { name: url, label: Adresse (https://…), widget: string }
