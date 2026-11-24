@@ -1,0 +1,236 @@
+{
+  "fr": {
+    "hero_title": "POLE RACER",
+    "hero_tagline": "Le jeu de course F1 comme à l'époque de la Super Nintendo.",
+    "status_badge": "En développement",
+    "news": [
+      {
+        "title": "Bienvenue sur le site de Pole Racer",
+        "date": "2026-11-24",
+        "body": "Le site officiel de Pole Racer est en ligne. Vous y trouverez ici les actualités du développement, des captures d'écran et des vidéos.\n\nRevenez régulièrement : le jeu avance."
+      }
+    ],
+    "about": "Pole Racer est un jeu de course de Formule 1 au look de l'ère Super Nintendo : piste en pseudo-3D façon Mode 7, sprites pixélisés et ambiance arcade.\n\nUn jeu créé par Indiana Games.",
+    "features": [
+      {
+        "title": "Rendu Mode 7",
+        "text": "Des circuits en perspective inspirés des grands classiques 16 bits."
+      },
+      {
+        "title": "Esprit arcade",
+        "text": "Prise en main immédiate, sensations de vitesse avant tout."
+      },
+      {
+        "title": "Direction artistique rétro",
+        "text": "Une image pensée comme sur une console des années 90."
+      }
+    ],
+    "gallery": [],
+    "videos": [],
+    "links": [
+      {
+        "label": "Chaîne YouTube Indiana Games",
+        "url": "https://www.youtube.com/@indianagames8188"
+      },
+      {
+        "label": "Page Facebook Indiana Games",
+        "url": "https://www.facebook.com/indianagames09"
+      }
+    ]
+  },
+  "en": {
+    "hero_title": "POLE RACER",
+    "hero_tagline": "The F1 racing game, just like the Super Nintendo days.",
+    "status_badge": "In development",
+    "news": [
+      {
+        "title": "Welcome to the Pole Racer website",
+        "date": "2026-11-24",
+        "body": "The official Pole Racer website is live. Here you'll find development news, screenshots and videos.\n\nCome back often: the game is moving forward."
+      }
+    ],
+    "about": "Pole Racer is a Formula 1 racing game with a Super Nintendo-era look: Mode 7-style pseudo-3D tracks, pixel-art sprites and an arcade feel.\n\nA game by Indiana Games.",
+    "features": [
+      {
+        "title": "Mode 7 rendering",
+        "text": "Perspective tracks inspired by the great 16-bit classics."
+      },
+      {
+        "title": "Arcade spirit",
+        "text": "Instant pick-up-and-play, speed above all."
+      },
+      {
+        "title": "Retro art direction",
+        "text": "A look designed like a 90s console."
+      }
+    ],
+    "gallery": [],
+    "videos": [],
+    "links": [
+      {
+        "label": "Indiana Games YouTube channel",
+        "url": "https://www.youtube.com/@indianagames8188"
+      },
+      {
+        "label": "Indiana Games Facebook page",
+        "url": "https://www.facebook.com/indianagames09"
+      }
+    ]
+  },
+  "de": {
+    "hero_title": "POLE RACER",
+    "hero_tagline": "Das F1-Rennspiel wie zu Super-Nintendo-Zeiten.",
+    "status_badge": "In Entwicklung",
+    "news": [
+      {
+        "title": "Willkommen auf der Pole-Racer-Website",
+        "date": "2026-11-24",
+        "body": "Die offizielle Pole-Racer-Website ist online. Hier findest du Neuigkeiten zur Entwicklung, Screenshots und Videos.\n\nSchau regelmäßig vorbei: Das Spiel kommt voran."
+      }
+    ],
+    "about": "Pole Racer ist ein Formel-1-Rennspiel im Look der Super-Nintendo-Ära: Strecken in Mode-7-Pseudo-3D, Pixel-Sprites und Arcade-Atmosphäre.\n\nEin Spiel von Indiana Games.",
+    "features": [
+      {
+        "title": "Mode-7-Rendering",
+        "text": "Strecken in Perspektive, inspiriert von den großen 16-Bit-Klassikern."
+      },
+      {
+        "title": "Arcade-Geist",
+        "text": "Sofort spielbar, das Geschwindigkeitsgefühl steht an erster Stelle."
+      },
+      {
+        "title": "Retro-Look",
+        "text": "Ein Bild wie auf einer Konsole der 90er."
+      }
+    ],
+    "gallery": [],
+    "videos": [],
+    "links": [
+      {
+        "label": "YouTube-Kanal von Indiana Games",
+        "url": "https://www.youtube.com/@indianagames8188"
+      },
+      {
+        "label": "Facebook-Seite von Indiana Games",
+        "url": "https://www.facebook.com/indianagames09"
+      }
+    ]
+  },
+  "es": {
+    "hero_title": "POLE RACER",
+    "hero_tagline": "El juego de carreras de F1 como en la época de la Super Nintendo.",
+    "status_badge": "En desarrollo",
+    "news": [
+      {
+        "title": "Bienvenido al sitio de Pole Racer",
+        "date": "2026-11-24",
+        "body": "El sitio oficial de Pole Racer ya está en línea. Aquí encontrarás las novedades del desarrollo, capturas de pantalla y vídeos.\n\nVuelve a menudo: el juego avanza."
+      }
+    ],
+    "about": "Pole Racer es un juego de carreras de Fórmula 1 con el aspecto de la era Super Nintendo: pistas en pseudo-3D estilo Mode 7, sprites pixelados y ambiente arcade.\n\nUn juego creado por Indiana Games.",
+    "features": [
+      {
+        "title": "Renderizado Mode 7",
+        "text": "Circuitos en perspectiva inspirados en los grandes clásicos de 16 bits."
+      },
+      {
+        "title": "Espíritu arcade",
+        "text": "Control inmediato, sensación de velocidad ante todo."
+      },
+      {
+        "title": "Dirección artística retro",
+        "text": "Una imagen pensada como en una consola de los 90."
+      }
+    ],
+    "gallery": [],
+    "videos": [],
+    "links": [
+      {
+        "label": "Canal de YouTube de Indiana Games",
+        "url": "https://www.youtube.com/@indianagames8188"
+      },
+      {
+        "label": "Página de Facebook de Indiana Games",
+        "url": "https://www.facebook.com/indianagames09"
+      }
+    ]
+  },
+  "it": {
+    "hero_title": "POLE RACER",
+    "hero_tagline": "Il gioco di corse di F1 come ai tempi del Super Nintendo.",
+    "status_badge": "In sviluppo",
+    "news": [
+      {
+        "title": "Benvenuti sul sito di Pole Racer",
+        "date": "2026-11-24",
+        "body": "Il sito ufficiale di Pole Racer è online. Qui troverai le novità sullo sviluppo, screenshot e video.\n\nTorna a trovarci: il gioco va avanti."
+      }
+    ],
+    "about": "Pole Racer è un gioco di corse di Formula 1 dall'aspetto dell'era Super Nintendo: piste in pseudo-3D in stile Mode 7, sprite pixelati e atmosfera arcade.\n\nUn gioco creato da Indiana Games.",
+    "features": [
+      {
+        "title": "Rendering Mode 7",
+        "text": "Circuiti in prospettiva ispirati ai grandi classici a 16 bit."
+      },
+      {
+        "title": "Spirito arcade",
+        "text": "Si gioca subito, la sensazione di velocità prima di tutto."
+      },
+      {
+        "title": "Direzione artistica retro",
+        "text": "Un'immagine pensata come su una console degli anni '90."
+      }
+    ],
+    "gallery": [],
+    "videos": [],
+    "links": [
+      {
+        "label": "Canale YouTube di Indiana Games",
+        "url": "https://www.youtube.com/@indianagames8188"
+      },
+      {
+        "label": "Pagina Facebook di Indiana Games",
+        "url": "https://www.facebook.com/indianagames09"
+      }
+    ]
+  },
+  "ar": {
+    "hero_title": "POLE RACER",
+    "hero_tagline": "لعبة سباقات الفورمولا 1 بروح عصر سوبر نينتندو.",
+    "status_badge": "قيد التطوير",
+    "news": [
+      {
+        "title": "مرحبًا بكم في موقع Pole Racer",
+        "date": "2026-11-24",
+        "body": "موقع Pole Racer الرسمي أصبح متاحًا. ستجدون هنا أخبار التطوير ولقطات الشاشة ومقاطع الفيديو.\n\nعودوا إلينا باستمرار: اللعبة تتقدّم."
+      }
+    ],
+    "about": "Pole Racer لعبة سباقات فورمولا 1 بمظهر حقبة سوبر نينتندو: حلبات شبه ثلاثية الأبعاد بأسلوب Mode 7، وشخصيات بكسلية، وأجواء ألعاب الأركيد.\n\nلعبة من تطوير Indiana Games.",
+    "features": [
+      {
+        "title": "عرض Mode 7",
+        "text": "حلبات بمنظور ثلاثي الأبعاد مستوحاة من أشهر ألعاب 16 بت."
+      },
+      {
+        "title": "روح الأركيد",
+        "text": "سهلة التحكم فورًا، والسرعة أولًا."
+      },
+      {
+        "title": "هوية بصرية كلاسيكية",
+        "text": "صورة مصمّمة كما في جهاز ألعاب التسعينيات."
+      }
+    ],
+    "gallery": [],
+    "videos": [],
+    "links": [
+      {
+        "label": "قناة Indiana Games على يوتيوب",
+        "url": "https://www.youtube.com/@indianagames8188"
+      },
+      {
+        "label": "صفحة Indiana Games على فيسبوك",
+        "url": "https://www.facebook.com/indianagames09"
+      }
+    ]
+  }
+}
