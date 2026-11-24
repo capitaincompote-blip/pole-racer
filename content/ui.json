@@ -18,7 +18,8 @@
     "lang": "Langue",
     "buy": "Acheter le jeu",
     "demo": "Essayer la démo gratuite",
-    "follow": "Suivre le développement"
+    "follow": "Suivre le développement",
+    "h_details": "Le jeu en détail"
   },
   "en": {
     "title": "Pole Racer — Formula 1 in low poly",
@@ -39,7 +40,8 @@
     "lang": "Language",
     "buy": "Buy the game",
     "demo": "Try the free demo",
-    "follow": "Follow development"
+    "follow": "Follow development",
+    "h_details": "Inside the game"
   },
   "de": {
     "title": "Pole Racer — Formel 1 in Low Poly",
@@ -60,7 +62,8 @@
     "lang": "Sprache",
     "buy": "Spiel kaufen",
     "demo": "Gratis-Demo spielen",
-    "follow": "Entwicklung verfolgen"
+    "follow": "Entwicklung verfolgen",
+    "h_details": "Das Spiel im Detail"
   },
   "es": {
     "title": "Pole Racer — La Fórmula 1 en low poly",
@@ -81,7 +84,8 @@
     "lang": "Idioma",
     "buy": "Comprar el juego",
     "demo": "Probar la demo gratis",
-    "follow": "Seguir el desarrollo"
+    "follow": "Seguir el desarrollo",
+    "h_details": "El juego al detalle"
   },
   "it": {
     "title": "Pole Racer — La Formula 1 in low poly",
@@ -102,7 +106,8 @@
     "lang": "Lingua",
     "buy": "Acquista il gioco",
     "demo": "Prova la demo gratuita",
-    "follow": "Segui lo sviluppo"
+    "follow": "Segui lo sviluppo",
+    "h_details": "Il gioco nel dettaglio"
   },
   "ar": {
     "title": "Pole Racer — فورمولا 1 بأسلوب لو بولي",
@@ -123,6 +128,7 @@
     "lang": "اللغة",
     "buy": "اشترِ اللعبة",
     "demo": "جرّب النسخة التجريبية المجانية",
-    "follow": "تابعوا التطوير"
+    "follow": "تابعوا التطوير",
+    "h_details": "اللعبة بالتفصيل"
   }
 }
