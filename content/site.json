@@ -3,7 +3,7 @@
     "hero_title": "POLE RACER",
     "hero_tagline": "La Formule 1 en low poly, inspirée des jeux 16 bits.",
     "status_badge": "Sortie en décembre 2026",
-    "hero_image": "",
+    "hero_image": "/images/jeu/01-depart-alsace.webp",
     "buy_url": "",
     "facts": [
       {
@@ -26,20 +26,77 @@
     "about": "Des voitures et des circuits en low poly, des volumes simples et des couleurs franches, dans l'esprit des jeux de course 16 bits. Pole Racer remet la Formule 1 dans une image lisible, directe et pleine de caractère.",
     "features": [
       {
-        "title": "La Formule 1, version low poly",
-        "text": "Des voitures et des circuits aux formes simples et marquées, pour une image lisible à pleine vitesse."
+        "title": "Un circuit qui a de l'allure",
+        "text": "La Vallée dorée d'Alsace : colombages, vignobles, cathédrale au coucher du soleil et cigognes sur les toits."
       },
       {
-        "title": "L'esprit des jeux 16 bits",
-        "text": "Une inspiration assumée des jeux de course des années 90."
+        "title": "Une course de Noël",
+        "text": "Un circuit de nuit sous la neige, entre sapins illuminés et traîneau du Père Noël dans le ciel."
       },
       {
-        "title": "Une direction artistique soignée",
-        "text": "Couleurs franches, volumes simples, un style reconnaissable au premier regard."
+        "title": "Un vrai mode photo",
+        "text": "Tourne autour de ta monoplace, règle la distance, applique un filtre, choisis ton cadre (16:9 ou carré) et ajoute le logo du jeu."
+      },
+      {
+        "title": "Pensé pour la manette",
+        "text": "Le mode photo se pilote entièrement à la manette : stick, gâchettes et boutons."
+      },
+      {
+        "title": "Des écuries et des stands",
+        "text": "Une grille colorée, des stands aux noms d'écuries et des panneaux DRS le long de la piste."
+      },
+      {
+        "title": "Low poly, esprit 16 bits",
+        "text": "Des volumes simples et des couleurs franches : une image lisible, même à pleine vitesse."
       }
     ],
     "videos": [],
-    "gallery": [],
+    "gallery": [
+      {
+        "image": "/images/jeu/04-monoplace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/05-virage-drs.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/03-vue-aerienne.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/02-vue-dessus.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/10-panorama-alsace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/06-mode-photo.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/11-noel-nuit.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/07-vallee-doree-arriere.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/08-vallee-doree.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/09-monoplace-face.webp",
+        "caption": ""
+      }
+    ],
     "news": [
       {
         "title": "Bienvenue sur le site de Pole Racer",
@@ -65,7 +122,7 @@
     "hero_title": "POLE RACER",
     "hero_tagline": "Formula 1 in low poly, inspired by 16-bit games.",
     "status_badge": "Out December 2026",
-    "hero_image": "",
+    "hero_image": "/images/jeu/01-depart-alsace.webp",
     "buy_url": "",
     "facts": [
       {
@@ -88,20 +145,77 @@
     "about": "Low-poly cars and tracks, simple shapes and bold colours, in the spirit of 16-bit racing games. Pole Racer puts Formula 1 into an image that is clear, direct and full of character.",
     "features": [
       {
-        "title": "Formula 1, low-poly style",
-        "text": "Cars and tracks built from simple, bold shapes for an image that stays readable at full speed."
+        "title": "A track with real character",
+        "text": "The Golden Valley of Alsace: half-timbered houses, vineyards, a cathedral at sunset and storks on the rooftops."
       },
       {
-        "title": "The spirit of 16-bit games",
-        "text": "An open nod to the racing games of the 1990s."
+        "title": "A Christmas race",
+        "text": "A night circuit under the snow, with lit-up fir trees and Santa's sleigh in the sky."
       },
       {
-        "title": "Careful art direction",
-        "text": "Bold colours, simple volumes, a style you recognise at a glance."
+        "title": "A real photo mode",
+        "text": "Orbit your car, set the distance, pick a filter, choose your frame (16:9 or square) and add the game logo."
+      },
+      {
+        "title": "Made for the controller",
+        "text": "Photo mode is fully playable with a gamepad: sticks, triggers and buttons."
+      },
+      {
+        "title": "Teams and pit boxes",
+        "text": "A colourful grid, pit boxes named after the teams and DRS signs along the track."
+      },
+      {
+        "title": "Low poly, 16-bit spirit",
+        "text": "Simple shapes and bold colours: a clear picture, even at full speed."
       }
     ],
     "videos": [],
-    "gallery": [],
+    "gallery": [
+      {
+        "image": "/images/jeu/04-monoplace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/05-virage-drs.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/03-vue-aerienne.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/02-vue-dessus.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/10-panorama-alsace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/06-mode-photo.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/11-noel-nuit.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/07-vallee-doree-arriere.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/08-vallee-doree.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/09-monoplace-face.webp",
+        "caption": ""
+      }
+    ],
     "news": [
       {
         "title": "Welcome to the Pole Racer website",
@@ -127,7 +241,7 @@
     "hero_title": "POLE RACER",
     "hero_tagline": "Formel 1 in Low Poly, inspiriert von 16-Bit-Spielen.",
     "status_badge": "Erscheint im Dezember 2026",
-    "hero_image": "",
+    "hero_image": "/images/jeu/01-depart-alsace.webp",
     "buy_url": "",
     "facts": [
       {
@@ -150,20 +264,77 @@
     "about": "Low-Poly-Autos und -Strecken, einfache Formen und kräftige Farben, im Geist der 16-Bit-Rennspiele. Pole Racer bringt die Formel 1 in ein Bild, das klar, direkt und voller Charakter ist.",
     "features": [
       {
-        "title": "Formel 1 im Low-Poly-Stil",
-        "text": "Autos und Strecken aus einfachen, kräftigen Formen, damit das Bild bei voller Geschwindigkeit lesbar bleibt."
+        "title": "Eine Strecke mit Charakter",
+        "text": "Das Goldene Tal im Elsass: Fachwerkhäuser, Weinberge, eine Kathedrale im Abendlicht und Störche auf den Dächern."
       },
       {
-        "title": "Der Geist der 16-Bit-Spiele",
-        "text": "Eine bewusste Verbeugung vor den Rennspielen der 90er."
+        "title": "Ein Weihnachtsrennen",
+        "text": "Eine Nachtstrecke im Schnee, mit beleuchteten Tannen und dem Schlitten des Weihnachtsmanns am Himmel."
       },
       {
-        "title": "Sorgfältige Art Direction",
-        "text": "Kräftige Farben, einfache Volumen, ein Stil, den man sofort erkennt."
+        "title": "Ein echter Fotomodus",
+        "text": "Umkreise dein Auto, stelle die Entfernung ein, wähle einen Filter und einen Bildausschnitt (16:9 oder quadratisch) und füge das Spiellogo hinzu."
+      },
+      {
+        "title": "Für den Controller gemacht",
+        "text": "Der Fotomodus lässt sich komplett mit dem Gamepad bedienen: Sticks, Trigger und Tasten."
+      },
+      {
+        "title": "Teams und Boxen",
+        "text": "Ein farbenfrohes Starterfeld, Boxen mit Teamnamen und DRS-Schilder entlang der Strecke."
+      },
+      {
+        "title": "Low Poly im Geist der 16-Bit-Spiele",
+        "text": "Einfache Formen und kräftige Farben: ein klares Bild, selbst bei voller Geschwindigkeit."
       }
     ],
     "videos": [],
-    "gallery": [],
+    "gallery": [
+      {
+        "image": "/images/jeu/04-monoplace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/05-virage-drs.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/03-vue-aerienne.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/02-vue-dessus.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/10-panorama-alsace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/06-mode-photo.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/11-noel-nuit.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/07-vallee-doree-arriere.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/08-vallee-doree.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/09-monoplace-face.webp",
+        "caption": ""
+      }
+    ],
     "news": [
       {
         "title": "Willkommen auf der Pole-Racer-Website",
@@ -189,7 +360,7 @@
     "hero_title": "POLE RACER",
     "hero_tagline": "La Fórmula 1 en low poly, inspirada en los juegos de 16 bits.",
     "status_badge": "Lanzamiento en diciembre de 2026",
-    "hero_image": "",
+    "hero_image": "/images/jeu/01-depart-alsace.webp",
     "buy_url": "",
     "facts": [
       {
@@ -212,20 +383,77 @@
     "about": "Coches y circuitos en low poly, formas simples y colores intensos, con el espíritu de los juegos de carreras de 16 bits. Pole Racer lleva la Fórmula 1 a una imagen clara, directa y llena de carácter.",
     "features": [
       {
-        "title": "La Fórmula 1 en versión low poly",
-        "text": "Coches y circuitos de formas simples y marcadas, para una imagen legible a toda velocidad."
+        "title": "Un circuito con carácter",
+        "text": "El Valle Dorado de Alsacia: casas de entramado de madera, viñedos, una catedral al atardecer y cigüeñas en los tejados."
       },
       {
-        "title": "El espíritu de los juegos de 16 bits",
-        "text": "Un homenaje claro a los juegos de carreras de los años 90."
+        "title": "Una carrera de Navidad",
+        "text": "Un circuito nocturno bajo la nieve, con abetos iluminados y el trineo de Papá Noel en el cielo."
       },
       {
-        "title": "Una dirección artística cuidada",
-        "text": "Colores intensos, volúmenes simples, un estilo reconocible a primera vista."
+        "title": "Un auténtico modo foto",
+        "text": "Gira alrededor de tu monoplaza, ajusta la distancia, aplica un filtro, elige el encuadre (16:9 o cuadrado) y añade el logotipo del juego."
+      },
+      {
+        "title": "Pensado para el mando",
+        "text": "El modo foto se maneja por completo con el mando: sticks, gatillos y botones."
+      },
+      {
+        "title": "Equipos y boxes",
+        "text": "Una parrilla llena de color, boxes con el nombre de los equipos y paneles DRS a lo largo de la pista."
+      },
+      {
+        "title": "Low poly, espíritu de 16 bits",
+        "text": "Formas simples y colores intensos: una imagen clara, incluso a toda velocidad."
       }
     ],
     "videos": [],
-    "gallery": [],
+    "gallery": [
+      {
+        "image": "/images/jeu/04-monoplace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/05-virage-drs.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/03-vue-aerienne.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/02-vue-dessus.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/10-panorama-alsace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/06-mode-photo.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/11-noel-nuit.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/07-vallee-doree-arriere.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/08-vallee-doree.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/09-monoplace-face.webp",
+        "caption": ""
+      }
+    ],
     "news": [
       {
         "title": "Bienvenido al sitio de Pole Racer",
@@ -251,7 +479,7 @@
     "hero_title": "POLE RACER",
     "hero_tagline": "La Formula 1 in low poly, ispirata ai giochi a 16 bit.",
     "status_badge": "In uscita a dicembre 2026",
-    "hero_image": "",
+    "hero_image": "/images/jeu/01-depart-alsace.webp",
     "buy_url": "",
     "facts": [
       {
@@ -274,20 +502,77 @@
     "about": "Auto e circuiti in low poly, forme semplici e colori decisi, nello spirito dei giochi di corse a 16 bit. Pole Racer porta la Formula 1 in un'immagine chiara, diretta e piena di carattere.",
     "features": [
       {
-        "title": "La Formula 1 in versione low poly",
-        "text": "Auto e circuiti dalle forme semplici e decise, per un'immagine leggibile a tutta velocità."
+        "title": "Un circuito pieno di carattere",
+        "text": "La Valle d'Oro dell'Alsazia: case a graticcio, vigneti, una cattedrale al tramonto e cicogne sui tetti."
       },
       {
-        "title": "Lo spirito dei giochi a 16 bit",
-        "text": "Un omaggio dichiarato ai giochi di corse degli anni '90."
+        "title": "Una corsa di Natale",
+        "text": "Un circuito notturno sotto la neve, tra abeti illuminati e la slitta di Babbo Natale nel cielo."
       },
       {
-        "title": "Una direzione artistica curata",
-        "text": "Colori decisi, volumi semplici, uno stile riconoscibile al primo sguardo."
+        "title": "Una vera modalità foto",
+        "text": "Gira attorno alla tua monoposto, regola la distanza, applica un filtro, scegli l'inquadratura (16:9 o quadrata) e aggiungi il logo del gioco."
+      },
+      {
+        "title": "Pensato per il controller",
+        "text": "La modalità foto si usa interamente con il gamepad: stick, grilletti e pulsanti."
+      },
+      {
+        "title": "Scuderie e box",
+        "text": "Una griglia colorata, box con i nomi delle scuderie e cartelli DRS lungo la pista."
+      },
+      {
+        "title": "Low poly, spirito 16 bit",
+        "text": "Forme semplici e colori decisi: un'immagine chiara, anche a tutta velocità."
       }
     ],
     "videos": [],
-    "gallery": [],
+    "gallery": [
+      {
+        "image": "/images/jeu/04-monoplace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/05-virage-drs.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/03-vue-aerienne.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/02-vue-dessus.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/10-panorama-alsace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/06-mode-photo.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/11-noel-nuit.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/07-vallee-doree-arriere.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/08-vallee-doree.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/09-monoplace-face.webp",
+        "caption": ""
+      }
+    ],
     "news": [
       {
         "title": "Benvenuti sul sito di Pole Racer",
@@ -313,7 +598,7 @@
     "hero_title": "POLE RACER",
     "hero_tagline": "فورمولا 1 بأسلوب لو بولي، مستوحاة من ألعاب 16 بت.",
     "status_badge": "الإصدار في ديسمبر 2026",
-    "hero_image": "",
+    "hero_image": "/images/jeu/01-depart-alsace.webp",
     "buy_url": "",
     "facts": [
       {
@@ -336,20 +621,77 @@
     "about": "سيارات وحلبات بأسلوب لو بولي، بأشكال بسيطة وألوان جريئة، بروح ألعاب السباق ذات 16 بت. تقدّم Pole Racer فورمولا 1 بصورة واضحة ومباشرة ومليئة بالشخصية.",
     "features": [
       {
-        "title": "فورمولا 1 بأسلوب لو بولي",
-        "text": "سيارات وحلبات بأشكال بسيطة وواضحة، لصورة مقروءة بأقصى سرعة."
+        "title": "حلبة لها شخصيتها",
+        "text": "الوادي الذهبي في الألزاس: بيوت خشبية تقليدية وكروم وكاتدرائية عند الغروب وطيور اللقلق على الأسطح."
       },
       {
-        "title": "روح ألعاب 16 بت",
-        "text": "تحية صريحة لألعاب السباق في التسعينيات."
+        "title": "سباق عيد الميلاد",
+        "text": "حلبة ليلية تحت الثلج بين أشجار التنوب المضاءة وعربة بابا نويل في السماء."
       },
       {
-        "title": "إخراج فني متقن",
-        "text": "ألوان جريئة وأحجام بسيطة وأسلوب يُعرف من النظرة الأولى."
+        "title": "وضع تصوير حقيقي",
+        "text": "دُر حول سيارتك واضبط المسافة وطبّق فلترًا واختر الإطار (16:9 أو مربع) وأضف شعار اللعبة."
+      },
+      {
+        "title": "مصمم لذراع التحكم",
+        "text": "يمكن التحكم بوضع التصوير بالكامل بذراع اللعب: العصي والأزرار العلوية والأزرار."
+      },
+      {
+        "title": "فرق وكراجات",
+        "text": "شبكة انطلاق ملوّنة وكراجات تحمل أسماء الفرق ولافتات DRS على طول الحلبة."
+      },
+      {
+        "title": "Low poly بروح ألعاب 16 بت",
+        "text": "أشكال بسيطة وألوان صريحة: صورة واضحة حتى بأقصى سرعة."
       }
     ],
     "videos": [],
-    "gallery": [],
+    "gallery": [
+      {
+        "image": "/images/jeu/04-monoplace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/05-virage-drs.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/03-vue-aerienne.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/02-vue-dessus.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/10-panorama-alsace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/06-mode-photo.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/11-noel-nuit.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/07-vallee-doree-arriere.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/08-vallee-doree.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/09-monoplace-face.webp",
+        "caption": ""
+      }
+    ],
     "news": [
       {
         "title": "مرحبًا بكم في موقع Pole Racer",
