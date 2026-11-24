@@ -114,6 +114,101 @@
         "title": "Bienvenue sur le site de Pole Racer",
         "date": "2026-11-24",
         "body": "Le site officiel de Pole Racer est en ligne. Vous y trouverez ici les actualités du développement, des captures d'écran et des vidéos.\n\nRevenez régulièrement : le jeu avance."
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Devlog #17 : une monoplace redessinée",
+        "body": "La monoplace change de look : nez pointu, triangles de suspension, aeroscreen bas et rétroviseurs. L'aileron avant peut maintenant s'abîmer, la boîte manuelle passe à 6 rapports et les menus sont refaits (monoplace, réglages de course). Le championnat se joue seul ou entre amis."
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Devlog #16 : mode photo et réglages",
+        "body": "Un mode photo pour figer vos plus beaux dépassements, et des réglages de monoplace plus complets à ajuster avant chaque course."
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Devlog #15 : médailles, fantômes et freinage plus exigeant",
+        "body": "Des médailles à décrocher, des fantômes pour se mesurer à ses meilleurs tours, et un freinage plus exigeant qui récompense la précision."
+      },
+      {
+        "date": "2026-11-16",
+        "title": "De vrais départs, des ailerons abîmés, la vue embarquée",
+        "body": "Départs arrêtés plus réalistes, dommages sur les ailerons et nouvelle vue embarquée pour vivre la course depuis le cockpit."
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Pluie glissante, mode Arcade plus féroce, premiers circuits post-lancement",
+        "body": "La pluie rend la piste vraiment glissante, le mode Arcade devient plus agressif et les premiers circuits prévus après le lancement arrivent."
+      },
+      {
+        "date": "2026-11-11",
+        "title": "Le multijoueur local arrive",
+        "body": "Jusqu'à 4 pilotes sur le même écran : le mode multijoueur local est disponible."
+      },
+      {
+        "date": "2026-11-10",
+        "title": "Une démo plus soignée",
+        "body": "La démo gagne en finition : pictogrammes météo avant chaque départ, scintillement des pistes de nuit corrigé, tour de formation."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Des yeux dans le ciel, des voix à la radio",
+        "body": "Une caméra aérienne et des messages radio de l'équipe pour mieux suivre la course."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Secteurs, DRS et télémétrie plus lisible",
+        "body": "Limites de secteurs en pointillés, télémétrie plus lisible, 7e et 8e rapports plus puissants."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Tout régler, ne rien rater",
+        "body": "Garages d'équipe, publicités parodiques, caméra personnalisable, réglage des ailerons et de chaque rapport, repères de freinage."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Garages dans les stands, panneaux parodiques, caméra libre",
+        "body": "Les stands reçoivent leurs garages, les panneaux publicitaires parodiques fleurissent et la caméra se règle à votre goût."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Nouveaux menus, télémétrie, vitesse de pointe honnête",
+        "body": "Menus refaits, télémétrie améliorée et vitesse de pointe affichée honnêtement."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "L'IA s'adapte à votre rythme",
+        "body": "Chaque voiture IA vise un temps au tour calculé à partir de votre meilleur tour : 50 % plus lent en Facile, 40 % en Normal, 30 % en Difficile, 20 % en Expert, 5 % en PRO. Recalculé à chaque tour, fini le turbo en ligne droite."
+      },
+      {
+        "date": "2026-11-01",
+        "title": "8 rapports, un niveau PRO plus dur, drapeaux bleus sur chaque circuit",
+        "body": "La boîte passe de 6 à 8 rapports dans tous les modes, le niveau PRO se durcit et des panneaux de drapeaux bleus apparaissent sur chaque circuit."
+      },
+      {
+        "date": "2026-10-31",
+        "title": "Golden Alsace Valley",
+        "body": "Le circuit 1 a désormais son identité : collines, vignobles, route des vins et villages à clochers."
+      },
+      {
+        "date": "2026-10-31",
+        "title": "Nouveau : le circuit de Noël",
+        "body": "Le circuit 2 devient la Forêt de Noël, en version nuit (par défaut) et jour : sapins décorés, guirlandes, Pères Noël au bord de la piste, neige."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Championnat jouable en solo, DRS revu",
+        "body": "Le championnat se joue seul contre l'IA, avec qualifications en solo avant chaque manche et réglages entre les courses. Les zones DRS sont 40 % plus longues."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Le mode Championnat arrive",
+        "body": "Une course, c'est bien. Une saison, c'est mieux : Grand Prix (vous contre l'IA) ou multijoueur local de 2 à 4 pilotes, sur 2, 3 ou 4 courses."
+      },
+      {
+        "date": "2026-10-28",
+        "title": "Mise à jour du jour",
+        "body": "Mises à jour de la physique, du son et des pistes."
       }
     ],
     "cta_title": "Prêt pour le départ ?",
@@ -275,6 +370,101 @@
         "title": "Welcome to the Pole Racer website",
         "date": "2026-11-24",
         "body": "The official Pole Racer website is live. Here you'll find development news, screenshots and videos.\n\nCome back often: the game is moving forward."
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Devlog #17: a redesigned car",
+        "body": "The car gets a new look: pointed nose, suspension triangles, a low aeroscreen and mirrors. The front wing can now be damaged, the manual gearbox has 6 gears and the menus are rebuilt (car, race setup). Championship can be played solo or with friends."
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Devlog #16: photo mode and setups",
+        "body": "A photo mode to freeze your best overtakes, and fuller car setups to tune before every race."
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Devlog #15: medals, ghosts and tougher braking",
+        "body": "Medals to earn, ghosts to race your best laps, and tougher braking that rewards precision."
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Real race starts, wing damage and onboard view",
+        "body": "More realistic race starts, wing damage and a new onboard camera to live the race from the cockpit."
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Slippery rain, a fiercer Arcade mode, first post-launch circuits",
+        "body": "Rain makes the track properly slippery, Arcade mode gets fiercer and the first circuits planned after launch arrive."
+      },
+      {
+        "date": "2026-11-11",
+        "title": "Local multiplayer is here",
+        "body": "Up to 4 drivers on one screen: local multiplayer is available."
+      },
+      {
+        "date": "2026-11-10",
+        "title": "A more polished demo",
+        "body": "The demo gets more polish: weather pictograms before each start, night-track flicker fixed, formation lap."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Eyes in the Sky, Voices on the Radio",
+        "body": "An aerial camera and team radio messages to follow the race better."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Sectors, DRS and better telemetry",
+        "body": "Dotted sector limits, more readable telemetry, stronger 7th and 8th gears."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Tune Everything, Miss Nothing",
+        "body": "Team garages, parody ads, custom camera, wing settings and gear-by-gear tuning, braking markers."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Pit garages, parody billboards, custom camera",
+        "body": "Pit lane garages, parody billboards and a camera you can set up your way."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "New menus, telemetry, honest top speed",
+        "body": "Rebuilt menus, improved telemetry and an honest top-speed readout."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "The AI now matches your pace",
+        "body": "Every AI car targets a lap time worked out from your best lap: 50% slower on Easy, 40% Normal, 30% Hard, 20% Expert, 5% PRO. Recalculated every lap, with no more straight-line boost."
+      },
+      {
+        "date": "2026-11-01",
+        "title": "8 gears, a tougher PRO level and blue-flag boards",
+        "body": "The gearbox goes from 6 to 8 speeds in every mode, PRO gets tougher and blue-flag boards appear on every circuit."
+      },
+      {
+        "date": "2026-10-31",
+        "title": "Golden Alsace Valley",
+        "body": "Circuit 1 now has its own identity: rolling hills, vineyards, a wine road and villages with bell towers."
+      },
+      {
+        "date": "2026-10-31",
+        "title": "New: the Christmas circuit",
+        "body": "Circuit 2 is now the Christmas Forest, in a night (default) and a day version: decorated trees, string lights, waving Santas and snow."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Solo championship, DRS overhaul",
+        "body": "Championship is now playable solo against the AI, with solo qualifying before each round and setup between races. DRS zones are 40% longer."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Championship mode is coming",
+        "body": "One race is fun. A whole season is better. Grand Prix (you vs the AI) or local multiplayer for 2 to 4 drivers, over 2, 3 or 4 races."
+      },
+      {
+        "date": "2026-10-28",
+        "title": "Today's update",
+        "body": "Updates to physics, sound and tracks."
       }
     ],
     "cta_title": "Ready for the start?",
@@ -436,6 +626,101 @@
         "title": "Willkommen auf der Pole-Racer-Website",
         "date": "2026-11-24",
         "body": "Die offizielle Pole-Racer-Website ist online. Hier findest du Neuigkeiten zur Entwicklung, Screenshots und Videos.\n\nSchau regelmäßig vorbei: Das Spiel kommt voran."
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Devlog #17: a redesigned car",
+        "body": "The car gets a new look: pointed nose, suspension triangles, a low aeroscreen and mirrors. The front wing can now be damaged, the manual gearbox has 6 gears and the menus are rebuilt (car, race setup). Championship can be played solo or with friends."
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Devlog #16: photo mode and setups",
+        "body": "A photo mode to freeze your best overtakes, and fuller car setups to tune before every race."
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Devlog #15: medals, ghosts and tougher braking",
+        "body": "Medals to earn, ghosts to race your best laps, and tougher braking that rewards precision."
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Real race starts, wing damage and onboard view",
+        "body": "More realistic race starts, wing damage and a new onboard camera to live the race from the cockpit."
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Slippery rain, a fiercer Arcade mode, first post-launch circuits",
+        "body": "Rain makes the track properly slippery, Arcade mode gets fiercer and the first circuits planned after launch arrive."
+      },
+      {
+        "date": "2026-11-11",
+        "title": "Local multiplayer is here",
+        "body": "Up to 4 drivers on one screen: local multiplayer is available."
+      },
+      {
+        "date": "2026-11-10",
+        "title": "A more polished demo",
+        "body": "The demo gets more polish: weather pictograms before each start, night-track flicker fixed, formation lap."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Eyes in the Sky, Voices on the Radio",
+        "body": "An aerial camera and team radio messages to follow the race better."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Sectors, DRS and better telemetry",
+        "body": "Dotted sector limits, more readable telemetry, stronger 7th and 8th gears."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Tune Everything, Miss Nothing",
+        "body": "Team garages, parody ads, custom camera, wing settings and gear-by-gear tuning, braking markers."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Pit garages, parody billboards, custom camera",
+        "body": "Pit lane garages, parody billboards and a camera you can set up your way."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "New menus, telemetry, honest top speed",
+        "body": "Rebuilt menus, improved telemetry and an honest top-speed readout."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "The AI now matches your pace",
+        "body": "Every AI car targets a lap time worked out from your best lap: 50% slower on Easy, 40% Normal, 30% Hard, 20% Expert, 5% PRO. Recalculated every lap, with no more straight-line boost."
+      },
+      {
+        "date": "2026-11-01",
+        "title": "8 gears, a tougher PRO level and blue-flag boards",
+        "body": "The gearbox goes from 6 to 8 speeds in every mode, PRO gets tougher and blue-flag boards appear on every circuit."
+      },
+      {
+        "date": "2026-10-31",
+        "title": "Golden Alsace Valley",
+        "body": "Circuit 1 now has its own identity: rolling hills, vineyards, a wine road and villages with bell towers."
+      },
+      {
+        "date": "2026-10-31",
+        "title": "New: the Christmas circuit",
+        "body": "Circuit 2 is now the Christmas Forest, in a night (default) and a day version: decorated trees, string lights, waving Santas and snow."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Solo championship, DRS overhaul",
+        "body": "Championship is now playable solo against the AI, with solo qualifying before each round and setup between races. DRS zones are 40% longer."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Championship mode is coming",
+        "body": "One race is fun. A whole season is better. Grand Prix (you vs the AI) or local multiplayer for 2 to 4 drivers, over 2, 3 or 4 races."
+      },
+      {
+        "date": "2026-10-28",
+        "title": "Today's update",
+        "body": "Updates to physics, sound and tracks."
       }
     ],
     "cta_title": "Bereit für den Start?",
@@ -597,6 +882,101 @@
         "title": "Bienvenido al sitio de Pole Racer",
         "date": "2026-11-24",
         "body": "El sitio oficial de Pole Racer ya está en línea. Aquí encontrarás las novedades del desarrollo, capturas de pantalla y vídeos.\n\nVuelve a menudo: el juego avanza."
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Devlog #17: a redesigned car",
+        "body": "The car gets a new look: pointed nose, suspension triangles, a low aeroscreen and mirrors. The front wing can now be damaged, the manual gearbox has 6 gears and the menus are rebuilt (car, race setup). Championship can be played solo or with friends."
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Devlog #16: photo mode and setups",
+        "body": "A photo mode to freeze your best overtakes, and fuller car setups to tune before every race."
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Devlog #15: medals, ghosts and tougher braking",
+        "body": "Medals to earn, ghosts to race your best laps, and tougher braking that rewards precision."
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Real race starts, wing damage and onboard view",
+        "body": "More realistic race starts, wing damage and a new onboard camera to live the race from the cockpit."
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Slippery rain, a fiercer Arcade mode, first post-launch circuits",
+        "body": "Rain makes the track properly slippery, Arcade mode gets fiercer and the first circuits planned after launch arrive."
+      },
+      {
+        "date": "2026-11-11",
+        "title": "Local multiplayer is here",
+        "body": "Up to 4 drivers on one screen: local multiplayer is available."
+      },
+      {
+        "date": "2026-11-10",
+        "title": "A more polished demo",
+        "body": "The demo gets more polish: weather pictograms before each start, night-track flicker fixed, formation lap."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Eyes in the Sky, Voices on the Radio",
+        "body": "An aerial camera and team radio messages to follow the race better."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Sectors, DRS and better telemetry",
+        "body": "Dotted sector limits, more readable telemetry, stronger 7th and 8th gears."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Tune Everything, Miss Nothing",
+        "body": "Team garages, parody ads, custom camera, wing settings and gear-by-gear tuning, braking markers."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Pit garages, parody billboards, custom camera",
+        "body": "Pit lane garages, parody billboards and a camera you can set up your way."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "New menus, telemetry, honest top speed",
+        "body": "Rebuilt menus, improved telemetry and an honest top-speed readout."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "The AI now matches your pace",
+        "body": "Every AI car targets a lap time worked out from your best lap: 50% slower on Easy, 40% Normal, 30% Hard, 20% Expert, 5% PRO. Recalculated every lap, with no more straight-line boost."
+      },
+      {
+        "date": "2026-11-01",
+        "title": "8 gears, a tougher PRO level and blue-flag boards",
+        "body": "The gearbox goes from 6 to 8 speeds in every mode, PRO gets tougher and blue-flag boards appear on every circuit."
+      },
+      {
+        "date": "2026-10-31",
+        "title": "Golden Alsace Valley",
+        "body": "Circuit 1 now has its own identity: rolling hills, vineyards, a wine road and villages with bell towers."
+      },
+      {
+        "date": "2026-10-31",
+        "title": "New: the Christmas circuit",
+        "body": "Circuit 2 is now the Christmas Forest, in a night (default) and a day version: decorated trees, string lights, waving Santas and snow."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Solo championship, DRS overhaul",
+        "body": "Championship is now playable solo against the AI, with solo qualifying before each round and setup between races. DRS zones are 40% longer."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Championship mode is coming",
+        "body": "One race is fun. A whole season is better. Grand Prix (you vs the AI) or local multiplayer for 2 to 4 drivers, over 2, 3 or 4 races."
+      },
+      {
+        "date": "2026-10-28",
+        "title": "Today's update",
+        "body": "Updates to physics, sound and tracks."
       }
     ],
     "cta_title": "¿Listo para la salida?",
@@ -758,6 +1138,101 @@
         "title": "Benvenuti sul sito di Pole Racer",
         "date": "2026-11-24",
         "body": "Il sito ufficiale di Pole Racer è online. Qui troverai le novità sullo sviluppo, screenshot e video.\n\nTorna a trovarci: il gioco va avanti."
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Devlog #17: a redesigned car",
+        "body": "The car gets a new look: pointed nose, suspension triangles, a low aeroscreen and mirrors. The front wing can now be damaged, the manual gearbox has 6 gears and the menus are rebuilt (car, race setup). Championship can be played solo or with friends."
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Devlog #16: photo mode and setups",
+        "body": "A photo mode to freeze your best overtakes, and fuller car setups to tune before every race."
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Devlog #15: medals, ghosts and tougher braking",
+        "body": "Medals to earn, ghosts to race your best laps, and tougher braking that rewards precision."
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Real race starts, wing damage and onboard view",
+        "body": "More realistic race starts, wing damage and a new onboard camera to live the race from the cockpit."
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Slippery rain, a fiercer Arcade mode, first post-launch circuits",
+        "body": "Rain makes the track properly slippery, Arcade mode gets fiercer and the first circuits planned after launch arrive."
+      },
+      {
+        "date": "2026-11-11",
+        "title": "Local multiplayer is here",
+        "body": "Up to 4 drivers on one screen: local multiplayer is available."
+      },
+      {
+        "date": "2026-11-10",
+        "title": "A more polished demo",
+        "body": "The demo gets more polish: weather pictograms before each start, night-track flicker fixed, formation lap."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Eyes in the Sky, Voices on the Radio",
+        "body": "An aerial camera and team radio messages to follow the race better."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Sectors, DRS and better telemetry",
+        "body": "Dotted sector limits, more readable telemetry, stronger 7th and 8th gears."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Tune Everything, Miss Nothing",
+        "body": "Team garages, parody ads, custom camera, wing settings and gear-by-gear tuning, braking markers."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Pit garages, parody billboards, custom camera",
+        "body": "Pit lane garages, parody billboards and a camera you can set up your way."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "New menus, telemetry, honest top speed",
+        "body": "Rebuilt menus, improved telemetry and an honest top-speed readout."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "The AI now matches your pace",
+        "body": "Every AI car targets a lap time worked out from your best lap: 50% slower on Easy, 40% Normal, 30% Hard, 20% Expert, 5% PRO. Recalculated every lap, with no more straight-line boost."
+      },
+      {
+        "date": "2026-11-01",
+        "title": "8 gears, a tougher PRO level and blue-flag boards",
+        "body": "The gearbox goes from 6 to 8 speeds in every mode, PRO gets tougher and blue-flag boards appear on every circuit."
+      },
+      {
+        "date": "2026-10-31",
+        "title": "Golden Alsace Valley",
+        "body": "Circuit 1 now has its own identity: rolling hills, vineyards, a wine road and villages with bell towers."
+      },
+      {
+        "date": "2026-10-31",
+        "title": "New: the Christmas circuit",
+        "body": "Circuit 2 is now the Christmas Forest, in a night (default) and a day version: decorated trees, string lights, waving Santas and snow."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Solo championship, DRS overhaul",
+        "body": "Championship is now playable solo against the AI, with solo qualifying before each round and setup between races. DRS zones are 40% longer."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Championship mode is coming",
+        "body": "One race is fun. A whole season is better. Grand Prix (you vs the AI) or local multiplayer for 2 to 4 drivers, over 2, 3 or 4 races."
+      },
+      {
+        "date": "2026-10-28",
+        "title": "Today's update",
+        "body": "Updates to physics, sound and tracks."
       }
     ],
     "cta_title": "Pronto per la partenza?",
@@ -919,6 +1394,101 @@
         "title": "مرحبًا بكم في موقع Pole Racer",
         "date": "2026-11-24",
         "body": "موقع Pole Racer الرسمي أصبح متاحًا. ستجدون هنا أخبار التطوير ولقطات الشاشة ومقاطع الفيديو.\n\nعودوا إلينا باستمرار: اللعبة تتقدّم."
+      },
+      {
+        "date": "2026-11-20",
+        "title": "Devlog #17: a redesigned car",
+        "body": "The car gets a new look: pointed nose, suspension triangles, a low aeroscreen and mirrors. The front wing can now be damaged, the manual gearbox has 6 gears and the menus are rebuilt (car, race setup). Championship can be played solo or with friends."
+      },
+      {
+        "date": "2026-11-19",
+        "title": "Devlog #16: photo mode and setups",
+        "body": "A photo mode to freeze your best overtakes, and fuller car setups to tune before every race."
+      },
+      {
+        "date": "2026-11-18",
+        "title": "Devlog #15: medals, ghosts and tougher braking",
+        "body": "Medals to earn, ghosts to race your best laps, and tougher braking that rewards precision."
+      },
+      {
+        "date": "2026-11-16",
+        "title": "Real race starts, wing damage and onboard view",
+        "body": "More realistic race starts, wing damage and a new onboard camera to live the race from the cockpit."
+      },
+      {
+        "date": "2026-11-12",
+        "title": "Slippery rain, a fiercer Arcade mode, first post-launch circuits",
+        "body": "Rain makes the track properly slippery, Arcade mode gets fiercer and the first circuits planned after launch arrive."
+      },
+      {
+        "date": "2026-11-11",
+        "title": "Local multiplayer is here",
+        "body": "Up to 4 drivers on one screen: local multiplayer is available."
+      },
+      {
+        "date": "2026-11-10",
+        "title": "A more polished demo",
+        "body": "The demo gets more polish: weather pictograms before each start, night-track flicker fixed, formation lap."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Eyes in the Sky, Voices on the Radio",
+        "body": "An aerial camera and team radio messages to follow the race better."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "Sectors, DRS and better telemetry",
+        "body": "Dotted sector limits, more readable telemetry, stronger 7th and 8th gears."
+      },
+      {
+        "date": "2026-11-03",
+        "title": "Tune Everything, Miss Nothing",
+        "body": "Team garages, parody ads, custom camera, wing settings and gear-by-gear tuning, braking markers."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "Pit garages, parody billboards, custom camera",
+        "body": "Pit lane garages, parody billboards and a camera you can set up your way."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "New menus, telemetry, honest top speed",
+        "body": "Rebuilt menus, improved telemetry and an honest top-speed readout."
+      },
+      {
+        "date": "2026-11-02",
+        "title": "The AI now matches your pace",
+        "body": "Every AI car targets a lap time worked out from your best lap: 50% slower on Easy, 40% Normal, 30% Hard, 20% Expert, 5% PRO. Recalculated every lap, with no more straight-line boost."
+      },
+      {
+        "date": "2026-11-01",
+        "title": "8 gears, a tougher PRO level and blue-flag boards",
+        "body": "The gearbox goes from 6 to 8 speeds in every mode, PRO gets tougher and blue-flag boards appear on every circuit."
+      },
+      {
+        "date": "2026-10-31",
+        "title": "Golden Alsace Valley",
+        "body": "Circuit 1 now has its own identity: rolling hills, vineyards, a wine road and villages with bell towers."
+      },
+      {
+        "date": "2026-10-31",
+        "title": "New: the Christmas circuit",
+        "body": "Circuit 2 is now the Christmas Forest, in a night (default) and a day version: decorated trees, string lights, waving Santas and snow."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Solo championship, DRS overhaul",
+        "body": "Championship is now playable solo against the AI, with solo qualifying before each round and setup between races. DRS zones are 40% longer."
+      },
+      {
+        "date": "2026-10-29",
+        "title": "Championship mode is coming",
+        "body": "One race is fun. A whole season is better. Grand Prix (you vs the AI) or local multiplayer for 2 to 4 drivers, over 2, 3 or 4 races."
+      },
+      {
+        "date": "2026-10-28",
+        "title": "Today's update",
+        "body": "Updates to physics, sound and tracks."
       }
     ],
     "cta_title": "هل أنت مستعد للانطلاق؟",
