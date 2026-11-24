@@ -3,70 +3,99 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pole Racer — Jeu de course F1 rétro 16 bits</title>
-<meta name="description" content="Pole Racer, un jeu de course de Formule 1 au look Super Nintendo, par Indiana Games.">
+<title>Pole Racer — La Formule 1 en 16 bits</title>
+<meta name="description" content="Pole Racer, un jeu de course de Formule 1 au rendu Mode 7, par Indiana Games.">
+<meta name="theme-color" content="#181c25">
 <meta property="og:title" content="Pole Racer">
-<meta property="og:description" content="Jeu de course F1 rétro 16 bits par Indiana Games.">
+<meta property="og:description" content="La Formule 1 en 16 bits. Pied au plancher.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://pole-racer.com/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Cairo:wght@500;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="nav">
-  <a class="brand" href="#top">POLE RACER</a>
-  <nav>
-    <a href="#actus" data-i18n="nav_news">Actus</a>
+<a class="skip" href="#jeu" data-i18n="skip">Aller au contenu</a>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#top">Pole Racer</a>
+  <nav class="menu">
     <a href="#jeu" data-i18n="nav_game">Le jeu</a>
-    <a href="#galerie" data-section="galerie" data-i18n="nav_gallery">Galerie</a>
-    <a href="#videos" data-section="videos" data-i18n="nav_videos">Vidéos</a>
-    <a href="#liens" data-i18n="nav_links">Liens</a>
-    <select id="lang" class="lang"></select>
+    <a href="#trailer" data-section="trailer" data-i18n="nav_trailer">Trailer</a>
+    <a href="#galerie" data-section="galerie" data-i18n="nav_gallery">Captures</a>
+    <a href="#actus" data-i18n="nav_news">Actus</a>
   </nav>
+  <div class="nav-right">
+    <select id="lang" class="lang"></select>
+    <a id="navBuy" class="btn btn-sm btn-primary" href="#suivre"></a>
+  </div>
 </header>
 
 <main id="top">
   <section class="hero">
-    <canvas id="road" aria-hidden="true"></canvas>
-    <div class="hero-text">
-      <span class="badge" id="badge"></span>
-      <h1 id="title">POLE RACER</h1>
-      <p id="tagline"></p>
-      <a class="btn" href="#actus" data-i18n="btn_news">Dernières actus</a>
+    <div class="hero-bg" aria-hidden="true"><img id="heroImg" alt="" hidden></div>
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="status"><span class="dot"></span><span id="badge"></span></p>
+        <h1 id="title" aria-label="Pole Racer"><span class="w">Pole</span><span class="w">Racer</span></h1>
+        <p class="tagline" id="tagline"></p>
+        <div class="cta-row">
+          <a id="buyBtn" class="btn btn-primary" href="#suivre"></a>
+          <a id="trailerBtn" class="btn btn-ghost" href="#trailer" data-i18n="watch_trailer" hidden>Voir le trailer</a>
+        </div>
+      </div>
+      <aside class="tower">
+        <h2 data-i18n="tower_title">Fiche du jeu</h2>
+        <ul id="facts"></ul>
+      </aside>
+    </div>
+  </section>
+  <div class="kerb" aria-hidden="true"></div>
+
+  <section id="jeu" class="sec">
+    <div class="wrap split">
+      <div>
+        <h2 class="h2" data-i18n="h_game">Le jeu</h2>
+        <div id="about" class="lead"></div>
+      </div>
+      <ul id="features" class="features"></ul>
     </div>
   </section>
 
-  <section id="actus" class="block">
-    <h2 data-i18n="h_news">Actus</h2>
-    <div id="news" class="news"></div>
+  <section id="trailer" class="sec sec-alt" hidden>
+    <div class="wrap">
+      <h2 class="h2" data-i18n="h_trailer">Trailer</h2>
+      <div id="videomain" class="video-main"></div>
+      <div id="videolist" class="videos"></div>
+    </div>
   </section>
 
-  <section id="jeu" class="block alt">
-    <h2 data-i18n="h_game">Le jeu</h2>
-    <div id="about" class="about"></div>
-    <div id="features" class="cards"></div>
+  <section id="galerie" class="sec" hidden>
+    <div class="wrap">
+      <h2 class="h2" data-i18n="h_gallery">Captures d'écran</h2>
+      <div id="gallery" class="gallery"></div>
+    </div>
   </section>
 
-  <section id="galerie" class="block" hidden>
-    <h2 data-i18n="h_gallery">Galerie</h2>
-    <div id="gallery" class="gallery"></div>
+  <section id="actus" class="sec sec-alt">
+    <div class="wrap">
+      <h2 class="h2" data-i18n="h_news">Actus</h2>
+      <div id="news" class="news"></div>
+    </div>
   </section>
 
-  <section id="videos" class="block alt" hidden>
-    <h2 data-i18n="h_videos">Vidéos</h2>
-    <div id="videolist" class="videos"></div>
-  </section>
-
-  <section id="liens" class="block">
-    <h2 data-i18n="h_links">Suivre Indiana Games</h2>
-    <div id="links" class="links"></div>
+  <section id="suivre" class="cta">
+    <div class="wrap cta-inner">
+      <h2 id="ctaTitle" class="cta-title"></h2>
+      <p id="ctaText" class="cta-text"></p>
+      <div id="links" class="links"></div>
+    </div>
   </section>
 </main>
 
-<footer>
+<footer class="footer">
   <p>© <span id="year"></span> Pole Racer — <span data-i18n="made_by">un jeu</span> <a href="https://indianagames.pages.dev">Indiana Games</a></p>
 </footer>
 
