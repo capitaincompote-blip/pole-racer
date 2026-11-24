@@ -169,3 +169,14 @@ h1 .w:nth-child(2){animation-delay:.14s}
   h1 .w{animation:none}
   .gallery img,.details img,.btn{transition:none}
 }
+
+/* Actus enrichies */
+.news article{padding:40px 0}
+.news main>img,.news article>div>img{display:block;width:100%;max-width:560px;height:auto;border-radius:14px;border:1px solid var(--line);margin:6px 0 18px}
+.news h4{font-family:var(--display);font-stretch:108%;font-weight:700;font-size:19px;line-height:1.25;margin:22px 0 8px;color:var(--text,inherit)}
+.news ul{max-width:42em;margin:.5em 0 0;padding-left:1.2em;color:var(--muted)}
+.news li{margin:.35em 0}
+.news p+ul,.news ul+p{margin-top:.9em}
+.news .more{display:inline-block;margin-top:20px;font-weight:700;color:var(--yellow);text-decoration:none;border-bottom:2px solid currentColor}
+.news .more:hover{color:var(--red)}
+@media(max-width:760px){.news article{grid-template-columns:1fr}}
