@@ -198,3 +198,4 @@ h1 .w:nth-child(2){animation-delay:.14s}
 .empty{color:var(--muted);padding:12px 0 24px}
 @media(max-width:760px){.showcase{grid-template-columns:1fr 1fr}.showcase li:first-child{grid-column:span 2;grid-row:auto}.showcase li:first-child button{aspect-ratio:16/9}}
 @media(prefers-reduced-motion:reduce){.showcase img{transition:none}}
+.video-main:empty{display:none}
