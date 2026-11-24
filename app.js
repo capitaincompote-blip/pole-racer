@@ -1,11 +1,12 @@
-/* Pole Racer — site multilingue (content/site.json, content/ui.json) + fond de route pseudo-3D */
+/* Pole Racer — site multilingue (content/site.json, content/ui.json) */
 (function () {
   "use strict";
   var $ = function (id) { return document.getElementById(id); };
   var LANGS = ["fr", "en", "de", "es", "ar", "it"];
   var NAMES = { fr: "Français", en: "English", de: "Deutsch", es: "Español", ar: "العربية", it: "Italiano" };
   var DEFAULT = "fr";
-  var SITE = null, UI = null, lang = DEFAULT;
+  var RINGS = ["#ee2b24", "#ffcf1f", "#f4f5f8", "#35c46b"];
+  var SITE = null, UI = null, lang = DEFAULT, shots = [];
 
   function el(tag, props, children) {
     var n = document.createElement(tag);
@@ -40,6 +41,13 @@
     return empty(base[key]) ? (Array.isArray(base[key]) ? [] : "") : base[key];
   }
   function ui(key) { return (UI[lang] && UI[lang][key]) || (UI[DEFAULT] && UI[DEFAULT][key]) || ""; }
+  function setLink(a, label, url) {
+    var u = safeUrl(url || "#suivre");
+    a.textContent = label;
+    a.setAttribute("href", u);
+    if (/^https?:/i.test(u)) { a.setAttribute("target", "_blank"); a.setAttribute("rel", "noopener"); }
+    else { a.removeAttribute("target"); a.removeAttribute("rel"); }
+  }
 
   function applyUi() {
     document.documentElement.lang = lang;
@@ -52,57 +60,112 @@
     $("lang").value = lang;
   }
 
+  function openLightbox(i) {
+    var cur = i;
+    var img = el("img", { src: "", alt: "" });
+    var lb = el("div", { "class": "lightbox", role: "dialog", "aria-modal": "true" }, [img]);
+    var rtl = document.documentElement.dir === "rtl";
+    var prev = el("button", { "class": "p", type: "button", "aria-label": "‹", text: rtl ? "›" : "‹" });
+    var next = el("button", { "class": "n", type: "button", "aria-label": "›", text: rtl ? "‹" : "›" });
+    var close = el("button", { "class": "x", type: "button", "aria-label": "×", text: "×" });
+    function show(k) {
+      cur = (k + shots.length) % shots.length;
+      img.src = shots[cur].src; img.alt = shots[cur].alt;
+    }
+    function end() { document.removeEventListener("keydown", key); lb.remove(); }
+    function key(e) {
+      if (e.key === "Escape") end();
+      else if (e.key === "ArrowRight") show(cur + (rtl ? -1 : 1));
+      else if (e.key === "ArrowLeft") show(cur + (rtl ? 1 : -1));
+    }
+    prev.addEventListener("click", function (e) { e.stopPropagation(); show(cur + (rtl ? 1 : -1)); });
+    next.addEventListener("click", function (e) { e.stopPropagation(); show(cur + (rtl ? -1 : 1)); });
+    close.addEventListener("click", end);
+    lb.addEventListener("click", function (e) { if (e.target === lb) end(); });
+    [prev, next, close].forEach(function (b) { lb.appendChild(b); });
+    document.addEventListener("keydown", key);
+    document.body.appendChild(lb);
+    show(i); close.focus();
+  }
+
   function render() {
-    $("title").textContent = get("hero_title") || "POLE RACER";
+    /* Accueil */
+    var t = $("title"); clear(t);
+    String(get("hero_title") || "POLE RACER").split(/\s+/).forEach(function (w) { t.appendChild(el("span", { "class": "w", text: w })); });
+    t.setAttribute("aria-label", get("hero_title") || "Pole Racer");
     $("tagline").textContent = get("hero_tagline");
     $("badge").textContent = get("status_badge");
+    var label = get("buy_label"), url = get("buy_url");
+    setLink($("buyBtn"), label, url);
+    setLink($("navBuy"), label, url);
 
-    var nb = $("news"); clear(nb);
-    var news = get("news").slice().sort(function (a, b) { return new Date(b.date) - new Date(a.date); });
-    news.forEach(function (n) {
-      var a = el("article");
-      if (n.date) a.appendChild(el("time", { text: fmtDate(n.date) }));
-      a.appendChild(el("h3", { text: n.title || "" }));
-      if (n.image) a.appendChild(el("img", { src: safeUrl(n.image), alt: n.title || "", loading: "lazy" }));
-      var body = el("div"); paragraphs(body, n.body); a.appendChild(body);
-      nb.appendChild(a);
+    var hi = get("hero_image");
+    $("heroImg").hidden = !hi;
+    if (hi) $("heroImg").setAttribute("src", safeUrl(hi));
+
+    var facts = $("facts"); clear(facts);
+    get("facts").forEach(function (f, i) {
+      var li = el("li", {}, [
+        el("span", { "class": "ring", style: "--c:" + RINGS[i % RINGS.length] }),
+        el("span", { "class": "lbl", text: f.label || "" }),
+        el("span", { "class": "val", text: f.value || "" })
+      ]);
+      facts.appendChild(li);
     });
-    if (!news.length) nb.appendChild(el("p", { text: ui("no_news") }));
 
-    clear($("about")); paragraphs($("about"), get("about"));
-    clear($("features"));
+    /* Le jeu */
+    var ab = $("about"); clear(ab); paragraphs(ab, get("about"));
+    var ft = $("features"); clear(ft);
     get("features").forEach(function (f) {
-      $("features").appendChild(el("div", { "class": "card" }, [
-        el("h3", { text: f.title || "" }), el("p", { text: f.text || "" })
-      ]));
+      ft.appendChild(el("li", {}, [el("h3", { text: f.title || "" }), el("p", { text: f.text || "" })]));
     });
 
-    var gal = $("gallery"); clear(gal);
-    var g = get("gallery").filter(function (it) { return it.image; });
-    $("galerie").hidden = !g.length;
-    g.forEach(function (it) {
-      var img = el("img", { src: safeUrl(it.image), alt: it.caption || "Pole Racer", loading: "lazy" });
-      img.addEventListener("click", function () {
-        var lb = el("div", { "class": "lightbox" }, [el("img", { src: img.src, alt: img.alt })]);
-        lb.addEventListener("click", function () { lb.remove(); });
-        document.body.appendChild(lb);
-      });
-      var fig = el("figure", {}, [img]);
-      if (it.caption) fig.appendChild(el("figcaption", { text: it.caption }));
-      gal.appendChild(fig);
-    });
-
-    var vl = $("videolist"); clear(vl);
-    var v = get("videos").filter(function (x) { return ytId(x.youtube); });
-    $("videos").hidden = !v.length;
-    v.forEach(function (x) {
-      var frame = el("div", { "class": "video-frame" }, [el("iframe", {
+    /* Vidéos : la première est mise en avant */
+    var vids = get("videos").filter(function (x) { return ytId(x.youtube); });
+    var vm = $("videomain"), vl = $("videolist"); clear(vm); clear(vl);
+    $("trailer").hidden = !vids.length;
+    $("trailerBtn").hidden = !vids.length;
+    function frame(x, cls) {
+      return el("div", { "class": cls }, [el("iframe", {
         src: "https://www.youtube-nocookie.com/embed/" + ytId(x.youtube),
         title: x.title || "Pole Racer", loading: "lazy", allowfullscreen: ""
       })]);
-      vl.appendChild(el("div", {}, [el("h3", { text: x.title || "" }), frame]));
-    });
+    }
+    if (vids.length) {
+      vm.appendChild(el("iframe", {
+        src: "https://www.youtube-nocookie.com/embed/" + ytId(vids[0].youtube),
+        title: vids[0].title || "Pole Racer", loading: "lazy", allowfullscreen: ""
+      }));
+      vids.slice(1).forEach(function (x) { vl.appendChild(frame(x, "video-small")); });
+    }
 
+    /* Galerie */
+    var gal = $("gallery"); clear(gal); shots = [];
+    get("gallery").filter(function (it) { return it.image; }).forEach(function (it, i) {
+      var alt = it.caption || "Pole Racer";
+      shots.push({ src: safeUrl(it.image), alt: alt });
+      var b = el("button", { type: "button", "aria-label": alt }, [el("img", { src: safeUrl(it.image), alt: "", loading: "lazy" })]);
+      if (it.caption) b.appendChild(el("span", { "class": "cap", text: it.caption }));
+      b.addEventListener("click", function () { openLightbox(i); });
+      gal.appendChild(b);
+    });
+    $("galerie").hidden = !shots.length;
+
+    /* Actus */
+    var nb = $("news"); clear(nb);
+    var news = get("news").slice().sort(function (a, b) { return new Date(b.date) - new Date(a.date); });
+    news.forEach(function (n) {
+      var body = el("div"); paragraphs(body, n.body);
+      var main = el("div", {}, [el("h3", { text: n.title || "" })]);
+      if (n.image) main.appendChild(el("img", { src: safeUrl(n.image), alt: n.title || "", loading: "lazy" }));
+      main.appendChild(body);
+      nb.appendChild(el("article", {}, [el("time", { text: fmtDate(n.date) }), main]));
+    });
+    if (!news.length) nb.appendChild(el("p", { text: ui("no_news") }));
+
+    /* Appel à l'action et liens */
+    $("ctaTitle").textContent = get("cta_title");
+    $("ctaText").textContent = get("cta_text");
     var lk = $("links"); clear(lk);
     get("links").forEach(function (l) {
       lk.appendChild(el("a", { href: safeUrl(l.url), target: "_blank", rel: "noopener", text: l.label || l.url }));
@@ -134,6 +197,10 @@
   $("lang").addEventListener("change", function (e) { setLang(e.target.value, true); });
   $("year").textContent = new Date().getFullYear();
 
+  var nav = $("nav");
+  function onScroll() { nav.classList.toggle("solid", window.scrollY > 40); }
+  window.addEventListener("scroll", onScroll, { passive: true }); onScroll();
+
   Promise.all([
     fetch("content/site.json", { cache: "no-cache" }).then(function (r) { return r.json(); }),
     fetch("content/ui.json", { cache: "no-cache" }).then(function (r) { return r.json(); })
@@ -141,38 +208,4 @@
     SITE = res[0]; UI = res[1];
     setLang(initialLang(), false);
   }).catch(function () { $("news").textContent = "…"; });
-
-  /* ---------- Route pseudo-3D (style Mode 7) ---------- */
-  var cv = $("road"), ctx = cv.getContext("2d");
-  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var W, H, t = 0;
-  function size() { W = cv.width = Math.ceil(cv.clientWidth / 3); H = cv.height = Math.ceil(cv.clientHeight / 3); }
-  window.addEventListener("resize", size); size();
-
-  function frame() {
-    var horizon = Math.floor(H * 0.42);
-    var sky = ctx.createLinearGradient(0, 0, 0, horizon);
-    sky.addColorStop(0, "#1b1464"); sky.addColorStop(1, "#ff6a88");
-    ctx.fillStyle = sky; ctx.fillRect(0, 0, W, horizon);
-    ctx.fillStyle = "#ffd23f"; ctx.beginPath(); ctx.arc(W * 0.7, horizon - 6, 14, 0, 7); ctx.fill();
-    ctx.fillStyle = "#2a1f5e"; ctx.beginPath(); ctx.moveTo(0, horizon);
-    for (var x = 0; x <= W; x += 8) ctx.lineTo(x, horizon - 6 - 8 * Math.abs(Math.sin(x * 0.05)));
-    ctx.lineTo(W, horizon); ctx.fill();
-
-    for (var y = horizon; y < H; y++) {
-      var p = (y - horizon) / (H - horizon);
-      var z = 1 / (p + 0.02);
-      var curve = Math.sin(t * 0.4 + z * 0.12) * (1 - p) * W * 0.18;
-      var half = W * (0.04 + p * 0.5);
-      var cx = W / 2 + curve;
-      var band = Math.floor(z * 2 + t * 6) % 2 === 0;
-      ctx.fillStyle = band ? "#1f8a3b" : "#27a049"; ctx.fillRect(0, y, W, 1);
-      ctx.fillStyle = band ? "#ff2e4d" : "#f4f1ff"; ctx.fillRect(cx - half * 1.12, y, half * 2.24, 1);
-      ctx.fillStyle = band ? "#3b3b52" : "#444460"; ctx.fillRect(cx - half, y, half * 2, 1);
-      if (band) { ctx.fillStyle = "#f4f1ff"; ctx.fillRect(cx - Math.max(1, half * 0.03), y, Math.max(1, half * 0.06), 1); }
-    }
-    t += 0.04;
-    if (!reduce) requestAnimationFrame(frame);
-  }
-  frame();
 })();
