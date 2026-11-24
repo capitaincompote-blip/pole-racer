@@ -19,7 +19,8 @@
     "buy": "Acheter le jeu",
     "demo": "Essayer la démo gratuite",
     "follow": "Suivre le développement",
-    "h_details": "Le jeu en détail"
+    "h_details": "Le jeu en détail",
+    "read_more": "Lire sur itch.io"
   },
   "en": {
     "title": "Pole Racer — Formula 1 in low poly",
@@ -41,7 +42,8 @@
     "buy": "Buy the game",
     "demo": "Try the free demo",
     "follow": "Follow development",
-    "h_details": "Inside the game"
+    "h_details": "Inside the game",
+    "read_more": "Read on itch.io"
   },
   "de": {
     "title": "Pole Racer — Formel 1 in Low Poly",
@@ -63,7 +65,8 @@
     "buy": "Spiel kaufen",
     "demo": "Gratis-Demo spielen",
     "follow": "Entwicklung verfolgen",
-    "h_details": "Das Spiel im Detail"
+    "h_details": "Das Spiel im Detail",
+    "read_more": "Auf itch.io lesen"
   },
   "es": {
     "title": "Pole Racer — La Fórmula 1 en low poly",
@@ -85,7 +88,8 @@
     "buy": "Comprar el juego",
     "demo": "Probar la demo gratis",
     "follow": "Seguir el desarrollo",
-    "h_details": "El juego al detalle"
+    "h_details": "El juego al detalle",
+    "read_more": "Leer en itch.io"
   },
   "it": {
     "title": "Pole Racer — La Formula 1 in low poly",
@@ -107,7 +111,8 @@
     "buy": "Acquista il gioco",
     "demo": "Prova la demo gratuita",
     "follow": "Segui lo sviluppo",
-    "h_details": "Il gioco nel dettaglio"
+    "h_details": "Il gioco nel dettaglio",
+    "read_more": "Leggi su itch.io"
   },
   "ar": {
     "title": "Pole Racer — فورمولا 1 بأسلوب لو بولي",
@@ -129,6 +134,7 @@
     "buy": "اشترِ اللعبة",
     "demo": "جرّب النسخة التجريبية المجانية",
     "follow": "تابعوا التطوير",
-    "h_details": "اللعبة بالتفصيل"
+    "h_details": "اللعبة بالتفصيل",
+    "read_more": "اقرأ على itch.io"
   }
 }
