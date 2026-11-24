@@ -20,7 +20,12 @@
     "demo": "Essayer la démo gratuite",
     "follow": "Suivre le développement",
     "h_details": "Le jeu en détail",
-    "read_more": "Lire sur itch.io"
+    "read_more": "Lire sur itch.io",
+    "nav_media": "Médias",
+    "h_media": "Médias",
+    "tab_photos": "Photos",
+    "tab_videos": "Vidéos",
+    "no_videos": "La bande-annonce arrive bientôt."
   },
   "en": {
     "title": "Pole Racer — Formula 1 in low poly",
@@ -43,7 +48,12 @@
     "demo": "Try the free demo",
     "follow": "Follow development",
     "h_details": "Inside the game",
-    "read_more": "Read on itch.io"
+    "read_more": "Read on itch.io",
+    "nav_media": "Media",
+    "h_media": "Media",
+    "tab_photos": "Photos",
+    "tab_videos": "Videos",
+    "no_videos": "The trailer is coming soon."
   },
   "de": {
     "title": "Pole Racer — Formel 1 in Low Poly",
@@ -66,7 +76,12 @@
     "demo": "Gratis-Demo spielen",
     "follow": "Entwicklung verfolgen",
     "h_details": "Das Spiel im Detail",
-    "read_more": "Auf itch.io lesen"
+    "read_more": "Auf itch.io lesen",
+    "nav_media": "Medien",
+    "h_media": "Medien",
+    "tab_photos": "Fotos",
+    "tab_videos": "Videos",
+    "no_videos": "Der Trailer kommt bald."
   },
   "es": {
     "title": "Pole Racer — La Fórmula 1 en low poly",
@@ -89,7 +104,12 @@
     "demo": "Probar la demo gratis",
     "follow": "Seguir el desarrollo",
     "h_details": "El juego al detalle",
-    "read_more": "Leer en itch.io"
+    "read_more": "Leer en itch.io",
+    "nav_media": "Multimedia",
+    "h_media": "Multimedia",
+    "tab_photos": "Fotos",
+    "tab_videos": "Vídeos",
+    "no_videos": "El tráiler llega pronto."
   },
   "it": {
     "title": "Pole Racer — La Formula 1 in low poly",
@@ -112,7 +132,12 @@
     "demo": "Prova la demo gratuita",
     "follow": "Segui lo sviluppo",
     "h_details": "Il gioco nel dettaglio",
-    "read_more": "Leggi su itch.io"
+    "read_more": "Leggi su itch.io",
+    "nav_media": "Media",
+    "h_media": "Media",
+    "tab_photos": "Foto",
+    "tab_videos": "Video",
+    "no_videos": "Il trailer arriva presto."
   },
   "ar": {
     "title": "Pole Racer — فورمولا 1 بأسلوب لو بولي",
@@ -135,6 +160,11 @@
     "demo": "جرّب النسخة التجريبية المجانية",
     "follow": "تابعوا التطوير",
     "h_details": "اللعبة بالتفصيل",
-    "read_more": "اقرأ على itch.io"
+    "read_more": "اقرأ على itch.io",
+    "nav_media": "الوسائط",
+    "h_media": "الوسائط",
+    "tab_photos": "الصور",
+    "tab_videos": "الفيديوهات",
+    "no_videos": "العرض الترويجي قادم قريبًا."
   }
 }
