@@ -22,6 +22,13 @@
       if (p.trim()) container.appendChild(el("p", { text: p.trim() }));
     });
   }
+  var tabsReady = false;
+  function selectTab(videos) {
+    $("tabPhotos").setAttribute("aria-selected", String(!videos));
+    $("tabVideos").setAttribute("aria-selected", String(videos));
+    $("panePhotos").hidden = videos;
+    $("paneVideos").hidden = !videos;
+  }
   function richText(container, text) {
     String(text || "").split(/\n{2,}/).forEach(function (b) {
       b = b.trim(); if (!b) return;
@@ -140,10 +147,27 @@
       ft.appendChild(el("li", {}, [el("h3", { text: f.title || "" }), el("p", { text: f.text || "" })]));
     });
 
+    /* Visuels du jeu */
+    var sc = $("showcase"); clear(sc); var sshots = [];
+    (get("showcase") || []).filter(function (it) { return it.image; }).forEach(function (it, i) {
+      var alt = it.caption || "Pole Racer";
+      sshots.push({ src: safeUrl(it.image), alt: alt });
+      var b = el("button", { type: "button", "aria-label": alt }, [el("img", { src: safeUrl(it.image), alt: "", loading: "lazy" })]);
+      b.addEventListener("click", function () { openLightbox(i, sshots); });
+      sc.appendChild(el("li", {}, [b]));
+    });
+    $("showcaseWrap").hidden = !sshots.length;
+
     /* Vidéos : la première est mise en avant */
     var vids = get("videos").filter(function (x) { return ytId(x.youtube); });
     var vm = $("videomain"), vl = $("videolist"); clear(vm); clear(vl);
-    $("trailer").hidden = !vids.length;
+    $("videoEmpty").hidden = !!vids.length;
+    if (!tabsReady) {
+      tabsReady = true;
+      $("tabPhotos").addEventListener("click", function () { selectTab(false); });
+      $("tabVideos").addEventListener("click", function () { selectTab(true); });
+      $("trailerBtn").addEventListener("click", function () { selectTab(true); });
+    }
     $("trailerBtn").hidden = !vids.length;
     function frame(x, cls) {
       return el("div", { "class": cls }, [el("iframe", {
@@ -185,7 +209,6 @@
       b.addEventListener("click", function () { openLightbox(i); });
       gal.appendChild(b);
     });
-    $("galerie").hidden = !shots.length;
 
     /* Actus */
     var nb = $("news"); clear(nb);
