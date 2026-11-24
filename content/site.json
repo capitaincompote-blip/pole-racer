@@ -26,28 +26,28 @@
     "about": "Des voitures et des circuits en low poly, des volumes simples et des couleurs franches, dans l'esprit des jeux de course 16 bits. Pole Racer remet la Formule 1 dans une image lisible, directe et pleine de caractère.",
     "features": [
       {
-        "title": "Un circuit qui a de l'allure",
-        "text": "La Vallée dorée d'Alsace : colombages, vignobles, cathédrale au coucher du soleil et cigognes sur les toits."
+        "title": "Jusqu'à 4 joueurs en écran partagé",
+        "text": "Chaque place peut être confiée à un bot. Turbo et rattrapage maintiennent le peloton groupé."
       },
       {
-        "title": "Une course de Noël",
-        "text": "Un circuit de nuit sous la neige, entre sapins illuminés et traîneau du Père Noël dans le ciel."
+        "title": "Un vrai championnat",
+        "text": "Plusieurs courses, des points, un classement : en solo comme à plusieurs, bots et IA compris."
+      },
+      {
+        "title": "Des réglages de vraie F1",
+        "text": "Ailerons, suspension, pneus, freins, direction, arrêt au stand et boîte manuelle réglable rapport par rapport."
+      },
+      {
+        "title": "Des circuits pour chaque ambiance",
+        "text": "De la route des vins à la forêt de Noël, avec pluie, nuit et neige. Trois nouveaux circuits par mois après la sortie."
+      },
+      {
+        "title": "Fantômes et médailles",
+        "text": "Affronte ton fantôme, celui d'un ami ou la référence, et vise la platine sur chaque circuit."
       },
       {
         "title": "Un vrai mode photo",
-        "text": "Tourne autour de ta monoplace, règle la distance, applique un filtre, choisis ton cadre (16:9 ou carré) et ajoute le logo du jeu."
-      },
-      {
-        "title": "Pensé pour la manette",
-        "text": "Le mode photo se pilote entièrement à la manette : stick, gâchettes et boutons."
-      },
-      {
-        "title": "Des écuries et des stands",
-        "text": "Une grille colorée, des stands aux noms d'écuries et des panneaux DRS le long de la piste."
-      },
-      {
-        "title": "Low poly, esprit 16 bits",
-        "text": "Des volumes simples et des couleurs franches : une image lisible, même à pleine vitesse."
+        "text": "Caméra libre sur tout le circuit, filtres, cadre 16:9 ou carré et logo du jeu en option."
       }
     ],
     "videos": [],
@@ -116,7 +116,37 @@
         "url": "https://www.facebook.com/indianagames09"
       }
     ],
-    "demo_url": "https://indiana-games.itch.io/pole-racer"
+    "demo_url": "https://indiana-games.itch.io/pole-racer",
+    "details": [
+      {
+        "image": "/images/details/fr-1.webp",
+        "caption": "Monoplace, réglages de course, championnat et boîte de vitesses"
+      },
+      {
+        "image": "/images/details/fr-2.webp",
+        "caption": "Multijoueur local : bots, turbo, rattrapage et championnat"
+      },
+      {
+        "image": "/images/details/fr-3.webp",
+        "caption": "Pluie, arcade, Grand Prix et circuits par thème"
+      },
+      {
+        "image": "/images/details/fr-4.webp",
+        "caption": "Départs, dégâts, vue embarquée et IA"
+      },
+      {
+        "image": "/images/details/fr-5.webp",
+        "caption": "Médailles, fantômes, freinage et multijoueur en démo"
+      },
+      {
+        "image": "/images/details/fr-6.webp",
+        "caption": "Mode photo, réglages, IA et multijoueur"
+      },
+      {
+        "image": "/images/details/fr-7.webp",
+        "caption": "F1 redessinée, dégâts, multijoueur et mode photo"
+      }
+    ]
   },
   "en": {
     "hero_title": "POLE RACER",
@@ -145,28 +175,28 @@
     "about": "Low-poly cars and tracks, simple shapes and bold colours, in the spirit of 16-bit racing games. Pole Racer puts Formula 1 into an image that is clear, direct and full of character.",
     "features": [
       {
-        "title": "A track with real character",
-        "text": "The Golden Valley of Alsace: half-timbered houses, vineyards, a cathedral at sunset and storks on the rooftops."
+        "title": "Up to 4 players, split screen",
+        "text": "Any seat can be a bot. Turbo and catch-up keep the pack together."
       },
       {
-        "title": "A Christmas race",
-        "text": "A night circuit under the snow, with lit-up fir trees and Santa's sleigh in the sky."
+        "title": "A real championship",
+        "text": "Several races, points and standings: solo or with friends, bots and AI included."
+      },
+      {
+        "title": "Real F1 setups",
+        "text": "Wings, suspension, tyres, brakes, steering, pit stops and a manual gearbox you tune gear by gear."
+      },
+      {
+        "title": "A track for every mood",
+        "text": "From the wine route to the Christmas forest, with rain, night and snow. Three new circuits every month after launch."
+      },
+      {
+        "title": "Ghosts and medals",
+        "text": "Race your own ghost, a friend's or the reference, and chase platinum on every circuit."
       },
       {
         "title": "A real photo mode",
-        "text": "Orbit your car, set the distance, pick a filter, choose your frame (16:9 or square) and add the game logo."
-      },
-      {
-        "title": "Made for the controller",
-        "text": "Photo mode is fully playable with a gamepad: sticks, triggers and buttons."
-      },
-      {
-        "title": "Teams and pit boxes",
-        "text": "A colourful grid, pit boxes named after the teams and DRS signs along the track."
-      },
-      {
-        "title": "Low poly, 16-bit spirit",
-        "text": "Simple shapes and bold colours: a clear picture, even at full speed."
+        "text": "Free camera over the whole circuit, filters, 16:9 or square frame and an optional game logo."
       }
     ],
     "videos": [],
@@ -235,7 +265,37 @@
         "url": "https://www.facebook.com/indianagames09"
       }
     ],
-    "demo_url": "https://indiana-games.itch.io/pole-racer"
+    "demo_url": "https://indiana-games.itch.io/pole-racer",
+    "details": [
+      {
+        "image": "/images/details/en-1.webp",
+        "caption": "Car, race setup, championship and gearbox"
+      },
+      {
+        "image": "/images/details/en-2.webp",
+        "caption": "Local multiplayer: bots, turbo, catch-up and championship"
+      },
+      {
+        "image": "/images/details/en-3.webp",
+        "caption": "Rain, arcade, Grand Prix and themed circuits"
+      },
+      {
+        "image": "/images/details/en-4.webp",
+        "caption": "Race starts, damage, onboard view and AI"
+      },
+      {
+        "image": "/images/details/en-5.webp",
+        "caption": "Medals, ghosts, braking and multiplayer demo"
+      },
+      {
+        "image": "/images/details/en-6.webp",
+        "caption": "Photo mode, setups, AI and multiplayer"
+      },
+      {
+        "image": "/images/details/en-7.webp",
+        "caption": "Redesigned car, damage, multiplayer and photo mode"
+      }
+    ]
   },
   "de": {
     "hero_title": "POLE RACER",
@@ -264,28 +324,28 @@
     "about": "Low-Poly-Autos und -Strecken, einfache Formen und kräftige Farben, im Geist der 16-Bit-Rennspiele. Pole Racer bringt die Formel 1 in ein Bild, das klar, direkt und voller Charakter ist.",
     "features": [
       {
-        "title": "Eine Strecke mit Charakter",
-        "text": "Das Goldene Tal im Elsass: Fachwerkhäuser, Weinberge, eine Kathedrale im Abendlicht und Störche auf den Dächern."
+        "title": "Bis zu 4 Spieler im Splitscreen",
+        "text": "Jeder Platz kann ein Bot sein. Turbo und Aufholhilfe halten das Feld zusammen."
       },
       {
-        "title": "Ein Weihnachtsrennen",
-        "text": "Eine Nachtstrecke im Schnee, mit beleuchteten Tannen und dem Schlitten des Weihnachtsmanns am Himmel."
+        "title": "Eine richtige Meisterschaft",
+        "text": "Mehrere Rennen, Punkte und Wertung: allein oder mit Freunden, Bots und KI inklusive."
+      },
+      {
+        "title": "Setups wie in der echten F1",
+        "text": "Flügel, Federung, Reifen, Bremsen, Lenkung, Boxenstopps und ein manuelles Getriebe, das du Gang für Gang abstimmst."
+      },
+      {
+        "title": "Eine Strecke für jede Stimmung",
+        "text": "Von der Weinstraße bis zum Weihnachtswald, mit Regen, Nacht und Schnee. Nach dem Start kommen jeden Monat drei neue Strecken."
+      },
+      {
+        "title": "Geister und Medaillen",
+        "text": "Fahre gegen deinen eigenen Geist, den eines Freundes oder die Referenz und jage Platin auf jeder Strecke."
       },
       {
         "title": "Ein echter Fotomodus",
-        "text": "Umkreise dein Auto, stelle die Entfernung ein, wähle einen Filter und einen Bildausschnitt (16:9 oder quadratisch) und füge das Spiellogo hinzu."
-      },
-      {
-        "title": "Für den Controller gemacht",
-        "text": "Der Fotomodus lässt sich komplett mit dem Gamepad bedienen: Sticks, Trigger und Tasten."
-      },
-      {
-        "title": "Teams und Boxen",
-        "text": "Ein farbenfrohes Starterfeld, Boxen mit Teamnamen und DRS-Schilder entlang der Strecke."
-      },
-      {
-        "title": "Low Poly im Geist der 16-Bit-Spiele",
-        "text": "Einfache Formen und kräftige Farben: ein klares Bild, selbst bei voller Geschwindigkeit."
+        "text": "Freie Kamera über die ganze Strecke, Filter, Bildformat 16:9 oder quadratisch und optionales Spiellogo."
       }
     ],
     "videos": [],
@@ -354,7 +414,37 @@
         "url": "https://www.facebook.com/indianagames09"
       }
     ],
-    "demo_url": "https://indiana-games.itch.io/pole-racer"
+    "demo_url": "https://indiana-games.itch.io/pole-racer",
+    "details": [
+      {
+        "image": "/images/details/en-1.webp",
+        "caption": "Car, race setup, championship and gearbox"
+      },
+      {
+        "image": "/images/details/en-2.webp",
+        "caption": "Local multiplayer: bots, turbo, catch-up and championship"
+      },
+      {
+        "image": "/images/details/en-3.webp",
+        "caption": "Rain, arcade, Grand Prix and themed circuits"
+      },
+      {
+        "image": "/images/details/en-4.webp",
+        "caption": "Race starts, damage, onboard view and AI"
+      },
+      {
+        "image": "/images/details/en-5.webp",
+        "caption": "Medals, ghosts, braking and multiplayer demo"
+      },
+      {
+        "image": "/images/details/en-6.webp",
+        "caption": "Photo mode, setups, AI and multiplayer"
+      },
+      {
+        "image": "/images/details/en-7.webp",
+        "caption": "Redesigned car, damage, multiplayer and photo mode"
+      }
+    ]
   },
   "es": {
     "hero_title": "POLE RACER",
@@ -383,28 +473,28 @@
     "about": "Coches y circuitos en low poly, formas simples y colores intensos, con el espíritu de los juegos de carreras de 16 bits. Pole Racer lleva la Fórmula 1 a una imagen clara, directa y llena de carácter.",
     "features": [
       {
-        "title": "Un circuito con carácter",
-        "text": "El Valle Dorado de Alsacia: casas de entramado de madera, viñedos, una catedral al atardecer y cigüeñas en los tejados."
+        "title": "Hasta 4 jugadores en pantalla dividida",
+        "text": "Cualquier plaza puede ser un bot. El turbo y la ayuda de remontada mantienen unido al pelotón."
       },
       {
-        "title": "Una carrera de Navidad",
-        "text": "Un circuito nocturno bajo la nieve, con abetos iluminados y el trineo de Papá Noel en el cielo."
+        "title": "Un campeonato de verdad",
+        "text": "Varias carreras, puntos y clasificación: en solitario o con amigos, bots e IA incluidos."
+      },
+      {
+        "title": "Reglajes de F1 de verdad",
+        "text": "Alerones, suspensión, neumáticos, frenos, dirección, paradas en boxes y una caja manual que ajustas marcha por marcha."
+      },
+      {
+        "title": "Un circuito para cada ambiente",
+        "text": "De la ruta del vino al bosque de Navidad, con lluvia, noche y nieve. Tres circuitos nuevos cada mes tras el lanzamiento."
+      },
+      {
+        "title": "Fantasmas y medallas",
+        "text": "Corre contra tu fantasma, el de un amigo o el de referencia y busca el platino en cada circuito."
       },
       {
         "title": "Un auténtico modo foto",
-        "text": "Gira alrededor de tu monoplaza, ajusta la distancia, aplica un filtro, elige el encuadre (16:9 o cuadrado) y añade el logotipo del juego."
-      },
-      {
-        "title": "Pensado para el mando",
-        "text": "El modo foto se maneja por completo con el mando: sticks, gatillos y botones."
-      },
-      {
-        "title": "Equipos y boxes",
-        "text": "Una parrilla llena de color, boxes con el nombre de los equipos y paneles DRS a lo largo de la pista."
-      },
-      {
-        "title": "Low poly, espíritu de 16 bits",
-        "text": "Formas simples y colores intensos: una imagen clara, incluso a toda velocidad."
+        "text": "Cámara libre por todo el circuito, filtros, encuadre 16:9 o cuadrado y logotipo del juego opcional."
       }
     ],
     "videos": [],
@@ -473,7 +563,37 @@
         "url": "https://www.facebook.com/indianagames09"
       }
     ],
-    "demo_url": "https://indiana-games.itch.io/pole-racer"
+    "demo_url": "https://indiana-games.itch.io/pole-racer",
+    "details": [
+      {
+        "image": "/images/details/en-1.webp",
+        "caption": "Car, race setup, championship and gearbox"
+      },
+      {
+        "image": "/images/details/en-2.webp",
+        "caption": "Local multiplayer: bots, turbo, catch-up and championship"
+      },
+      {
+        "image": "/images/details/en-3.webp",
+        "caption": "Rain, arcade, Grand Prix and themed circuits"
+      },
+      {
+        "image": "/images/details/en-4.webp",
+        "caption": "Race starts, damage, onboard view and AI"
+      },
+      {
+        "image": "/images/details/en-5.webp",
+        "caption": "Medals, ghosts, braking and multiplayer demo"
+      },
+      {
+        "image": "/images/details/en-6.webp",
+        "caption": "Photo mode, setups, AI and multiplayer"
+      },
+      {
+        "image": "/images/details/en-7.webp",
+        "caption": "Redesigned car, damage, multiplayer and photo mode"
+      }
+    ]
   },
   "it": {
     "hero_title": "POLE RACER",
@@ -502,28 +622,28 @@
     "about": "Auto e circuiti in low poly, forme semplici e colori decisi, nello spirito dei giochi di corse a 16 bit. Pole Racer porta la Formula 1 in un'immagine chiara, diretta e piena di carattere.",
     "features": [
       {
-        "title": "Un circuito pieno di carattere",
-        "text": "La Valle d'Oro dell'Alsazia: case a graticcio, vigneti, una cattedrale al tramonto e cicogne sui tetti."
+        "title": "Fino a 4 giocatori in schermo diviso",
+        "text": "Ogni posto può essere un bot. Turbo e recupero tengono compatto il gruppo."
       },
       {
-        "title": "Una corsa di Natale",
-        "text": "Un circuito notturno sotto la neve, tra abeti illuminati e la slitta di Babbo Natale nel cielo."
+        "title": "Un vero campionato",
+        "text": "Più gare, punti e classifica: da soli o con gli amici, bot e IA compresi."
+      },
+      {
+        "title": "Assetti da vera F1",
+        "text": "Ali, sospensioni, gomme, freni, sterzo, pit stop e un cambio manuale da regolare marcia per marcia."
+      },
+      {
+        "title": "Un circuito per ogni atmosfera",
+        "text": "Dalla strada del vino alla foresta di Natale, con pioggia, notte e neve. Tre nuovi circuiti ogni mese dopo il lancio."
+      },
+      {
+        "title": "Fantasmi e medaglie",
+        "text": "Sfida il tuo fantasma, quello di un amico o quello di riferimento e punta al platino su ogni circuito."
       },
       {
         "title": "Una vera modalità foto",
-        "text": "Gira attorno alla tua monoposto, regola la distanza, applica un filtro, scegli l'inquadratura (16:9 o quadrata) e aggiungi il logo del gioco."
-      },
-      {
-        "title": "Pensato per il controller",
-        "text": "La modalità foto si usa interamente con il gamepad: stick, grilletti e pulsanti."
-      },
-      {
-        "title": "Scuderie e box",
-        "text": "Una griglia colorata, box con i nomi delle scuderie e cartelli DRS lungo la pista."
-      },
-      {
-        "title": "Low poly, spirito 16 bit",
-        "text": "Forme semplici e colori decisi: un'immagine chiara, anche a tutta velocità."
+        "text": "Camera libera su tutto il circuito, filtri, inquadratura 16:9 o quadrata e logo del gioco opzionale."
       }
     ],
     "videos": [],
@@ -592,7 +712,37 @@
         "url": "https://www.facebook.com/indianagames09"
       }
     ],
-    "demo_url": "https://indiana-games.itch.io/pole-racer"
+    "demo_url": "https://indiana-games.itch.io/pole-racer",
+    "details": [
+      {
+        "image": "/images/details/en-1.webp",
+        "caption": "Car, race setup, championship and gearbox"
+      },
+      {
+        "image": "/images/details/en-2.webp",
+        "caption": "Local multiplayer: bots, turbo, catch-up and championship"
+      },
+      {
+        "image": "/images/details/en-3.webp",
+        "caption": "Rain, arcade, Grand Prix and themed circuits"
+      },
+      {
+        "image": "/images/details/en-4.webp",
+        "caption": "Race starts, damage, onboard view and AI"
+      },
+      {
+        "image": "/images/details/en-5.webp",
+        "caption": "Medals, ghosts, braking and multiplayer demo"
+      },
+      {
+        "image": "/images/details/en-6.webp",
+        "caption": "Photo mode, setups, AI and multiplayer"
+      },
+      {
+        "image": "/images/details/en-7.webp",
+        "caption": "Redesigned car, damage, multiplayer and photo mode"
+      }
+    ]
   },
   "ar": {
     "hero_title": "POLE RACER",
@@ -621,28 +771,28 @@
     "about": "سيارات وحلبات بأسلوب لو بولي، بأشكال بسيطة وألوان جريئة، بروح ألعاب السباق ذات 16 بت. تقدّم Pole Racer فورمولا 1 بصورة واضحة ومباشرة ومليئة بالشخصية.",
     "features": [
       {
-        "title": "حلبة لها شخصيتها",
-        "text": "الوادي الذهبي في الألزاس: بيوت خشبية تقليدية وكروم وكاتدرائية عند الغروب وطيور اللقلق على الأسطح."
+        "title": "حتى 4 لاعبين بشاشة مقسّمة",
+        "text": "يمكن أن يكون أي مقعد بوت. التوربو والمساعدة على اللحاق يُبقيان المتسابقين متقاربين."
       },
       {
-        "title": "سباق عيد الميلاد",
-        "text": "حلبة ليلية تحت الثلج بين أشجار التنوب المضاءة وعربة بابا نويل في السماء."
+        "title": "بطولة حقيقية",
+        "text": "عدة سباقات ونقاط وترتيب: بمفردك أو مع الأصدقاء، مع البوتات والذكاء الاصطناعي."
+      },
+      {
+        "title": "إعدادات سيارة فورمولا 1 حقيقية",
+        "text": "الأجنحة والتعليق والإطارات والمكابح والتوجيه والتوقف في الكراج، وناقل حركة يدوي تضبطه ترسًا بترس."
+      },
+      {
+        "title": "حلبة لكل أجواء",
+        "text": "من طريق النبيذ إلى غابة الميلاد، مع المطر والليل والثلج. ثلاث حلبات جديدة كل شهر بعد الإطلاق."
+      },
+      {
+        "title": "أشباح وميداليات",
+        "text": "تسابق مع شبحك أو شبح صديق أو المرجع، وطارد الميدالية البلاتينية في كل حلبة."
       },
       {
         "title": "وضع تصوير حقيقي",
-        "text": "دُر حول سيارتك واضبط المسافة وطبّق فلترًا واختر الإطار (16:9 أو مربع) وأضف شعار اللعبة."
-      },
-      {
-        "title": "مصمم لذراع التحكم",
-        "text": "يمكن التحكم بوضع التصوير بالكامل بذراع اللعب: العصي والأزرار العلوية والأزرار."
-      },
-      {
-        "title": "فرق وكراجات",
-        "text": "شبكة انطلاق ملوّنة وكراجات تحمل أسماء الفرق ولافتات DRS على طول الحلبة."
-      },
-      {
-        "title": "Low poly بروح ألعاب 16 بت",
-        "text": "أشكال بسيطة وألوان صريحة: صورة واضحة حتى بأقصى سرعة."
+        "text": "كاميرا حرة فوق الحلبة كاملة، وفلاتر وإطار 16:9 أو مربع وشعار اللعبة اختياريًا."
       }
     ],
     "videos": [],
@@ -711,6 +861,36 @@
         "url": "https://www.facebook.com/indianagames09"
       }
     ],
-    "demo_url": "https://indiana-games.itch.io/pole-racer"
+    "demo_url": "https://indiana-games.itch.io/pole-racer",
+    "details": [
+      {
+        "image": "/images/details/en-1.webp",
+        "caption": "Car, race setup, championship and gearbox"
+      },
+      {
+        "image": "/images/details/en-2.webp",
+        "caption": "Local multiplayer: bots, turbo, catch-up and championship"
+      },
+      {
+        "image": "/images/details/en-3.webp",
+        "caption": "Rain, arcade, Grand Prix and themed circuits"
+      },
+      {
+        "image": "/images/details/en-4.webp",
+        "caption": "Race starts, damage, onboard view and AI"
+      },
+      {
+        "image": "/images/details/en-5.webp",
+        "caption": "Medals, ghosts, braking and multiplayer demo"
+      },
+      {
+        "image": "/images/details/en-6.webp",
+        "caption": "Photo mode, setups, AI and multiplayer"
+      },
+      {
+        "image": "/images/details/en-7.webp",
+        "caption": "Redesigned car, damage, multiplayer and photo mode"
+      }
+    ]
   }
 }
