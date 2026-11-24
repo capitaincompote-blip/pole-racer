@@ -29,8 +29,8 @@ collections:
           - { name: hero_tagline, label: Phrase d'accroche, widget: string, i18n: true }
           - { name: status_badge, label: "Pastille d'état (ex. En développement, vide = masquée)", widget: string, required: false, i18n: true }
           - { name: hero_image, label: "Image principale de l'accueil (capture ou illustration, format paysage, facultatif)", widget: image, required: false, i18n: duplicate }
-          - { name: buy_label, label: "Texte du bouton principal (ex. Acheter sur Steam, Ajouter à la wishlist)", widget: string, i18n: true }
-          - { name: buy_url, label: "Adresse du bouton principal (page de vente ou wishlist, https://…). Laisser #suivre tant que le jeu n'est pas en vente.", widget: string, i18n: duplicate }
+          - { name: buy_url, label: "Lien pour acheter le jeu (https://…). Laisser vide tant que le jeu n'est pas en vente.", widget: string, required: false, i18n: duplicate }
+          - { name: demo_url, label: "Lien de la démo gratuite (https://…). Laisser vide s'il n'y en a pas.", widget: string, required: false, i18n: duplicate }
           - name: facts
             label: "Fiche du jeu (genre, plateformes, date de sortie, prix…)"
             label_singular: information
