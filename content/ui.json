@@ -1,7 +1,7 @@
 {
   "fr": {
-    "title": "Pole Racer — La Formule 1 en 16 bits",
-    "desc": "Pole Racer, un jeu de course de Formule 1 au rendu Mode 7, par Indiana Games.",
+    "title": "Pole Racer — La Formule 1 en low poly",
+    "desc": "Pole Racer, un jeu de course de Formule 1 en low poly inspiré des jeux 16 bits, par Indiana Games.",
     "skip": "Aller au contenu",
     "nav_game": "Le jeu",
     "nav_trailer": "Trailer",
@@ -15,11 +15,14 @@
     "h_news": "Actus",
     "made_by": "un jeu",
     "no_news": "Pas encore d'actualité.",
-    "lang": "Langue"
+    "lang": "Langue",
+    "buy": "Acheter le jeu",
+    "demo": "Essayer la démo gratuite",
+    "follow": "Suivre le développement"
   },
   "en": {
-    "title": "Pole Racer — Formula 1 in 16-bit",
-    "desc": "Pole Racer, a Formula 1 racing game with a Mode 7 look, by Indiana Games.",
+    "title": "Pole Racer — Formula 1 in low poly",
+    "desc": "Pole Racer, a low-poly Formula 1 racing game inspired by 16-bit games, by Indiana Games.",
     "skip": "Skip to content",
     "nav_game": "The game",
     "nav_trailer": "Trailer",
@@ -33,11 +36,14 @@
     "h_news": "News",
     "made_by": "a game by",
     "no_news": "No news yet.",
-    "lang": "Language"
+    "lang": "Language",
+    "buy": "Buy the game",
+    "demo": "Try the free demo",
+    "follow": "Follow development"
   },
   "de": {
-    "title": "Pole Racer — Formel 1 in 16 Bit",
-    "desc": "Pole Racer, ein Formel-1-Rennspiel im Mode-7-Look von Indiana Games.",
+    "title": "Pole Racer — Formel 1 in Low Poly",
+    "desc": "Pole Racer, ein Low-Poly-Formel-1-Rennspiel im Geist der 16-Bit-Spiele von Indiana Games.",
     "skip": "Zum Inhalt springen",
     "nav_game": "Das Spiel",
     "nav_trailer": "Trailer",
@@ -51,11 +57,14 @@
     "h_news": "News",
     "made_by": "ein Spiel von",
     "no_news": "Noch keine News.",
-    "lang": "Sprache"
+    "lang": "Sprache",
+    "buy": "Spiel kaufen",
+    "demo": "Gratis-Demo spielen",
+    "follow": "Entwicklung verfolgen"
   },
   "es": {
-    "title": "Pole Racer — La Fórmula 1 en 16 bits",
-    "desc": "Pole Racer, un juego de carreras de Fórmula 1 con aspecto Mode 7, de Indiana Games.",
+    "title": "Pole Racer — La Fórmula 1 en low poly",
+    "desc": "Pole Racer, un juego de carreras de Fórmula 1 en low poly inspirado en los juegos de 16 bits, de Indiana Games.",
     "skip": "Saltar al contenido",
     "nav_game": "El juego",
     "nav_trailer": "Tráiler",
@@ -69,11 +78,14 @@
     "h_news": "Novedades",
     "made_by": "un juego de",
     "no_news": "Aún no hay novedades.",
-    "lang": "Idioma"
+    "lang": "Idioma",
+    "buy": "Comprar el juego",
+    "demo": "Probar la demo gratis",
+    "follow": "Seguir el desarrollo"
   },
   "it": {
-    "title": "Pole Racer — La Formula 1 a 16 bit",
-    "desc": "Pole Racer, un gioco di corse di Formula 1 dall'aspetto Mode 7, di Indiana Games.",
+    "title": "Pole Racer — La Formula 1 in low poly",
+    "desc": "Pole Racer, un gioco di corse di Formula 1 in low poly ispirato ai giochi a 16 bit, di Indiana Games.",
     "skip": "Vai al contenuto",
     "nav_game": "Il gioco",
     "nav_trailer": "Trailer",
@@ -87,11 +99,14 @@
     "h_news": "Novità",
     "made_by": "un gioco di",
     "no_news": "Ancora nessuna novità.",
-    "lang": "Lingua"
+    "lang": "Lingua",
+    "buy": "Acquista il gioco",
+    "demo": "Prova la demo gratuita",
+    "follow": "Segui lo sviluppo"
   },
   "ar": {
-    "title": "Pole Racer — فورمولا 1 بنظام 16 بت",
-    "desc": "Pole Racer، لعبة سباقات فورمولا 1 بمظهر Mode 7 من Indiana Games.",
+    "title": "Pole Racer — فورمولا 1 بأسلوب لو بولي",
+    "desc": "Pole Racer، لعبة سباقات فورمولا 1 بأسلوب لو بولي مستوحاة من ألعاب 16 بت، من Indiana Games.",
     "skip": "انتقل إلى المحتوى",
     "nav_game": "اللعبة",
     "nav_trailer": "العرض الترويجي",
@@ -105,6 +120,9 @@
     "h_news": "الأخبار",
     "made_by": "لعبة من",
     "no_news": "لا توجد أخبار بعد.",
-    "lang": "اللغة"
+    "lang": "اللغة",
+    "buy": "اشترِ اللعبة",
+    "demo": "جرّب النسخة التجريبية المجانية",
+    "follow": "تابعوا التطوير"
   }
 }
