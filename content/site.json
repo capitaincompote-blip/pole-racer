@@ -2,7 +2,7 @@
   "fr": {
     "hero_title": "POLE RACER",
     "hero_tagline": "La Formule 1 en low poly, inspirée des jeux 16 bits.",
-    "status_badge": "En développement",
+    "status_badge": "Sortie en décembre 2026",
     "hero_image": "",
     "buy_url": "",
     "facts": [
@@ -16,7 +16,7 @@
       },
       {
         "label": "Statut",
-        "value": "En développement"
+        "value": "Sortie en décembre 2026"
       },
       {
         "label": "Studio",
@@ -48,7 +48,7 @@
       }
     ],
     "cta_title": "Prêt pour le départ ?",
-    "cta_text": "Pole Racer est en développement. Suis le projet pour connaître la date de sortie dès qu'elle est annoncée.",
+    "cta_text": "Démo gratuite disponible, sortie en décembre 2026. Suis le projet pour ne rien manquer.",
     "links": [
       {
         "label": "Chaîne YouTube Indiana Games",
@@ -59,12 +59,12 @@
         "url": "https://www.facebook.com/indianagames09"
       }
     ],
-    "demo_url": ""
+    "demo_url": "https://indiana-games.itch.io/pole-racer"
   },
   "en": {
     "hero_title": "POLE RACER",
     "hero_tagline": "Formula 1 in low poly, inspired by 16-bit games.",
-    "status_badge": "In development",
+    "status_badge": "Out December 2026",
     "hero_image": "",
     "buy_url": "",
     "facts": [
@@ -78,7 +78,7 @@
       },
       {
         "label": "Status",
-        "value": "In development"
+        "value": "Out December 2026"
       },
       {
         "label": "Studio",
@@ -110,7 +110,7 @@
       }
     ],
     "cta_title": "Ready for the start?",
-    "cta_text": "Pole Racer is in development. Follow the project to hear the release date as soon as it's announced.",
+    "cta_text": "Free demo available, out December 2026. Follow the project to stay up to date.",
     "links": [
       {
         "label": "Indiana Games YouTube channel",
@@ -121,12 +121,12 @@
         "url": "https://www.facebook.com/indianagames09"
       }
     ],
-    "demo_url": ""
+    "demo_url": "https://indiana-games.itch.io/pole-racer"
   },
   "de": {
     "hero_title": "POLE RACER",
     "hero_tagline": "Formel 1 in Low Poly, inspiriert von 16-Bit-Spielen.",
-    "status_badge": "In Entwicklung",
+    "status_badge": "Erscheint im Dezember 2026",
     "hero_image": "",
     "buy_url": "",
     "facts": [
@@ -140,7 +140,7 @@
       },
       {
         "label": "Status",
-        "value": "In Entwicklung"
+        "value": "Erscheint im Dezember 2026"
       },
       {
         "label": "Studio",
@@ -172,7 +172,7 @@
       }
     ],
     "cta_title": "Bereit für den Start?",
-    "cta_text": "Pole Racer befindet sich in Entwicklung. Folge dem Projekt, um den Release-Termin zu erfahren, sobald er feststeht.",
+    "cta_text": "Kostenlose Demo verfügbar, Release im Dezember 2026. Folge dem Projekt, um nichts zu verpassen.",
     "links": [
       {
         "label": "YouTube-Kanal von Indiana Games",
@@ -183,12 +183,12 @@
         "url": "https://www.facebook.com/indianagames09"
       }
     ],
-    "demo_url": ""
+    "demo_url": "https://indiana-games.itch.io/pole-racer"
   },
   "es": {
     "hero_title": "POLE RACER",
     "hero_tagline": "La Fórmula 1 en low poly, inspirada en los juegos de 16 bits.",
-    "status_badge": "En desarrollo",
+    "status_badge": "Lanzamiento en diciembre de 2026",
     "hero_image": "",
     "buy_url": "",
     "facts": [
@@ -202,7 +202,7 @@
       },
       {
         "label": "Estado",
-        "value": "En desarrollo"
+        "value": "Lanzamiento en diciembre de 2026"
       },
       {
         "label": "Estudio",
@@ -234,7 +234,7 @@
       }
     ],
     "cta_title": "¿Listo para la salida?",
-    "cta_text": "Pole Racer está en desarrollo. Sigue el proyecto para conocer la fecha de lanzamiento en cuanto se anuncie.",
+    "cta_text": "Demo gratuita disponible, lanzamiento en diciembre de 2026. Sigue el proyecto para no perderte nada.",
     "links": [
       {
         "label": "Canal de YouTube de Indiana Games",
@@ -245,12 +245,12 @@
         "url": "https://www.facebook.com/indianagames09"
       }
     ],
-    "demo_url": ""
+    "demo_url": "https://indiana-games.itch.io/pole-racer"
   },
   "it": {
     "hero_title": "POLE RACER",
     "hero_tagline": "La Formula 1 in low poly, ispirata ai giochi a 16 bit.",
-    "status_badge": "In sviluppo",
+    "status_badge": "In uscita a dicembre 2026",
     "hero_image": "",
     "buy_url": "",
     "facts": [
@@ -264,7 +264,7 @@
       },
       {
         "label": "Stato",
-        "value": "In sviluppo"
+        "value": "In uscita a dicembre 2026"
       },
       {
         "label": "Studio",
@@ -296,7 +296,7 @@
       }
     ],
     "cta_title": "Pronto per la partenza?",
-    "cta_text": "Pole Racer è in sviluppo. Segui il progetto per conoscere la data di uscita non appena sarà annunciata.",
+    "cta_text": "Demo gratuita disponibile, uscita a dicembre 2026. Segui il progetto per non perdere nulla.",
     "links": [
       {
         "label": "Canale YouTube di Indiana Games",
@@ -307,12 +307,12 @@
         "url": "https://www.facebook.com/indianagames09"
       }
     ],
-    "demo_url": ""
+    "demo_url": "https://indiana-games.itch.io/pole-racer"
   },
   "ar": {
     "hero_title": "POLE RACER",
     "hero_tagline": "فورمولا 1 بأسلوب لو بولي، مستوحاة من ألعاب 16 بت.",
-    "status_badge": "قيد التطوير",
+    "status_badge": "الإصدار في ديسمبر 2026",
     "hero_image": "",
     "buy_url": "",
     "facts": [
@@ -326,7 +326,7 @@
       },
       {
         "label": "الحالة",
-        "value": "قيد التطوير"
+        "value": "الإصدار في ديسمبر 2026"
       },
       {
         "label": "الاستوديو",
@@ -358,7 +358,7 @@
       }
     ],
     "cta_title": "هل أنت مستعد للانطلاق؟",
-    "cta_text": "Pole Racer قيد التطوير. تابعوا المشروع لتعرفوا موعد الإصدار فور الإعلان عنه.",
+    "cta_text": "النسخة التجريبية المجانية متاحة، والإصدار في ديسمبر 2026. تابع المشروع كي لا يفوتك شيء.",
     "links": [
       {
         "label": "قناة Indiana Games على يوتيوب",
@@ -369,6 +369,6 @@
         "url": "https://www.facebook.com/indianagames09"
       }
     ],
-    "demo_url": ""
+    "demo_url": "https://indiana-games.itch.io/pole-racer"
   }
 }
