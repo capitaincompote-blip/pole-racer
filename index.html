@@ -23,8 +23,7 @@
   <a class="logo" href="#top">Pole Racer</a>
   <nav class="menu">
     <a href="#jeu" data-i18n="nav_game">Le jeu</a>
-    <a href="#trailer" data-section="trailer" data-i18n="nav_trailer">Trailer</a>
-    <a href="#galerie" data-section="galerie" data-i18n="nav_gallery">Captures</a>
+    <a href="#medias" data-i18n="nav_media">Médias</a>
     <a href="#actus" data-i18n="nav_news">Actus</a>
   </nav>
   <div class="nav-right">
@@ -44,7 +43,7 @@
         <div class="cta-row">
           <a id="buyBtn" class="btn btn-primary" href="#suivre"></a>
           <a id="demoBtn" class="btn btn-light" href="#suivre" hidden></a>
-          <a id="trailerBtn" class="btn btn-ghost" href="#trailer" data-i18n="watch_trailer" hidden>Voir le trailer</a>
+          <a id="trailerBtn" class="btn btn-ghost" href="#medias" data-i18n="watch_trailer" hidden>Voir le trailer</a>
         </div>
       </div>
       <aside class="tower">
@@ -63,24 +62,30 @@
       </div>
       <ul id="features" class="features"></ul>
     </div>
+    <div id="showcaseWrap" class="wrap showcase-wrap" hidden>
+      <ul id="showcase" class="showcase"></ul>
+    </div>
     <div id="detailsWrap" class="wrap details-wrap" hidden>
       <h3 class="h3" data-i18n="h_details">Le jeu en détail</h3>
       <ul id="details" class="details"></ul>
     </div>
   </section>
 
-  <section id="trailer" class="sec sec-alt" hidden>
+  <section id="medias" class="sec sec-alt">
     <div class="wrap">
-      <h2 class="h2" data-i18n="h_trailer">Trailer</h2>
-      <div id="videomain" class="video-main"></div>
-      <div id="videolist" class="videos"></div>
-    </div>
-  </section>
-
-  <section id="galerie" class="sec" hidden>
-    <div class="wrap">
-      <h2 class="h2" data-i18n="h_gallery">Captures d'écran</h2>
-      <div id="gallery" class="gallery"></div>
+      <h2 class="h2" data-i18n="h_media">Médias</h2>
+      <div class="tabs" role="tablist">
+        <button type="button" role="tab" id="tabPhotos" aria-selected="true" aria-controls="panePhotos" data-i18n="tab_photos">Photos</button>
+        <button type="button" role="tab" id="tabVideos" aria-selected="false" aria-controls="paneVideos" data-i18n="tab_videos">Vidéos</button>
+      </div>
+      <div id="panePhotos" role="tabpanel" aria-labelledby="tabPhotos">
+        <div id="gallery" class="gallery"></div>
+      </div>
+      <div id="paneVideos" role="tabpanel" aria-labelledby="tabVideos" hidden>
+        <div id="videomain" class="video-main"></div>
+        <div id="videolist" class="videos"></div>
+        <p id="videoEmpty" class="empty" data-i18n="no_videos">La bande-annonce arrive bientôt.</p>
+      </div>
     </div>
   </section>
 
