@@ -334,6 +334,32 @@
         "image": "/images/details/fr-7.webp",
         "caption": "F1 redessinée, dégâts, multijoueur et mode photo"
       }
+    ],
+    "showcase": [
+      {
+        "image": "/images/jeu/10-panorama-alsace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/03-vue-aerienne.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/11-noel-nuit.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/05-virage-drs.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/06-mode-photo.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "caption": ""
+      }
     ]
   },
   "en": {
@@ -670,6 +696,32 @@
       {
         "image": "/images/details/en-7.webp",
         "caption": "Redesigned car, damage, multiplayer and photo mode"
+      }
+    ],
+    "showcase": [
+      {
+        "image": "/images/jeu/10-panorama-alsace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/03-vue-aerienne.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/11-noel-nuit.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/05-virage-drs.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/06-mode-photo.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "caption": ""
       }
     ]
   },
@@ -1008,6 +1060,32 @@
         "image": "/images/details/en-7.webp",
         "caption": "Redesigned car, damage, multiplayer and photo mode"
       }
+    ],
+    "showcase": [
+      {
+        "image": "/images/jeu/10-panorama-alsace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/03-vue-aerienne.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/11-noel-nuit.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/05-virage-drs.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/06-mode-photo.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "caption": ""
+      }
     ]
   },
   "es": {
@@ -1344,6 +1422,32 @@
       {
         "image": "/images/details/en-7.webp",
         "caption": "Redesigned car, damage, multiplayer and photo mode"
+      }
+    ],
+    "showcase": [
+      {
+        "image": "/images/jeu/10-panorama-alsace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/03-vue-aerienne.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/11-noel-nuit.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/05-virage-drs.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/06-mode-photo.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "caption": ""
       }
     ]
   },
@@ -1682,6 +1786,32 @@
         "image": "/images/details/en-7.webp",
         "caption": "Redesigned car, damage, multiplayer and photo mode"
       }
+    ],
+    "showcase": [
+      {
+        "image": "/images/jeu/10-panorama-alsace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/03-vue-aerienne.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/11-noel-nuit.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/05-virage-drs.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/06-mode-photo.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "caption": ""
+      }
     ]
   },
   "ar": {
@@ -2018,6 +2148,32 @@
       {
         "image": "/images/details/en-7.webp",
         "caption": "Redesigned car, damage, multiplayer and photo mode"
+      }
+    ],
+    "showcase": [
+      {
+        "image": "/images/jeu/10-panorama-alsace.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/03-vue-aerienne.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/11-noel-nuit.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/05-virage-drs.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/06-mode-photo.webp",
+        "caption": ""
+      },
+      {
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "caption": ""
       }
     ]
   }
