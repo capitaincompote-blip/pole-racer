@@ -60,7 +60,8 @@
     $("lang").value = lang;
   }
 
-  function openLightbox(i) {
+  function openLightbox(i, list) {
+    var arr = list || shots;
     var cur = i;
     var img = el("img", { src: "", alt: "" });
     var lb = el("div", { "class": "lightbox", role: "dialog", "aria-modal": "true" }, [img]);
@@ -69,8 +70,8 @@
     var next = el("button", { "class": "n", type: "button", "aria-label": "›", text: rtl ? "‹" : "›" });
     var close = el("button", { "class": "x", type: "button", "aria-label": "×", text: "×" });
     function show(k) {
-      cur = (k + shots.length) % shots.length;
-      img.src = shots[cur].src; img.alt = shots[cur].alt;
+      cur = (k + arr.length) % arr.length;
+      img.src = arr[cur].src; img.alt = arr[cur].alt;
     }
     function end() { document.removeEventListener("keydown", key); lb.remove(); }
     function key(e) {
@@ -146,6 +147,18 @@
       }));
       vids.slice(1).forEach(function (x) { vl.appendChild(frame(x, "video-small")); });
     }
+
+    /* Le jeu en détail */
+    var dl = $("details"); clear(dl);
+    var dshots = [];
+    get("details").filter(function (it) { return it.image; }).forEach(function (it, i) {
+      var alt = it.caption || "Pole Racer";
+      dshots.push({ src: safeUrl(it.image), alt: alt });
+      var b = el("button", { type: "button", "aria-label": alt }, [el("img", { src: safeUrl(it.image), alt: "", loading: "lazy", width: "1080", height: "1350" })]);
+      b.addEventListener("click", function () { openLightbox(i, dshots); });
+      dl.appendChild(el("li", {}, [b]));
+    });
+    $("detailsWrap").hidden = !dshots.length;
 
     /* Galerie */
     var gal = $("gallery"); clear(gal); shots = [];
