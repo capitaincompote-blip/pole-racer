@@ -112,6 +112,15 @@ h1 .w:nth-child(2){animation-delay:.14s}
 .links a{display:inline-block;text-decoration:none;font-weight:600;padding:13px 24px;border-radius:999px;border:2px solid rgba(255,255,255,.7);transition:background .15s,color .15s}
 .links a:hover{background:#fff;color:var(--soft)}
 
+.btn-light{background:var(--hard);color:var(--asphalt)}
+.btn-light:hover{background:#fff;transform:translateY(-2px)}
+.btn-white{background:#fff;color:var(--soft)}
+.btn-white:hover{transform:translateY(-2px)}
+.btn-outline{border-color:rgba(255,255,255,.8);color:#fff}
+.btn-outline:hover{background:#fff;color:var(--soft)}
+.cta-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:26px}
+.cta-actions:not(:has(a:not([hidden]))){display:none}
+
 .footer{padding:34px 24px;text-align:center;color:var(--muted);font-size:15px}
 .footer a{color:var(--hard)}
 
