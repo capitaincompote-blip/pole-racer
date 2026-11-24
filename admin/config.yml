@@ -50,6 +50,15 @@ collections:
             fields:
               - { name: title, label: Titre, widget: string }
               - { name: text, label: Description, widget: text }
+          - name: showcase
+            label: "Grandes images de la partie « Le jeu » (1re = grande image, 6 conseillées, identiques dans toutes les langues)"
+            label_singular: image
+            widget: list
+            required: false
+            i18n: duplicate
+            fields:
+              - { name: image, label: Image (format paysage), widget: image }
+              - { name: caption, label: Légende (facultative), widget: string, required: false }
           - name: details
             label: "Visuels de la partie « Le jeu en détail » (affiches 4:5, une série par langue)"
             label_singular: visuel
