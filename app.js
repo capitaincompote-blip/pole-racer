@@ -95,9 +95,17 @@
     t.setAttribute("aria-label", get("hero_title") || "Pole Racer");
     $("tagline").textContent = get("hero_tagline");
     $("badge").textContent = get("status_badge");
-    var label = get("buy_label"), url = get("buy_url");
-    setLink($("buyBtn"), label, url);
-    setLink($("navBuy"), label, url);
+    var buy = get("buy_url"), demo = get("demo_url");
+    var hasBuy = /^https?:/i.test(buy), hasDemo = /^https?:/i.test(demo);
+    var primary = hasBuy ? [ui("buy"), buy] : hasDemo ? [ui("demo"), demo] : [ui("follow"), "#suivre"];
+    setLink($("buyBtn"), primary[0], primary[1]);
+    setLink($("navBuy"), primary[0], primary[1]);
+    $("demoBtn").hidden = !(hasBuy && hasDemo);
+    if (hasBuy && hasDemo) setLink($("demoBtn"), ui("demo"), demo);
+    $("ctaBuy").hidden = !hasBuy;
+    if (hasBuy) setLink($("ctaBuy"), ui("buy"), buy);
+    $("ctaDemo").hidden = !hasDemo;
+    if (hasDemo) setLink($("ctaDemo"), ui("demo"), demo);
 
     var hi = get("hero_image");
     $("heroImg").hidden = !hi;
