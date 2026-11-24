@@ -22,6 +22,17 @@
       if (p.trim()) container.appendChild(el("p", { text: p.trim() }));
     });
   }
+  function richText(container, text) {
+    String(text || "").split(/\n{2,}/).forEach(function (b) {
+      b = b.trim(); if (!b) return;
+      var lines = b.split("\n");
+      if (/^## /.test(b)) { container.appendChild(el("h4", { text: b.replace(/^##\s*/, "") })); return; }
+      if (lines.every(function (l) { return /^- /.test(l); })) {
+        var ul = el("ul"); lines.forEach(function (l) { ul.appendChild(el("li", { text: l.replace(/^- /, "") })); }); container.appendChild(ul); return;
+      }
+      container.appendChild(el("p", { text: b }));
+    });
+  }
   function safeUrl(u) { return /^(https?:\/\/|\/|#|mailto:)/i.test(u || "") ? u : "#"; }
   function ytId(v) {
     var m = String(v || "").match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([\w-]{11})/);
@@ -180,10 +191,11 @@
     var nb = $("news"); clear(nb);
     var news = get("news").slice().sort(function (a, b) { return new Date(b.date) - new Date(a.date); });
     news.forEach(function (n) {
-      var body = el("div"); paragraphs(body, n.body);
+      var body = el("div"); richText(body, n.body);
       var main = el("div", {}, [el("h3", { text: n.title || "" })]);
       if (n.image) main.appendChild(el("img", { src: safeUrl(n.image), alt: n.title || "", loading: "lazy" }));
       main.appendChild(body);
+      if (n.url) { var more = el("a", { href: safeUrl(n.url), target: "_blank", rel: "noopener", text: ui("read_more") || "Lire sur itch.io" }); more.className = "more"; main.appendChild(more); }
       nb.appendChild(el("article", {}, [el("time", { text: fmtDate(n.date) }), main]));
     });
     if (!news.length) nb.appendChild(el("p", { text: ui("no_news") }));
