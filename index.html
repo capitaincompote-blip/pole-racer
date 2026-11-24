@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pole Racer — Jeu de course F1 rétro 16 bits</title>
+<meta name="description" content="Pole Racer, un jeu de course de Formule 1 au look Super Nintendo, par Indiana Games.">
+<meta property="og:title" content="Pole Racer">
+<meta property="og:description" content="Jeu de course F1 rétro 16 bits par Indiana Games.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pole-racer.com/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top">POLE RACER</a>
+  <nav>
+    <a href="#actus" data-i18n="nav_news">Actus</a>
+    <a href="#jeu" data-i18n="nav_game">Le jeu</a>
+    <a href="#galerie" data-section="galerie" data-i18n="nav_gallery">Galerie</a>
+    <a href="#videos" data-section="videos" data-i18n="nav_videos">Vidéos</a>
+    <a href="#liens" data-i18n="nav_links">Liens</a>
+    <select id="lang" class="lang"></select>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <canvas id="road" aria-hidden="true"></canvas>
+    <div class="hero-text">
+      <span class="badge" id="badge"></span>
+      <h1 id="title">POLE RACER</h1>
+      <p id="tagline"></p>
+      <a class="btn" href="#actus" data-i18n="btn_news">Dernières actus</a>
+    </div>
+  </section>
+
+  <section id="actus" class="block">
+    <h2 data-i18n="h_news">Actus</h2>
+    <div id="news" class="news"></div>
+  </section>
+
+  <section id="jeu" class="block alt">
+    <h2 data-i18n="h_game">Le jeu</h2>
+    <div id="about" class="about"></div>
+    <div id="features" class="cards"></div>
+  </section>
+
+  <section id="galerie" class="block" hidden>
+    <h2 data-i18n="h_gallery">Galerie</h2>
+    <div id="gallery" class="gallery"></div>
+  </section>
+
+  <section id="videos" class="block alt" hidden>
+    <h2 data-i18n="h_videos">Vidéos</h2>
+    <div id="videolist" class="videos"></div>
+  </section>
+
+  <section id="liens" class="block">
+    <h2 data-i18n="h_links">Suivre Indiana Games</h2>
+    <div id="links" class="links"></div>
+  </section>
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Pole Racer — <span data-i18n="made_by">un jeu</span> <a href="https://indianagames.pages.dev">Indiana Games</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
