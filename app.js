@@ -189,14 +189,14 @@
 
     /* Actus */
     var nb = $("news"); clear(nb);
-    var news = get("news").slice().sort(function (a, b) { return new Date(b.date) - new Date(a.date); });
+    var news = get("news").slice().sort(function (a, b) { return (new Date(b.date) - new Date(a.date)) || ((b.num || 0) - (a.num || 0)); });
     news.forEach(function (n) {
       var body = el("div"); richText(body, n.body);
       var main = el("div", {}, [el("h3", { text: n.title || "" })]);
       if (n.image) main.appendChild(el("img", { src: safeUrl(n.image), alt: n.title || "", loading: "lazy" }));
       main.appendChild(body);
       if (n.url) { var more = el("a", { href: safeUrl(n.url), target: "_blank", rel: "noopener", text: ui("read_more") || "Lire sur itch.io" }); more.className = "more"; main.appendChild(more); }
-      nb.appendChild(el("article", {}, [el("time", { text: fmtDate(n.date) }), main]));
+      nb.appendChild(el("article", {}, [el("time", { text: n.num ? "Devlog #" + n.num : fmtDate(n.date) }), main]));
     });
     if (!news.length) nb.appendChild(el("p", { text: ui("no_news") }));
 
