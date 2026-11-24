@@ -50,6 +50,16 @@ collections:
             fields:
               - { name: title, label: Titre, widget: string }
               - { name: text, label: Description, widget: text }
+          - name: details
+            label: "Visuels de la partie « Le jeu en détail » (affiches 4:5, une série par langue)"
+            label_singular: visuel
+            widget: list
+            required: false
+            i18n: true
+            summary: "{{fields.caption}}"
+            fields:
+              - { name: image, label: Image, widget: image }
+              - { name: caption, label: "Description courte (lue par les lecteurs d'écran)", widget: string, required: false }
           - name: videos
             label: "Vidéos YouTube (la première est le trailer mis en avant)"
             label_singular: vidéo
