@@ -50,6 +50,7 @@ collections:
             fields:
               - { name: title, label: Titre, widget: string }
               - { name: text, label: Description, widget: text }
+              - { name: image, label: Image (facultatif), widget: image, required: false }
           - name: showcase
             label: "Grandes images de la partie « Le jeu » (1re = grande image, 6 conseillées, identiques dans toutes les langues)"
             label_singular: image
