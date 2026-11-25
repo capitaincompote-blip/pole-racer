@@ -18,6 +18,7 @@ i18n:
 collections:
   - name: site
     label: Site Pole Racer
+    i18n: true
     files:
       - name: contenu
         label: Contenu du site
