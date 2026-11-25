@@ -27,27 +27,33 @@
     "features": [
       {
         "title": "Jusqu'à 4 joueurs en écran partagé",
-        "text": "Chaque place peut être confiée à un bot. Turbo et rattrapage maintiennent le peloton groupé."
+        "text": "Chaque place peut être confiée à un bot. Turbo et rattrapage maintiennent le peloton groupé.",
+        "image": "/images/guide/multi.webp"
       },
       {
         "title": "Un vrai championnat",
-        "text": "Plusieurs courses, des points, un classement : en solo comme à plusieurs, bots et IA compris."
+        "text": "Plusieurs courses, des points, un classement : en solo comme à plusieurs, bots et IA compris.",
+        "image": "/images/jeu/08-vallee-doree.webp"
       },
       {
         "title": "Des réglages de vraie F1",
-        "text": "Ailerons, suspension, pneus, freins, direction, arrêt au stand et boîte manuelle réglable rapport par rapport."
+        "text": "Ailerons, suspension, pneus, freins, direction, arrêt au stand et boîte manuelle réglable rapport par rapport.",
+        "image": "/images/guide/monoplace.webp"
       },
       {
         "title": "Des circuits pour chaque ambiance",
-        "text": "De la route des vins à la forêt de Noël, avec pluie, nuit et neige. Trois nouveaux circuits par mois après la sortie."
+        "text": "De la route des vins à la forêt de Noël, avec pluie, nuit et neige. Trois nouveaux circuits par mois après la sortie.",
+        "image": "/images/jeu/13-noel-aurore.webp"
       },
       {
         "title": "Fantômes et médailles",
-        "text": "Affronte ton fantôme, celui d'un ami ou la référence, et vise la platine sur chaque circuit."
+        "text": "Affronte ton fantôme, celui d'un ami ou la référence, et vise la platine sur chaque circuit.",
+        "image": "/images/jeu/02-vue-dessus.webp"
       },
       {
         "title": "Un vrai mode photo",
-        "text": "Caméra libre sur tout le circuit, filtres, cadre 16:9 ou carré et logo du jeu en option."
+        "text": "Caméra libre sur tout le circuit, filtres, cadre 16:9 ou carré et logo du jeu en option.",
+        "image": "/images/jeu/06-mode-photo.webp"
       }
     ],
     "videos": [
@@ -407,27 +413,33 @@
     "features": [
       {
         "title": "Up to 4 players, split screen",
-        "text": "Any seat can be a bot. Turbo and catch-up keep the pack together."
+        "text": "Any seat can be a bot. Turbo and catch-up keep the pack together.",
+        "image": "/images/guide/multi.webp"
       },
       {
         "title": "A real championship",
-        "text": "Several races, points and standings: solo or with friends, bots and AI included."
+        "text": "Several races, points and standings: solo or with friends, bots and AI included.",
+        "image": "/images/jeu/08-vallee-doree.webp"
       },
       {
         "title": "Real F1 setups",
-        "text": "Wings, suspension, tyres, brakes, steering, pit stops and a manual gearbox you tune gear by gear."
+        "text": "Wings, suspension, tyres, brakes, steering, pit stops and a manual gearbox you tune gear by gear.",
+        "image": "/images/guide/monoplace.webp"
       },
       {
         "title": "A track for every mood",
-        "text": "From the wine route to the Christmas forest, with rain, night and snow. Three new circuits every month after launch."
+        "text": "From the wine route to the Christmas forest, with rain, night and snow. Three new circuits every month after launch.",
+        "image": "/images/jeu/13-noel-aurore.webp"
       },
       {
         "title": "Ghosts and medals",
-        "text": "Race your own ghost, a friend's or the reference, and chase platinum on every circuit."
+        "text": "Race your own ghost, a friend's or the reference, and chase platinum on every circuit.",
+        "image": "/images/jeu/02-vue-dessus.webp"
       },
       {
         "title": "A real photo mode",
-        "text": "Free camera over the whole circuit, filters, 16:9 or square frame and an optional game logo."
+        "text": "Free camera over the whole circuit, filters, 16:9 or square frame and an optional game logo.",
+        "image": "/images/jeu/06-mode-photo.webp"
       }
     ],
     "videos": [
@@ -787,27 +799,33 @@
     "features": [
       {
         "title": "Bis zu 4 Spieler im Splitscreen",
-        "text": "Jeder Platz kann ein Bot sein. Turbo und Aufholhilfe halten das Feld zusammen."
+        "text": "Jeder Platz kann ein Bot sein. Turbo und Aufholhilfe halten das Feld zusammen.",
+        "image": "/images/guide/multi.webp"
       },
       {
         "title": "Eine richtige Meisterschaft",
-        "text": "Mehrere Rennen, Punkte und Wertung: allein oder mit Freunden, Bots und KI inklusive."
+        "text": "Mehrere Rennen, Punkte und Wertung: allein oder mit Freunden, Bots und KI inklusive.",
+        "image": "/images/jeu/08-vallee-doree.webp"
       },
       {
         "title": "Setups wie in der echten F1",
-        "text": "Flügel, Federung, Reifen, Bremsen, Lenkung, Boxenstopps und ein manuelles Getriebe, das du Gang für Gang abstimmst."
+        "text": "Flügel, Federung, Reifen, Bremsen, Lenkung, Boxenstopps und ein manuelles Getriebe, das du Gang für Gang abstimmst.",
+        "image": "/images/guide/monoplace.webp"
       },
       {
         "title": "Eine Strecke für jede Stimmung",
-        "text": "Von der Weinstraße bis zum Weihnachtswald, mit Regen, Nacht und Schnee. Nach dem Start kommen jeden Monat drei neue Strecken."
+        "text": "Von der Weinstraße bis zum Weihnachtswald, mit Regen, Nacht und Schnee. Nach dem Start kommen jeden Monat drei neue Strecken.",
+        "image": "/images/jeu/13-noel-aurore.webp"
       },
       {
         "title": "Geister und Medaillen",
-        "text": "Fahre gegen deinen eigenen Geist, den eines Freundes oder die Referenz und jage Platin auf jeder Strecke."
+        "text": "Fahre gegen deinen eigenen Geist, den eines Freundes oder die Referenz und jage Platin auf jeder Strecke.",
+        "image": "/images/jeu/02-vue-dessus.webp"
       },
       {
         "title": "Ein echter Fotomodus",
-        "text": "Freie Kamera über die ganze Strecke, Filter, Bildformat 16:9 oder quadratisch und optionales Spiellogo."
+        "text": "Freie Kamera über die ganze Strecke, Filter, Bildformat 16:9 oder quadratisch und optionales Spiellogo.",
+        "image": "/images/jeu/06-mode-photo.webp"
       }
     ],
     "videos": [
@@ -1167,27 +1185,33 @@
     "features": [
       {
         "title": "Hasta 4 jugadores en pantalla dividida",
-        "text": "Cualquier plaza puede ser un bot. El turbo y la ayuda de remontada mantienen unido al pelotón."
+        "text": "Cualquier plaza puede ser un bot. El turbo y la ayuda de remontada mantienen unido al pelotón.",
+        "image": "/images/guide/multi.webp"
       },
       {
         "title": "Un campeonato de verdad",
-        "text": "Varias carreras, puntos y clasificación: en solitario o con amigos, bots e IA incluidos."
+        "text": "Varias carreras, puntos y clasificación: en solitario o con amigos, bots e IA incluidos.",
+        "image": "/images/jeu/08-vallee-doree.webp"
       },
       {
         "title": "Reglajes de F1 de verdad",
-        "text": "Alerones, suspensión, neumáticos, frenos, dirección, paradas en boxes y una caja manual que ajustas marcha por marcha."
+        "text": "Alerones, suspensión, neumáticos, frenos, dirección, paradas en boxes y una caja manual que ajustas marcha por marcha.",
+        "image": "/images/guide/monoplace.webp"
       },
       {
         "title": "Un circuito para cada ambiente",
-        "text": "De la ruta del vino al bosque de Navidad, con lluvia, noche y nieve. Tres circuitos nuevos cada mes tras el lanzamiento."
+        "text": "De la ruta del vino al bosque de Navidad, con lluvia, noche y nieve. Tres circuitos nuevos cada mes tras el lanzamiento.",
+        "image": "/images/jeu/13-noel-aurore.webp"
       },
       {
         "title": "Fantasmas y medallas",
-        "text": "Corre contra tu fantasma, el de un amigo o el de referencia y busca el platino en cada circuito."
+        "text": "Corre contra tu fantasma, el de un amigo o el de referencia y busca el platino en cada circuito.",
+        "image": "/images/jeu/02-vue-dessus.webp"
       },
       {
         "title": "Un auténtico modo foto",
-        "text": "Cámara libre por todo el circuito, filtros, encuadre 16:9 o cuadrado y logotipo del juego opcional."
+        "text": "Cámara libre por todo el circuito, filtros, encuadre 16:9 o cuadrado y logotipo del juego opcional.",
+        "image": "/images/jeu/06-mode-photo.webp"
       }
     ],
     "videos": [
@@ -1547,27 +1571,33 @@
     "features": [
       {
         "title": "Fino a 4 giocatori in schermo diviso",
-        "text": "Ogni posto può essere un bot. Turbo e recupero tengono compatto il gruppo."
+        "text": "Ogni posto può essere un bot. Turbo e recupero tengono compatto il gruppo.",
+        "image": "/images/guide/multi.webp"
       },
       {
         "title": "Un vero campionato",
-        "text": "Più gare, punti e classifica: da soli o con gli amici, bot e IA compresi."
+        "text": "Più gare, punti e classifica: da soli o con gli amici, bot e IA compresi.",
+        "image": "/images/jeu/08-vallee-doree.webp"
       },
       {
         "title": "Assetti da vera F1",
-        "text": "Ali, sospensioni, gomme, freni, sterzo, pit stop e un cambio manuale da regolare marcia per marcia."
+        "text": "Ali, sospensioni, gomme, freni, sterzo, pit stop e un cambio manuale da regolare marcia per marcia.",
+        "image": "/images/guide/monoplace.webp"
       },
       {
         "title": "Un circuito per ogni atmosfera",
-        "text": "Dalla strada del vino alla foresta di Natale, con pioggia, notte e neve. Tre nuovi circuiti ogni mese dopo il lancio."
+        "text": "Dalla strada del vino alla foresta di Natale, con pioggia, notte e neve. Tre nuovi circuiti ogni mese dopo il lancio.",
+        "image": "/images/jeu/13-noel-aurore.webp"
       },
       {
         "title": "Fantasmi e medaglie",
-        "text": "Sfida il tuo fantasma, quello di un amico o quello di riferimento e punta al platino su ogni circuito."
+        "text": "Sfida il tuo fantasma, quello di un amico o quello di riferimento e punta al platino su ogni circuito.",
+        "image": "/images/jeu/02-vue-dessus.webp"
       },
       {
         "title": "Una vera modalità foto",
-        "text": "Camera libera su tutto il circuito, filtri, inquadratura 16:9 o quadrata e logo del gioco opzionale."
+        "text": "Camera libera su tutto il circuito, filtri, inquadratura 16:9 o quadrata e logo del gioco opzionale.",
+        "image": "/images/jeu/06-mode-photo.webp"
       }
     ],
     "videos": [
@@ -1927,27 +1957,33 @@
     "features": [
       {
         "title": "حتى 4 لاعبين بشاشة مقسّمة",
-        "text": "يمكن أن يكون أي مقعد بوت. التوربو والمساعدة على اللحاق يُبقيان المتسابقين متقاربين."
+        "text": "يمكن أن يكون أي مقعد بوت. التوربو والمساعدة على اللحاق يُبقيان المتسابقين متقاربين.",
+        "image": "/images/guide/multi.webp"
       },
       {
         "title": "بطولة حقيقية",
-        "text": "عدة سباقات ونقاط وترتيب: بمفردك أو مع الأصدقاء، مع البوتات والذكاء الاصطناعي."
+        "text": "عدة سباقات ونقاط وترتيب: بمفردك أو مع الأصدقاء، مع البوتات والذكاء الاصطناعي.",
+        "image": "/images/jeu/08-vallee-doree.webp"
       },
       {
         "title": "إعدادات سيارة فورمولا 1 حقيقية",
-        "text": "الأجنحة والتعليق والإطارات والمكابح والتوجيه والتوقف في الكراج، وناقل حركة يدوي تضبطه ترسًا بترس."
+        "text": "الأجنحة والتعليق والإطارات والمكابح والتوجيه والتوقف في الكراج، وناقل حركة يدوي تضبطه ترسًا بترس.",
+        "image": "/images/guide/monoplace.webp"
       },
       {
         "title": "حلبة لكل أجواء",
-        "text": "من طريق النبيذ إلى غابة الميلاد، مع المطر والليل والثلج. ثلاث حلبات جديدة كل شهر بعد الإطلاق."
+        "text": "من طريق النبيذ إلى غابة الميلاد، مع المطر والليل والثلج. ثلاث حلبات جديدة كل شهر بعد الإطلاق.",
+        "image": "/images/jeu/13-noel-aurore.webp"
       },
       {
         "title": "أشباح وميداليات",
-        "text": "تسابق مع شبحك أو شبح صديق أو المرجع، وطارد الميدالية البلاتينية في كل حلبة."
+        "text": "تسابق مع شبحك أو شبح صديق أو المرجع، وطارد الميدالية البلاتينية في كل حلبة.",
+        "image": "/images/jeu/02-vue-dessus.webp"
       },
       {
         "title": "وضع تصوير حقيقي",
-        "text": "كاميرا حرة فوق الحلبة كاملة، وفلاتر وإطار 16:9 أو مربع وشعار اللعبة اختياريًا."
+        "text": "كاميرا حرة فوق الحلبة كاملة، وفلاتر وإطار 16:9 أو مربع وشعار اللعبة اختياريًا.",
+        "image": "/images/jeu/06-mode-photo.webp"
       }
     ],
     "videos": [
