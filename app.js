@@ -6,7 +6,7 @@
   var NAMES = { fr: "Français", en: "English", de: "Deutsch", es: "Español", ar: "العربية", it: "Italiano" };
   var DEFAULT = "fr";
   var RINGS = ["#ee2b24", "#ffcf1f", "#f4f5f8", "#35c46b"];
-  var SITE = null, UI = null, lang = DEFAULT, shots = [];
+  var SITE = null, UI = null, GUIDE = {}, lang = DEFAULT, shots = [];
 
   function el(tag, props, children) {
     var n = document.createElement(tag);
@@ -28,6 +28,17 @@
     $("tabVideos").setAttribute("aria-selected", String(videos));
     $("panePhotos").hidden = videos;
     $("paneVideos").hidden = !videos;
+  }
+  function gget(key) {
+    var cur = GUIDE[lang] || {}, base = GUIDE[DEFAULT] || {};
+    return (cur[key] && cur[key].length) ? cur[key] : (base[key] || []);
+  }
+  var guideReady = false;
+  function selectGuide(tips) {
+    $("tabManual").setAttribute("aria-selected", String(!tips));
+    $("tabTips").setAttribute("aria-selected", String(tips));
+    $("paneManual").hidden = tips;
+    $("paneTips").hidden = !tips;
   }
   function richText(container, text) {
     String(text || "").split(/\n{2,}/).forEach(function (b) {
@@ -223,6 +234,28 @@
     });
     if (!news.length) nb.appendChild(el("p", { text: ui("no_news") }));
 
+    /* Guide : notice et astuces */
+    if (!guideReady) {
+      guideReady = true;
+      $("tabManual").addEventListener("click", function () { selectGuide(false); });
+      $("tabTips").addEventListener("click", function () { selectGuide(true); });
+    }
+    var mn = $("manual"); clear(mn);
+    gget("manual").forEach(function (s, i) {
+      var body = el("div", { "class": "manual-body" });
+      if (s.image) body.appendChild(el("img", { src: safeUrl(s.image), alt: "", loading: "lazy" }));
+      var txt = el("div"); richText(txt, s.body); body.appendChild(txt);
+      var d = el("details", {}, [el("summary", { text: s.title || "" }), body]);
+      if (i === 0) d.open = true;
+      mn.appendChild(d);
+    });
+    var tp = $("tips"); clear(tp);
+    gget("tips").forEach(function (t) {
+      var li = el("li", {}, [el("h3", { text: t.title || "" })]);
+      richText(li, t.body); tp.appendChild(li);
+    });
+    $("guide").hidden = !gget("manual").length && !gget("tips").length;
+
     /* Appel à l'action et liens */
     $("ctaTitle").textContent = get("cta_title");
     $("ctaText").textContent = get("cta_text");
@@ -263,9 +296,10 @@
 
   Promise.all([
     fetch("content/site.json", { cache: "no-cache" }).then(function (r) { return r.json(); }),
-    fetch("content/ui.json", { cache: "no-cache" }).then(function (r) { return r.json(); })
+    fetch("content/ui.json", { cache: "no-cache" }).then(function (r) { return r.json(); }),
+    fetch("content/guide.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return {}; })
   ]).then(function (res) {
-    SITE = res[0]; UI = res[1];
+    SITE = res[0]; UI = res[1]; GUIDE = res[2] || {};
     setLang(initialLang(), false);
   }).catch(function () { $("news").textContent = "…"; });
 })();

@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Cairo:wght@500;700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 <a class="skip" href="#jeu" data-i18n="skip">Aller au contenu</a>
@@ -25,6 +25,7 @@
     <a href="#jeu" data-i18n="nav_game">Le jeu</a>
     <a href="#actus" data-i18n="nav_news">Actus</a>
     <a href="#medias" data-i18n="nav_media">Médias</a>
+    <a href="#guide" data-i18n="nav_guide">Guide</a>
   </nav>
   <div class="nav-right">
     <select id="lang" class="lang"></select>
@@ -96,6 +97,22 @@
     </div>
   </section>
 
+  <section id="guide" class="sec sec-alt">
+    <div class="wrap">
+      <h2 class="h2" data-i18n="h_guide">Guide du jeu</h2>
+      <div class="tabs" role="tablist">
+        <button type="button" role="tab" id="tabManual" aria-selected="true" aria-controls="paneManual" data-i18n="tab_manual">Notice</button>
+        <button type="button" role="tab" id="tabTips" aria-selected="false" aria-controls="paneTips" data-i18n="tab_tips">Trucs et astuces</button>
+      </div>
+      <div id="paneManual" role="tabpanel" aria-labelledby="tabManual">
+        <div id="manual" class="manual"></div>
+      </div>
+      <div id="paneTips" role="tabpanel" aria-labelledby="tabTips" hidden>
+        <ul id="tips" class="tips"></ul>
+      </div>
+    </div>
+  </section>
+
   <section id="suivre" class="cta">
     <div class="wrap cta-inner">
       <h2 id="ctaTitle" class="cta-title"></h2>
@@ -113,6 +130,6 @@
   <p>© <span id="year"></span> Pole Racer — <span data-i18n="made_by">un jeu</span> <a href="https://indianagames.pages.dev">Indiana Games</a></p>
 </footer>
 
-<script src="app.js"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>

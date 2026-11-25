@@ -210,3 +210,22 @@ h1 .w:nth-child(2){animation-delay:.14s}
 .nav{background:rgba(24,28,37,.88);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line)}
 .menu a{color:var(--hard)}
 .menu a:hover{color:var(--medium)}
+
+/* Guide du jeu : notice et astuces */
+.manual{display:grid;gap:12px;max-width:900px}
+.manual details{background:var(--asphalt-up);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.manual summary{cursor:pointer;list-style:none;padding:18px 22px;font-family:var(--display);font-size:20px;color:var(--hard);display:flex;justify-content:space-between;align-items:center;gap:16px}
+.manual summary::-webkit-details-marker{display:none}
+.manual summary::after{content:"+";color:var(--medium);font-size:26px;line-height:1}
+.manual details[open] summary::after{content:"\2212"}
+.manual details[open] summary{border-bottom:1px solid var(--line)}
+.manual-body{padding:20px 22px 24px;color:var(--muted);display:grid;gap:14px}
+.manual-body img{width:100%;max-width:560px;border-radius:6px;border:1px solid var(--line)}
+.manual-body h4{color:var(--hard);font-size:17px;margin:6px 0 0}
+.manual-body p,.manual-body li{line-height:1.6}
+.manual-body ul{padding-inline-start:20px;display:grid;gap:4px}
+.tips{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.tips li{background:var(--asphalt-up);border:1px solid var(--line);border-top:4px solid var(--medium);border-radius:10px;padding:20px 22px;color:var(--muted);line-height:1.6}
+.tips h3{color:var(--hard);font-size:18px;margin:0 0 8px;line-height:1.3}
+.tips li:nth-child(3n+2){border-top-color:var(--soft)}
+.tips li:nth-child(3n){border-top-color:var(--inter)}
