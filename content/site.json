@@ -50,7 +50,16 @@
         "text": "Caméra libre sur tout le circuit, filtres, cadre 16:9 ou carré et logo du jeu en option."
       }
     ],
-    "videos": [],
+    "videos": [
+      {
+        "title": "Découvrez Pole Racer",
+        "youtube": "https://youtu.be/X6Yu-q0uwHs"
+      },
+      {
+        "title": "Teaser : sortie en décembre 2026",
+        "youtube": "https://youtube.com/shorts/o4_lAGeGP7g"
+      }
+    ],
     "gallery": [
       {
         "image": "/images/jeu/04-monoplace.webp",
@@ -114,6 +123,14 @@
         "title": "Bienvenue sur le site de Pole Racer",
         "date": "2026-11-24",
         "body": "Le site officiel de Pole Racer est en ligne. Vous y trouverez ici les actualités du développement, des captures d'écran et des vidéos.\n\nRevenez régulièrement : le jeu avance."
+      },
+      {
+        "num": 23,
+        "date": "2026-11-25",
+        "title": "Quatre circuits alsaciens et des courses plus disputées",
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "body": "La prochaine mise à jour gratuite change de visage : elle comptera quatre circuits alsaciens au lieu de trois, chacun construit d'après un vrai lieu.\n\n- Route des Vins : un tracé qui monte et qui descend entre les coteaux, des vignes aux couleurs d'automne au pied des crêtes boisées, un village de vignerons avec son église, sa porte fortifiée et sa fontaine\n- Vallée de Villé (elle remplace la Plaine du Rhin) : une vallée vosgienne entre des crêtes couvertes de sapins, des prés et des vergers au fond, un col à franchir, et le château du Frankenbourg en ruine sur son éperon de grès\n- Les Remparts et Neuf-Brisach : deux tracés dans la ville fortifiée de Vauban, avec son plan en damier, ses maisons alsaciennes, la place d'Armes et son hôtel de ville, les portes en grès rose et leurs ponts sur le fossé\n\n## Plus de vie sur les circuits de décembre\n\n- Forêt de Noël : le traîneau du Père Noël fait le tour du circuit, guirlandes allumées, lutins à bord, rennes au galop, et le Père Noël salue de la main. Un bonhomme de neige géant attend au bout de la ligne droite, une maison de lutins déborde de cadeaux\n- Port Néon : des projecteurs éclairent tout le circuit la nuit\n- Vallée Dorée : de plus grandes tribunes, des montgolfières plus grandes, une nouvelle cigogne, la brume et les nuages qui bougent\n\n## En course, les IA se battent selon la situation\n\n- elles profitent de l'aspiration et déboîtent avant le freinage (une barre cyan sous le témoin DRS montre ta propre aspiration)\n- elles ferment la porte une seule fois, sans zigzaguer\n- elles renoncent à une attaque au freinage si elles ne sont pas à ta hauteur avant la corde\n- en Difficile et Expert, elles croisent la trajectoire pour reprendre la place à la sortie du virage\n- les retardataires se rangent en ligne droite sous le drapeau bleu, jamais en plein virage\n- sous la pluie, elles prennent plus de marge\n\nEn Facile, elles te laissent toujours passer.\n\n## Aussi\n\n- une nouvelle intro avec les huit circuits\n- chaque photo du mode photo porte le nom du jeu, le logo Indiana Games et le nom du circuit\n- en écran partagé, la caméra du tunnel de Port Néon est corrigée pour chaque joueur\n\nLe jeu complet sort début décembre (4,99 €), les circuits alsaciens arriveront ensuite en mise à jour gratuite.",
+        "url": "https://indiana-games.itch.io/pole-racer"
       },
       {
         "num": 22,
@@ -413,7 +430,16 @@
         "text": "Free camera over the whole circuit, filters, 16:9 or square frame and an optional game logo."
       }
     ],
-    "videos": [],
+    "videos": [
+      {
+        "title": "Discover Pole Racer",
+        "youtube": "https://youtu.be/X6Yu-q0uwHs"
+      },
+      {
+        "title": "Teaser: out in December 2026",
+        "youtube": "https://youtube.com/shorts/o4_lAGeGP7g"
+      }
+    ],
     "gallery": [
       {
         "image": "/images/jeu/04-monoplace.webp",
@@ -477,6 +503,14 @@
         "title": "Welcome to the Pole Racer website",
         "date": "2026-11-24",
         "body": "The official Pole Racer website is live. Here you'll find development news, screenshots and videos.\n\nCome back often: the game is moving forward."
+      },
+      {
+        "num": 23,
+        "date": "2026-11-25",
+        "title": "Four Alsace circuits and closer racing",
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "body": "The next free update has a new look: it will include four Alsace circuits instead of three, each one built from a real place.\n\n- Wine Route: a track that climbs and dips between the hillsides, vineyards in autumn colours below wooded ridges, a winegrowers' village with its church, fortified gate and fountain\n- Villé Valley (it replaces the Rhine Plain): a Vosges valley between fir-covered ridges, meadows and orchards on the valley floor, a pass to climb, and the ruined Frankenbourg castle on its sandstone spur\n- The Ramparts and Neuf-Brisach: two layouts in Vauban's fortified town, with its grid plan, Alsatian houses, Place d'Armes and town hall, pink sandstone gates and their bridges over the moat\n\n## More life on the December circuits\n\n- Christmas Forest: Santa's sleigh laps the circuit, lights on, elves on board, reindeer galloping, and Santa waves. A giant snowman waits at the end of the straight, and an elves' house overflows with presents\n- Neon Port: floodlights light up the whole circuit at night\n- Golden Valley: bigger grandstands, bigger hot-air balloons, a new stork, moving mist and clouds\n\n## In races, the AI fights according to the situation\n\n- they use the slipstream and pull out before the braking zone (a cyan bar under the DRS light shows your own slipstream)\n- they close the door only once, without weaving\n- they give up a late-braking move if they aren't alongside you before the apex\n- in Hard and Expert, they cross over to take the place back on corner exit\n- backmarkers move over on the straight under blue flags, never mid-corner\n- in the rain, they leave more margin\n\nIn Easy, they always let you through.\n\n## Also\n\n- a new intro featuring all eight circuits\n- every photo mode shot carries the game's name, the Indiana Games logo and the circuit name\n- in split-screen, the Neon Port tunnel camera is fixed for each player\n\nThe full game launches in early December (€4.99), and the Alsace circuits will follow as a free update.",
+        "url": "https://indiana-games.itch.io/pole-racer"
       },
       {
         "num": 22,
@@ -776,7 +810,16 @@
         "text": "Freie Kamera über die ganze Strecke, Filter, Bildformat 16:9 oder quadratisch und optionales Spiellogo."
       }
     ],
-    "videos": [],
+    "videos": [
+      {
+        "title": "Entdecke Pole Racer",
+        "youtube": "https://youtu.be/X6Yu-q0uwHs"
+      },
+      {
+        "title": "Teaser: erscheint im Dezember 2026",
+        "youtube": "https://youtube.com/shorts/o4_lAGeGP7g"
+      }
+    ],
     "gallery": [
       {
         "image": "/images/jeu/04-monoplace.webp",
@@ -840,6 +883,14 @@
         "title": "Willkommen auf der Pole-Racer-Website",
         "date": "2026-11-24",
         "body": "Die offizielle Pole-Racer-Website ist online. Hier findest du Neuigkeiten zur Entwicklung, Screenshots und Videos.\n\nSchau regelmäßig vorbei: Das Spiel kommt voran."
+      },
+      {
+        "num": 23,
+        "date": "2026-11-25",
+        "title": "Vier Strecken im Elsass und engere Rennen",
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "body": "Das nächste kostenlose Update bekommt ein neues Gesicht: Es bringt vier elsässische Strecken statt drei, jede nach einem echten Ort gebaut.\n\n- Weinstraße: eine Strecke, die zwischen den Hängen auf und ab führt, Reben in Herbstfarben am Fuß bewaldeter Kämme, ein Winzerdorf mit Kirche, Stadttor und Brunnen\n- Weilertal (ersetzt die Rheinebene): ein Vogesental zwischen tannenbewachsenen Kämmen, Wiesen und Obstgärten im Talgrund, ein Pass zum Überqueren und die Ruine der Frankenburg auf ihrem Sandsteinsporn\n- Die Wälle und Neuf-Brisach: zwei Strecken in Vaubans Festungsstadt, mit Schachbrettgrundriss, elsässischen Häusern, der Place d'Armes mit Rathaus und den Toren aus rosa Sandstein mit ihren Brücken über den Graben\n\n## Mehr Leben auf den Dezember-Strecken\n\n- Weihnachtswald: Der Schlitten des Weihnachtsmanns fährt um die Strecke, mit leuchtenden Girlanden, Wichteln an Bord und galoppierenden Rentieren, und der Weihnachtsmann winkt. Ein riesiger Schneemann wartet am Ende der Geraden, ein Wichtelhaus quillt vor Geschenken über\n- Neon-Hafen: Flutlichter beleuchten nachts die ganze Strecke\n- Goldenes Tal: größere Tribünen, größere Heißluftballons, ein neuer Storch, ziehender Nebel und Wolken\n\n## Im Rennen kämpft die KI je nach Lage\n\n- sie nutzt den Windschatten und schert vor dem Bremspunkt aus (ein cyanfarbener Balken unter der DRS-Anzeige zeigt deinen eigenen Windschatten)\n- sie macht die Tür nur einmal zu, ohne Schlangenlinien\n- sie bricht einen Angriff auf der Bremse ab, wenn sie vor dem Scheitelpunkt nicht neben dir ist\n- in Schwer und Experte kreuzt sie die Linie, um sich den Platz am Kurvenausgang zurückzuholen\n- Überrundete machen unter Blauer Flagge auf der Geraden Platz, nie mitten in der Kurve\n- im Regen lässt sie mehr Abstand\n\nIn Leicht lässt sie dich immer vorbei.\n\n## Außerdem\n\n- ein neues Intro mit allen acht Strecken\n- jedes Foto im Fotomodus trägt den Spielnamen, das Indiana-Games-Logo und den Streckennamen\n- im Splitscreen ist die Tunnelkamera im Neon-Hafen für jeden Spieler korrigiert\n\nDas komplette Spiel erscheint Anfang Dezember (4,99 €), die elsässischen Strecken folgen danach als kostenloses Update.",
+        "url": "https://indiana-games.itch.io/pole-racer"
       },
       {
         "num": 22,
@@ -1139,7 +1190,16 @@
         "text": "Cámara libre por todo el circuito, filtros, encuadre 16:9 o cuadrado y logotipo del juego opcional."
       }
     ],
-    "videos": [],
+    "videos": [
+      {
+        "title": "Descubre Pole Racer",
+        "youtube": "https://youtu.be/X6Yu-q0uwHs"
+      },
+      {
+        "title": "Teaser: sale en diciembre de 2026",
+        "youtube": "https://youtube.com/shorts/o4_lAGeGP7g"
+      }
+    ],
     "gallery": [
       {
         "image": "/images/jeu/04-monoplace.webp",
@@ -1203,6 +1263,14 @@
         "title": "Bienvenido al sitio de Pole Racer",
         "date": "2026-11-24",
         "body": "El sitio oficial de Pole Racer ya está en línea. Aquí encontrarás las novedades del desarrollo, capturas de pantalla y vídeos.\n\nVuelve a menudo: el juego avanza."
+      },
+      {
+        "num": 23,
+        "date": "2026-11-25",
+        "title": "Cuatro circuitos alsacianos y carreras más reñidas",
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "body": "La próxima actualización gratuita cambia de cara: tendrá cuatro circuitos alsacianos en lugar de tres, cada uno construido a partir de un lugar real.\n\n- Ruta del Vino: un trazado que sube y baja entre las laderas, viñedos con colores de otoño al pie de crestas boscosas, un pueblo de viticultores con su iglesia, su puerta fortificada y su fuente\n- Valle de Villé (sustituye a la Llanura del Rin): un valle de los Vosgos entre crestas cubiertas de abetos, prados y huertos en el fondo, un puerto que cruzar y el castillo en ruinas de Frankenbourg sobre su espolón de arenisca\n- Las Murallas y Neuf-Brisach: dos trazados en la ciudad fortificada de Vauban, con su plano en cuadrícula, sus casas alsacianas, la plaza de Armas y su ayuntamiento, las puertas de arenisca rosa y sus puentes sobre el foso\n\n## Más vida en los circuitos de diciembre\n\n- Bosque de Navidad: el trineo de Papá Noel da la vuelta al circuito, con guirnaldas encendidas, duendes a bordo y renos al galope, y Papá Noel saluda con la mano. Un muñeco de nieve gigante espera al final de la recta y una casa de duendes rebosa de regalos\n- Puerto Neón: unos focos iluminan todo el circuito de noche\n- Valle Dorado: tribunas más grandes, globos aerostáticos más grandes, una nueva cigüeña, niebla y nubes en movimiento\n\n## En carrera, la IA lucha según la situación\n\n- aprovecha el rebufo y se abre antes de la frenada (una barra cian bajo el testigo del DRS muestra tu propio rebufo)\n- cierra la puerta una sola vez, sin zigzaguear\n- renuncia a un ataque en la frenada si no está a tu altura antes del vértice\n- en Difícil y Experto, cruza la trazada para recuperar la posición a la salida de la curva\n- los rezagados se apartan en recta con bandera azul, nunca en plena curva\n- con lluvia, deja más margen\n\nEn Fácil, siempre te deja pasar.\n\n## Además\n\n- una nueva intro con los ocho circuitos\n- cada foto del modo foto lleva el nombre del juego, el logotipo de Indiana Games y el nombre del circuito\n- en pantalla dividida, la cámara del túnel de Puerto Neón está corregida para cada jugador\n\nEl juego completo sale a principios de diciembre (4,99 €) y los circuitos alsacianos llegarán después en una actualización gratuita.",
+        "url": "https://indiana-games.itch.io/pole-racer"
       },
       {
         "num": 22,
@@ -1502,7 +1570,16 @@
         "text": "Camera libera su tutto il circuito, filtri, inquadratura 16:9 o quadrata e logo del gioco opzionale."
       }
     ],
-    "videos": [],
+    "videos": [
+      {
+        "title": "Scopri Pole Racer",
+        "youtube": "https://youtu.be/X6Yu-q0uwHs"
+      },
+      {
+        "title": "Teaser: esce a dicembre 2026",
+        "youtube": "https://youtube.com/shorts/o4_lAGeGP7g"
+      }
+    ],
     "gallery": [
       {
         "image": "/images/jeu/04-monoplace.webp",
@@ -1566,6 +1643,14 @@
         "title": "Benvenuti sul sito di Pole Racer",
         "date": "2026-11-24",
         "body": "Il sito ufficiale di Pole Racer è online. Qui troverai le novità sullo sviluppo, screenshot e video.\n\nTorna a trovarci: il gioco va avanti."
+      },
+      {
+        "num": 23,
+        "date": "2026-11-25",
+        "title": "Quattro circuiti alsaziani e gare più combattute",
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "body": "Il prossimo aggiornamento gratuito cambia volto: avrà quattro circuiti alsaziani invece di tre, ognuno costruito a partire da un luogo reale.\n\n- Strada dei Vini: un tracciato che sale e scende tra le colline, vigneti dai colori autunnali ai piedi di creste boscose, un villaggio di vignaioli con la sua chiesa, la porta fortificata e la fontana\n- Valle di Villé (sostituisce la Pianura del Reno): una valle dei Vosgi tra creste coperte di abeti, prati e frutteti sul fondovalle, un passo da superare e il castello in rovina del Frankenbourg sul suo sperone di arenaria\n- I Bastioni e Neuf-Brisach: due tracciati nella città fortificata di Vauban, con la pianta a scacchiera, le case alsaziane, la place d'Armes con il municipio, le porte in arenaria rosa e i ponti sul fossato\n\n## Più vita sui circuiti di dicembre\n\n- Foresta di Natale: la slitta di Babbo Natale fa il giro del circuito, con le ghirlande accese, gli elfi a bordo e le renne al galoppo, e Babbo Natale saluta con la mano. Un pupazzo di neve gigante aspetta in fondo al rettilineo e una casa degli elfi trabocca di regali\n- Porto Neon: i riflettori illuminano tutto il circuito di notte\n- Valle Dorata: tribune più grandi, mongolfiere più grandi, una nuova cicogna, nebbia e nuvole in movimento\n\n## In gara, l'IA lotta in base alla situazione\n\n- sfrutta la scia ed esce prima della frenata (una barra ciano sotto la spia del DRS mostra la tua scia)\n- chiude la porta una sola volta, senza zigzagare\n- rinuncia a un attacco in frenata se non è alla tua altezza prima della corda\n- in Difficile ed Esperto, incrocia la traiettoria per riprendersi la posizione in uscita di curva\n- i doppiati si spostano in rettilineo con la bandiera blu, mai in piena curva\n- sotto la pioggia, lascia più margine\n\nIn Facile, ti lascia sempre passare.\n\n## Inoltre\n\n- una nuova intro con tutti gli otto circuiti\n- ogni foto della modalità foto porta il nome del gioco, il logo di Indiana Games e il nome del circuito\n- a schermo diviso, la telecamera del tunnel di Porto Neon è corretta per ogni giocatore\n\nIl gioco completo esce a inizio dicembre (4,99 €) e i circuiti alsaziani arriveranno dopo con un aggiornamento gratuito.",
+        "url": "https://indiana-games.itch.io/pole-racer"
       },
       {
         "num": 22,
@@ -1865,7 +1950,16 @@
         "text": "كاميرا حرة فوق الحلبة كاملة، وفلاتر وإطار 16:9 أو مربع وشعار اللعبة اختياريًا."
       }
     ],
-    "videos": [],
+    "videos": [
+      {
+        "title": "اكتشف Pole Racer",
+        "youtube": "https://youtu.be/X6Yu-q0uwHs"
+      },
+      {
+        "title": "إعلان تشويقي: الإصدار في ديسمبر 2026",
+        "youtube": "https://youtube.com/shorts/o4_lAGeGP7g"
+      }
+    ],
     "gallery": [
       {
         "image": "/images/jeu/04-monoplace.webp",
@@ -1929,6 +2023,14 @@
         "title": "مرحبًا بكم في موقع Pole Racer",
         "date": "2026-11-24",
         "body": "موقع Pole Racer الرسمي أصبح متاحًا. ستجدون هنا أخبار التطوير ولقطات الشاشة ومقاطع الفيديو.\n\nعودوا إلينا باستمرار: اللعبة تتقدّم."
+      },
+      {
+        "num": 23,
+        "date": "2026-11-25",
+        "title": "أربع حلبات في الألزاس وسباقات أكثر تنافساً",
+        "image": "/images/jeu/12-noel-traineau.webp",
+        "body": "يأتي التحديث المجاني القادم بوجه جديد: سيضم أربع حلبات ألزاسية بدلاً من ثلاث، بُنيت كل منها انطلاقاً من مكان حقيقي.\n\n- طريق النبيذ: مسار يصعد ويهبط بين التلال، وكروم بألوان الخريف عند سفوح القمم المشجّرة، وقرية لصانعي النبيذ بكنيستها وبوابتها المحصّنة ونافورتها\n- وادي فيليه (يحلّ محل سهل الراين): وادٍ في جبال الفوج بين قمم يكسوها التنّوب، ومروج وبساتين في قاعه، وممر جبلي يجب اجتيازه، وقلعة فرانكنبورغ المهدّمة فوق نتوئها الصخري الرملي\n- الأسوار ونوف بريزاك: مساران في مدينة فوبان المحصّنة، بتخطيطها الشبكي وبيوتها الألزاسية وساحة الأسلحة ومبنى بلديتها، وبواباتها من الحجر الرملي الوردي وجسورها فوق الخندق\n\n## حياة أكثر على حلبات ديسمبر\n\n- غابة الميلاد: تدور زلاجة بابا نويل حول الحلبة بأضوائها المشتعلة والأقزام على متنها والأيائل تعدو، ويلوّح بابا نويل بيده. ينتظر رجل ثلج عملاق في نهاية الخط المستقيم، وبيت للأقزام يفيض بالهدايا\n- ميناء النيون: كشّافات تضيء الحلبة كلها ليلاً\n- الوادي الذهبي: مدرّجات أكبر ومناطيد أكبر ولقلق جديد وضباب وغيوم تتحرك\n\n## في السباق، يقاتل الذكاء الاصطناعي حسب الموقف\n\n- يستفيد من تيار الهواء ويخرج قبل نقطة الكبح (شريط سماوي تحت مؤشر DRS يُظهر تيار الهواء الخاص بك)\n- يغلق الطريق مرة واحدة فقط، دون تمايل\n- يتخلى عن الهجوم عند الكبح إذا لم يكن بمحاذاتك قبل قمة المنعطف\n- في المستويين الصعب والخبير، يقطع المسار ليستعيد مركزه عند الخروج من المنعطف\n- يفسح المتأخرون الطريق على الخط المستقيم تحت العلم الأزرق، وليس في منتصف المنعطف أبداً\n- تحت المطر، يترك هامشاً أكبر\n\nفي المستوى السهل، يدعك تمرّ دائماً.\n\n## أيضاً\n\n- مقدمة جديدة تضم الحلبات الثماني\n- كل صورة في وضع التصوير تحمل اسم اللعبة وشعار Indiana Games واسم الحلبة\n- في الشاشة المقسّمة، صُحّحت كاميرا نفق ميناء النيون لكل لاعب\n\nتصدر اللعبة الكاملة في أوائل ديسمبر (4.99 €)، وتصل حلبات الألزاس بعد ذلك في تحديث مجاني.",
+        "url": "https://indiana-games.itch.io/pole-racer"
       },
       {
         "num": 22,
