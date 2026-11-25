@@ -154,8 +154,19 @@
     /* Le jeu */
     var ab = $("about"); clear(ab); paragraphs(ab, get("about"));
     var ft = $("features"); clear(ft);
+    var fshots = [];
     get("features").forEach(function (f) {
-      ft.appendChild(el("li", {}, [el("h3", { text: f.title || "" }), el("p", { text: f.text || "" })]));
+      var kids = [];
+      if (f.image) {
+        var idx = fshots.length;
+        fshots.push({ src: safeUrl(f.image), alt: f.title || "Pole Racer" });
+        var fb = el("button", { type: "button", "class": "feat-img", "aria-label": f.title || "Pole Racer" },
+          [el("img", { src: safeUrl(f.image), alt: "", loading: "lazy" })]);
+        fb.addEventListener("click", function () { openLightbox(idx, fshots); });
+        kids.push(fb);
+      }
+      kids.push(el("div", { "class": "feat-txt" }, [el("h3", { text: f.title || "" }), el("p", { text: f.text || "" })]));
+      ft.appendChild(el("li", { "class": f.image ? "has-img" : "" }, kids));
     });
 
     /* Visuels du jeu */
@@ -193,17 +204,6 @@
       }));
       vids.slice(1).forEach(function (x) { vl.appendChild(frame(x, /shorts\//.test(x.youtube) ? "video-small is-short" : "video-small")); });
     }
-
-    /* Short vertical dans la partie « Le jeu » */
-    var gs = $("gameShort"); clear(gs);
-    var short = vids.filter(function (x) { return /shorts\//.test(x.youtube); })[0];
-    if (short) {
-      gs.appendChild(el("iframe", {
-        src: "https://www.youtube-nocookie.com/embed/" + ytId(short.youtube),
-        title: short.title || "Pole Racer", loading: "lazy", allowfullscreen: ""
-      }));
-    }
-    gs.hidden = !short;
 
     /* Le jeu en détail */
     var dl = $("details"); clear(dl);
