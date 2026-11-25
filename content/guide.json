@@ -1,0 +1,470 @@
+{
+ "fr": {
+  "manual": [
+   {
+    "title": "Les modes de jeu",
+    "body": "Le menu principal est en deux blocs.\n\n## Modes de jeu\n\n- Entraînement : roule seul, avec la télémétrie et les conseils de l'ingénieur.\n- Arcade : checkpoints, pièces à ramasser et améliorations à acheter.\n- Grand Prix : qualifications puis course contre l'IA.\n- Championnat : 2 à 4 courses, barème F1, sauvegarde automatique.\n- Contre-la-montre : bats ton record, avec médailles et fantômes.\n- Multijoueur local : 2 à 4 joueurs en écran partagé.\n- Meilleurs temps : tes records par circuit.\n\n## Préparation\n\n- Ma F1 : écurie, pseudo, numéro, décoration et réglages de la voiture.\n- Règles de course : le niveau d'exigence du jeu.\n- Réglages : commandes, image, son, musiques et langue."
+   },
+   {
+    "title": "Les commandes",
+    "body": "Pole Racer se joue au clavier ou à la manette, jusqu'à 4 manettes. Toutes les touches se reprogramment dans Réglages > Commandes / Touches.\n\n- Manette : rapport supérieur sur Croix (A), rétrogradage sur Carré (X), rétroviseurs sur R1.\n- Clavier : O active ou coupe les rétroviseurs.\n- Bas du pavé numérique : regarder derrière soi.\n- Échap ou Rond (B) : retour, et fermeture du menu pause.\n\nLes menus se parcourent entièrement au stick ou à la croix directionnelle.",
+    "image": "/images/guide/reglages.webp"
+   },
+   {
+    "title": "Boîte de vitesses et départ",
+    "body": "Les F1 ont 8 rapports. En boîte manuelle, le jeu ne change jamais de rapport à ta place. La boîte refuse un rapport qui ferait sur-régimer le moteur. Le choix manuelle ou automatique se fait depuis la pause ou les réglages, pas en pleine course.\n\n## Le départ (Grand Prix et Championnat)\n\n- Engage la première (frein + gaz) : le compte à rebours démarre.\n- Cinq feux rouges s'allument un à un, puis tout passe au vert.\n- Au vert, mets entre 60 et 70 % de gaz. Trop, les roues patinent. Pas assez, le moteur cale."
+   },
+   {
+    "title": "Règles de course",
+    "image": "/images/guide/regles.webp",
+    "body": "Trois préréglages : Arcade, Équilibré et Simulation. Tu peux ensuite ajuster chaque règle. Modifier une seule ligne passe le préréglage en « Personnalisé ».\n\n- La voiture : usure des pneus, consommation d'essence, température des pneus et des freins, aérodynamique réaliste, dégâts.\n- Les aides : assistance au freinage, assistance à la direction, repères de freinage.\n- Les adversaires : apprentissage IA PRO.\n\nLes aides sont absentes en multijoueur. Quand elles sont actives, un badge vert « AIDES » s'affiche."
+   },
+   {
+    "title": "Ma F1 et réglages",
+    "image": "/images/guide/monoplace.webp",
+    "body": "Choisis ta F1 parmi les écuries : chacune a ses points forts en accélération, vitesse et adhérence. Donne-lui un pseudo, un numéro et une décoration (25 logos).\n\n## Réglages de course\n\n- Aileron arrière : moins d'aileron donne plus de vitesse de pointe, plus d'aileron donne plus d'appui dans les courbes rapides.\n- Caisse basse : plus d'appui, mais le fond touche à haute vitesse.\n- Suspension arrière dure : moins de sous-virage, mais l'arrière glisse à la réaccélération.\n- Boîte réglable rapport par rapport, pneus, essence, freins et arrêt au stand."
+   },
+   {
+    "title": "Multijoueur local",
+    "image": "/images/guide/multi.webp",
+    "body": "Jusqu'à 4 joueurs en écran partagé sur le même ordinateur, au clavier ou à la manette.\n\n- Chaque place peut être confiée à un bot, pour essayer seul ou compléter la grille.\n- Turbo : une charge gagnée à chaque tour, trois au maximum.\n- Rattrapage : plus tu es loin du premier, plus ta F1 pousse (désactivable).\n- Qualifications entre joueurs, puis départ dans l'ordre des temps.\n- En championnat, les bots marquent aussi des points."
+   },
+   {
+    "title": "Drapeaux et pénalités",
+    "body": "- DRS : une ligne orange et des panneaux « DRS » signalent chaque zone.\n- Drapeau bleu : tu vas être doublé d'un tour, laisse passer.\n- Limites de piste : couper un virage pour gagner du temps coûte 5 secondes. Un écart sans avantage ne coûte rien.\n- Contresens : avertissement à 2 secondes, drapeau noir à 5 secondes.\n- Aileron cassé : répare-le au stand (2 à 5 secondes), sinon drapeau noir et orange."
+   }
+  ],
+  "tips": [
+   {
+    "title": "Freine droit, puis tourne",
+    "body": "On ne peut pas freiner fort et braquer fort en même temps. Freine en ligne droite, puis relâche le frein en entrant dans le virage."
+   },
+   {
+    "title": "Chauffe tes pneus",
+    "body": "Les pneus partent froids (bleus à l'écran) et ont 18 % d'adhérence en moins. Roule prudemment le premier tour, jusqu'à ce qu'ils passent au vert."
+   },
+   {
+    "title": "Soigne ton départ",
+    "body": "Au feu vert, vise entre 60 et 70 % de gaz. C'est là que se gagnent les premières places."
+   },
+   {
+    "title": "Profite du DRS",
+    "body": "Dans les zones signalées par la ligne orange, le DRS te donne de la vitesse en ligne droite. C'est le meilleur moment pour dépasser."
+   },
+   {
+    "title": "Règle l'aileron selon le circuit",
+    "body": "Peu d'aileron pour les longues lignes droites, beaucoup pour les courbes rapides. L'appui n'aide presque pas dans les épingles : le bon réglage change d'un circuit à l'autre."
+   },
+   {
+    "title": "Sous la pluie, anticipe",
+    "body": "Passe en pneus pluie, freine environ 40 % plus tôt et dose les gaz en sortie de virage : l'arrière décroche si les roues patinent."
+   },
+   {
+    "title": "Reste sur le bitume",
+    "body": "Le sable et le gravier salissent les pneus : tu perds de l'adhérence jusqu'à ce qu'ils se nettoient."
+   },
+   {
+    "title": "Analyse ta télémétrie",
+    "body": "En Entraînement, mets pause et choisis Télémétrie : ton dernier tour face à ton meilleur, avec vitesse, gaz, frein et rapport."
+   },
+   {
+    "title": "Apprends à l'IA à te battre",
+    "body": "Active l'apprentissage IA PRO : ton meilleur tour propre est enregistré, et les IA PRO copient ta trajectoire et tes points de freinage."
+   },
+   {
+    "title": "En Arcade, évite les chocs",
+    "body": "Percuter une autre F1 éparpille les pièces de la course en cours. Une touchette ne coûte rien, et les pièces déjà en banque sont à l'abri."
+   }
+  ]
+ },
+ "en": {
+  "manual": [
+   {
+    "title": "Game modes",
+    "body": "The main menu has two blocks.\n\n## Game modes\n\n- Practice: drive alone, with telemetry and tips from your race engineer.\n- Arcade: checkpoints, coins to collect and upgrades to buy.\n- Grand Prix: qualifying, then a race against the AI.\n- Championship: 2 to 4 races, F1 points system, autosave.\n- Time Trial: beat your record, with medals and ghosts.\n- Local Multiplayer: 2 to 4 players in split-screen.\n- Best Times: your records on each circuit.\n\n## Preparation\n\n- My F1: team, nickname, number, livery and car setup.\n- Race Rules: how demanding the game is.\n- Settings: controls, display, sound, music and language."
+   },
+   {
+    "title": "Controls",
+    "body": "Pole Racer plays with a keyboard or a gamepad, up to 4 gamepads. Every key can be remapped in Settings > Controls.\n\n- Gamepad: shift up with Cross (A), shift down with Square (X), mirrors with R1.\n- Keyboard: O turns the mirrors on or off.\n- Numpad down: look behind you.\n- Escape or Circle (B): back, and close the pause menu.\n\nAll menus can be browsed with the stick or the D-pad.",
+    "image": "/images/guide/reglages.webp"
+   },
+   {
+    "title": "Gearbox and start",
+    "body": "The F1 cars have 8 gears. With the manual gearbox, the game never shifts for you. The gearbox refuses a gear that would over-rev the engine. You choose manual or automatic from the pause menu or the settings, not mid-race.\n\n## The start (Grand Prix and Championship)\n\n- Engage first gear (brake + throttle): the countdown begins.\n- Five red lights come on one by one, then everything turns green.\n- On green, use 60 to 70% throttle. Too much and the wheels spin. Too little and the engine stalls."
+   },
+   {
+    "title": "Race rules",
+    "image": "/images/guide/regles.webp",
+    "body": "Three presets: Arcade, Balanced and Simulation. You can then adjust each rule. Changing a single line switches the preset to \"Custom\".\n\n- The car: tyre wear, fuel use, tyre and brake temperature, realistic aerodynamics, damage.\n- The assists: braking assist, steering assist, braking markers.\n- The opponents: PRO AI learning.\n\nAssists are off in multiplayer. When they are on, a green \"ASSISTS\" badge is shown."
+   },
+   {
+    "title": "My F1 and setup",
+    "image": "/images/guide/monoplace.webp",
+    "body": "Pick your F1 from the teams: each one has its own strengths in acceleration, speed and grip. Give it a nickname, a number and a livery (25 logos).\n\n## Race setup\n\n- Rear wing: less wing means more top speed, more wing means more downforce in fast corners.\n- Low ride height: more downforce, but the floor scrapes at high speed.\n- Stiff rear suspension: less understeer, but the rear slides when you get back on the throttle.\n- Gearbox tuned gear by gear, tyres, fuel, brakes and pit stop."
+   },
+   {
+    "title": "Local multiplayer",
+    "image": "/images/guide/multi.webp",
+    "body": "Up to 4 players in split-screen on the same computer, with a keyboard or gamepads.\n\n- Any seat can be given to a bot, to try it alone or fill the grid.\n- Turbo: one charge earned each lap, three at most.\n- Catch-up: the further you are from the leader, the harder your F1 pushes (can be turned off).\n- Qualifying between players, then the grid follows the times.\n- In a championship, bots score points too."
+   },
+   {
+    "title": "Flags and penalties",
+    "body": "- DRS: an orange line and \"DRS\" boards mark each zone.\n- Blue flag: you are about to be lapped, let the car through.\n- Track limits: cutting a corner to gain time costs 5 seconds. Running wide with no advantage costs nothing.\n- Wrong way: warning after 2 seconds, black flag after 5 seconds.\n- Broken wing: repair it in the pits (2 to 5 seconds), or you get the black and orange flag."
+   }
+  ],
+  "tips": [
+   {
+    "title": "Brake straight, then turn",
+    "body": "You can't brake hard and steer hard at the same time. Brake in a straight line, then ease off the brake as you turn in."
+   },
+   {
+    "title": "Warm up your tyres",
+    "body": "Tyres start cold (blue on screen) with 18% less grip. Take the first lap gently until they turn green."
+   },
+   {
+    "title": "Nail the start",
+    "body": "On the green light, aim for 60 to 70% throttle. That's where the first places are won."
+   },
+   {
+    "title": "Use the DRS",
+    "body": "In the zones marked by the orange line, DRS gives you extra straight-line speed. It's the best moment to overtake."
+   },
+   {
+    "title": "Set the wing for the circuit",
+    "body": "Little wing for long straights, lots of wing for fast corners. Downforce barely helps in hairpins, so the best setup changes from one circuit to the next."
+   },
+   {
+    "title": "In the rain, plan ahead",
+    "body": "Switch to wet tyres, brake about 40% earlier and feed in the throttle out of corners: the rear steps out if the wheels spin."
+   },
+   {
+    "title": "Stay on the tarmac",
+    "body": "Sand and gravel dirty your tyres: you lose grip until they clean up."
+   },
+   {
+    "title": "Study your telemetry",
+    "body": "In Practice, pause and pick Telemetry: your last lap against your best, with speed, throttle, brake and gear traces."
+   },
+   {
+    "title": "Teach the AI to beat you",
+    "body": "Turn on PRO AI learning: your best clean lap is recorded, and PRO drivers copy your racing line and braking points."
+   },
+   {
+    "title": "In Arcade, avoid crashes",
+    "body": "Hitting another F1 scatters the coins from the current race. A light touch costs nothing, and coins already banked are safe."
+   }
+  ]
+ },
+ "de": {
+  "manual": [
+   {
+    "title": "Spielmodi",
+    "body": "Das Hauptmenü besteht aus zwei Blöcken.\n\n## Spielmodi\n\n- Training: allein fahren, mit Telemetrie und Tipps deines Renningenieurs.\n- Arcade: Checkpoints, Münzen sammeln und Upgrades kaufen.\n- Grand Prix: Qualifying, dann ein Rennen gegen die KI.\n- Meisterschaft: 2 bis 4 Rennen, F1-Punktesystem, automatisches Speichern.\n- Zeitfahren: schlage deinen Rekord, mit Medaillen und Geistern.\n- Lokaler Mehrspieler: 2 bis 4 Spieler im Splitscreen.\n- Bestzeiten: deine Rekorde auf jeder Strecke.\n\n## Vorbereitung\n\n- Mein F1: Team, Spitzname, Nummer, Lackierung und Fahrzeugabstimmung.\n- Rennregeln: wie anspruchsvoll das Spiel ist.\n- Einstellungen: Steuerung, Bild, Ton, Musik und Sprache."
+   },
+   {
+    "title": "Steuerung",
+    "body": "Pole Racer wird mit Tastatur oder Gamepad gespielt, bis zu 4 Gamepads. Alle Tasten lassen sich unter Einstellungen > Steuerung neu belegen.\n\n- Gamepad: hochschalten mit Kreuz (A), runterschalten mit Quadrat (X), Rückspiegel mit R1.\n- Tastatur: O schaltet die Rückspiegel ein oder aus.\n- Ziffernblock unten: nach hinten schauen.\n- Escape oder Kreis (B): zurück und Pausemenü schließen.\n\nAlle Menüs lassen sich mit dem Stick oder dem Steuerkreuz bedienen.",
+    "image": "/images/guide/reglages.webp"
+   },
+   {
+    "title": "Getriebe und Start",
+    "body": "Die F1-Wagen haben 8 Gänge. Mit manuellem Getriebe schaltet das Spiel nie für dich. Das Getriebe verweigert einen Gang, der den Motor überdrehen würde. Manuell oder Automatik wählst du im Pausemenü oder in den Einstellungen, nicht während des Rennens.\n\n## Der Start (Grand Prix und Meisterschaft)\n\n- Lege den ersten Gang ein (Bremse + Gas): der Countdown beginnt.\n- Fünf rote Lichter gehen nacheinander an, dann wird alles grün.\n- Bei Grün 60 bis 70 % Gas geben. Zu viel, und die Räder drehen durch. Zu wenig, und der Motor stirbt ab."
+   },
+   {
+    "title": "Rennregeln",
+    "image": "/images/guide/regles.webp",
+    "body": "Drei Voreinstellungen: Arcade, Ausgewogen und Simulation. Danach kannst du jede Regel anpassen. Wird eine einzige Zeile geändert, wechselt die Voreinstellung auf „Benutzerdefiniert“.\n\n- Das Auto: Reifenverschleiß, Spritverbrauch, Reifen- und Bremstemperatur, realistische Aerodynamik, Schäden.\n- Die Hilfen: Bremshilfe, Lenkhilfe, Bremsmarkierungen.\n- Die Gegner: PRO-KI-Lernen.\n\nIm Mehrspieler gibt es keine Hilfen. Sind sie aktiv, erscheint ein grünes Abzeichen „HILFEN“."
+   },
+   {
+    "title": "Mein F1 und Abstimmung",
+    "image": "/images/guide/monoplace.webp",
+    "body": "Wähle deinen F1 aus den Teams: Jedes hat eigene Stärken bei Beschleunigung, Geschwindigkeit und Haftung. Gib ihm einen Spitznamen, eine Nummer und eine Lackierung (25 Logos).\n\n## Rennabstimmung\n\n- Heckflügel: weniger Flügel bringt mehr Höchstgeschwindigkeit, mehr Flügel mehr Abtrieb in schnellen Kurven.\n- Tiefe Bodenfreiheit: mehr Abtrieb, aber der Unterboden setzt bei hohem Tempo auf.\n- Harte Hinterradaufhängung: weniger Untersteuern, aber das Heck rutscht beim Herausbeschleunigen.\n- Getriebe Gang für Gang einstellbar, Reifen, Sprit, Bremsen und Boxenstopp."
+   },
+   {
+    "title": "Lokaler Mehrspieler",
+    "image": "/images/guide/multi.webp",
+    "body": "Bis zu 4 Spieler im Splitscreen am selben Computer, mit Tastatur oder Gamepads.\n\n- Jeder Platz kann an einen Bot gehen, um allein zu testen oder das Feld aufzufüllen.\n- Turbo: eine Ladung pro Runde, höchstens drei.\n- Aufholhilfe: je weiter du vom Führenden entfernt bist, desto stärker schiebt dein F1 (abschaltbar).\n- Qualifying zwischen den Spielern, dann Start nach Zeiten.\n- In der Meisterschaft sammeln auch die Bots Punkte."
+   },
+   {
+    "title": "Flaggen und Strafen",
+    "body": "- DRS: eine orange Linie und „DRS“-Schilder markieren jede Zone.\n- Blaue Flagge: du wirst überrundet, lass den Wagen vorbei.\n- Streckenbegrenzung: eine Kurve abzukürzen, um Zeit zu gewinnen, kostet 5 Sekunden. Ein Ausrutscher ohne Vorteil kostet nichts.\n- Falsche Richtung: Warnung nach 2 Sekunden, schwarze Flagge nach 5 Sekunden.\n- Gebrochener Flügel: in der Box reparieren (2 bis 5 Sekunden), sonst gibt es die schwarz-orange Flagge."
+   }
+  ],
+  "tips": [
+   {
+    "title": "Gerade bremsen, dann einlenken",
+    "body": "Man kann nicht gleichzeitig hart bremsen und stark lenken. Bremse auf der Geraden und löse die Bremse beim Einlenken."
+   },
+   {
+    "title": "Reifen aufwärmen",
+    "body": "Die Reifen starten kalt (blau auf dem Bildschirm) mit 18 % weniger Haftung. Fahre die erste Runde vorsichtig, bis sie grün werden."
+   },
+   {
+    "title": "Erwische den Start",
+    "body": "Bei Grün 60 bis 70 % Gas anpeilen. Dort werden die ersten Plätze gewonnen."
+   },
+   {
+    "title": "Nutze das DRS",
+    "body": "In den Zonen mit der orangen Linie bringt dir das DRS mehr Tempo auf der Geraden. Der beste Moment zum Überholen."
+   },
+   {
+    "title": "Flügel je nach Strecke",
+    "body": "Wenig Flügel für lange Geraden, viel Flügel für schnelle Kurven. In Haarnadeln hilft Abtrieb kaum, daher ändert sich die beste Abstimmung von Strecke zu Strecke."
+   },
+   {
+    "title": "Im Regen vorausschauen",
+    "body": "Wechsle auf Regenreifen, bremse etwa 40 % früher und gib beim Herausbeschleunigen dosiert Gas: Das Heck bricht aus, wenn die Räder durchdrehen."
+   },
+   {
+    "title": "Bleib auf dem Asphalt",
+    "body": "Sand und Kies verschmutzen die Reifen: Du verlierst Haftung, bis sie wieder sauber sind."
+   },
+   {
+    "title": "Werte deine Telemetrie aus",
+    "body": "Im Training Pause drücken und Telemetrie wählen: deine letzte Runde gegen deine beste, mit Tempo, Gas, Bremse und Gang."
+   },
+   {
+    "title": "Bring der KI bei, dich zu schlagen",
+    "body": "Aktiviere das PRO-KI-Lernen: Deine beste saubere Runde wird gespeichert, und die PRO-Fahrer übernehmen deine Linie und deine Bremspunkte."
+   },
+   {
+    "title": "In Arcade Unfälle vermeiden",
+    "body": "Ein Zusammenstoß mit einem anderen F1 verstreut die Münzen des laufenden Rennens. Eine leichte Berührung kostet nichts, und bereits gesicherte Münzen sind sicher."
+   }
+  ]
+ },
+ "es": {
+  "manual": [
+   {
+    "title": "Modos de juego",
+    "body": "El menú principal tiene dos bloques.\n\n## Modos de juego\n\n- Práctica: conduce solo, con telemetría y consejos de tu ingeniero de pista.\n- Arcade: puntos de control, monedas que recoger y mejoras que comprar.\n- Gran Premio: clasificación y luego carrera contra la IA.\n- Campeonato: de 2 a 4 carreras, puntuación F1, guardado automático.\n- Contrarreloj: supera tu récord, con medallas y fantasmas.\n- Multijugador local: de 2 a 4 jugadores en pantalla dividida.\n- Mejores tiempos: tus récords en cada circuito.\n\n## Preparación\n\n- Mi F1: escudería, apodo, número, decoración y reglajes del coche.\n- Reglas de carrera: lo exigente que es el juego.\n- Ajustes: controles, imagen, sonido, música e idioma."
+   },
+   {
+    "title": "Controles",
+    "body": "Pole Racer se juega con teclado o mando, hasta 4 mandos. Todas las teclas se pueden reasignar en Ajustes > Controles.\n\n- Mando: subir marcha con Cruz (A), bajar con Cuadrado (X), retrovisores con R1.\n- Teclado: O activa o desactiva los retrovisores.\n- Abajo en el teclado numérico: mirar hacia atrás.\n- Escape o Círculo (B): volver y cerrar el menú de pausa.\n\nTodos los menús se recorren con el stick o la cruceta.",
+    "image": "/images/guide/reglages.webp"
+   },
+   {
+    "title": "Caja de cambios y salida",
+    "body": "Los F1 tienen 8 marchas. Con cambio manual, el juego nunca cambia de marcha por ti. La caja rechaza una marcha que haría pasar de vueltas el motor. Manual o automático se elige desde la pausa o los ajustes, no en plena carrera.\n\n## La salida (Gran Premio y Campeonato)\n\n- Mete primera (freno + acelerador): empieza la cuenta atrás.\n- Cinco luces rojas se encienden una a una y luego todo pasa a verde.\n- En verde, acelera entre un 60 y un 70 %. Demasiado y las ruedas patinan. Poco y el motor se cala."
+   },
+   {
+    "title": "Reglas de carrera",
+    "image": "/images/guide/regles.webp",
+    "body": "Tres preajustes: Arcade, Equilibrado y Simulación. Después puedes ajustar cada regla. Cambiar una sola línea pasa el preajuste a «Personalizado».\n\n- El coche: desgaste de neumáticos, consumo de combustible, temperatura de neumáticos y frenos, aerodinámica realista, daños.\n- Las ayudas: asistencia de frenada, asistencia de dirección, marcas de frenada.\n- Los rivales: aprendizaje de la IA PRO.\n\nLas ayudas no están en multijugador. Cuando están activas, aparece una insignia verde «AYUDAS»."
+   },
+   {
+    "title": "Mi F1 y reglajes",
+    "image": "/images/guide/monoplace.webp",
+    "body": "Elige tu F1 entre las escuderías: cada una tiene sus puntos fuertes en aceleración, velocidad y agarre. Ponle un apodo, un número y una decoración (25 logotipos).\n\n## Reglajes de carrera\n\n- Alerón trasero: menos alerón da más velocidad punta, más alerón da más carga en curvas rápidas.\n- Altura baja: más carga, pero el fondo roza a alta velocidad.\n- Suspensión trasera dura: menos subviraje, pero la trasera desliza al reacelerar.\n- Caja ajustable marcha a marcha, neumáticos, combustible, frenos y parada en boxes."
+   },
+   {
+    "title": "Multijugador local",
+    "image": "/images/guide/multi.webp",
+    "body": "Hasta 4 jugadores en pantalla dividida en el mismo ordenador, con teclado o mandos.\n\n- Cada plaza se puede dar a un bot, para probar solo o completar la parrilla.\n- Turbo: una carga por vuelta, tres como máximo.\n- Recuperación: cuanto más lejos estás del líder, más empuja tu F1 (desactivable).\n- Clasificación entre jugadores y salida según los tiempos.\n- En campeonato, los bots también suman puntos."
+   },
+   {
+    "title": "Banderas y sanciones",
+    "body": "- DRS: una línea naranja y carteles «DRS» señalan cada zona.\n- Bandera azul: te van a doblar, deja pasar.\n- Límites de pista: recortar una curva para ganar tiempo cuesta 5 segundos. Salirse sin ventaja no cuesta nada.\n- Sentido contrario: aviso a los 2 segundos, bandera negra a los 5 segundos.\n- Alerón roto: repáralo en boxes (de 2 a 5 segundos) o recibirás la bandera negra y naranja."
+   }
+  ],
+  "tips": [
+   {
+    "title": "Frena recto y luego gira",
+    "body": "No se puede frenar fuerte y girar fuerte a la vez. Frena en línea recta y suelta el freno al entrar en la curva."
+   },
+   {
+    "title": "Calienta los neumáticos",
+    "body": "Los neumáticos salen fríos (azules en pantalla) con un 18 % menos de agarre. Ve con calma la primera vuelta hasta que pasen a verde."
+   },
+   {
+    "title": "Clava la salida",
+    "body": "Con la luz verde, apunta a un 60-70 % de acelerador. Ahí se ganan las primeras posiciones."
+   },
+   {
+    "title": "Aprovecha el DRS",
+    "body": "En las zonas marcadas con la línea naranja, el DRS te da más velocidad en recta. Es el mejor momento para adelantar."
+   },
+   {
+    "title": "Ajusta el alerón al circuito",
+    "body": "Poco alerón para rectas largas, mucho para curvas rápidas. La carga apenas ayuda en las horquillas: el mejor reglaje cambia de un circuito a otro."
+   },
+   {
+    "title": "Con lluvia, anticípate",
+    "body": "Pon neumáticos de lluvia, frena un 40 % antes y dosifica el acelerador a la salida: la trasera se va si las ruedas patinan."
+   },
+   {
+    "title": "Quédate en el asfalto",
+    "body": "La arena y la grava ensucian los neumáticos: pierdes agarre hasta que se limpian."
+   },
+   {
+    "title": "Estudia tu telemetría",
+    "body": "En Práctica, pausa y elige Telemetría: tu última vuelta frente a la mejor, con velocidad, acelerador, freno y marcha."
+   },
+   {
+    "title": "Enseña a la IA a ganarte",
+    "body": "Activa el aprendizaje de la IA PRO: se graba tu mejor vuelta limpia y los pilotos PRO copian tu trazada y tus puntos de frenada."
+   },
+   {
+    "title": "En Arcade, evita los choques",
+    "body": "Chocar con otro F1 esparce las monedas de la carrera en curso. Un roce no cuesta nada y las monedas ya guardadas están a salvo."
+   }
+  ]
+ },
+ "it": {
+  "manual": [
+   {
+    "title": "Modalità di gioco",
+    "body": "Il menu principale è diviso in due blocchi.\n\n## Modalità di gioco\n\n- Allenamento: guida da solo, con telemetria e consigli del tuo ingegnere di pista.\n- Arcade: checkpoint, monete da raccogliere e potenziamenti da comprare.\n- Gran Premio: qualifiche e poi gara contro l'IA.\n- Campionato: da 2 a 4 gare, punteggio F1, salvataggio automatico.\n- Cronometro: batti il tuo record, con medaglie e fantasmi.\n- Multigiocatore locale: da 2 a 4 giocatori a schermo diviso.\n- Migliori tempi: i tuoi record su ogni circuito.\n\n## Preparazione\n\n- La mia F1: scuderia, soprannome, numero, livrea e assetto.\n- Regole di gara: quanto è esigente il gioco.\n- Impostazioni: comandi, immagine, audio, musica e lingua."
+   },
+   {
+    "title": "Comandi",
+    "body": "Pole Racer si gioca con tastiera o controller, fino a 4 controller. Tutti i tasti si possono riassegnare in Impostazioni > Comandi.\n\n- Controller: marcia su con Croce (A), marcia giù con Quadrato (X), specchietti con R1.\n- Tastiera: O attiva o disattiva gli specchietti.\n- Giù sul tastierino numerico: guardare indietro.\n- Esc o Cerchio (B): indietro e chiusura del menu di pausa.\n\nTutti i menu si navigano con lo stick o la croce direzionale.",
+    "image": "/images/guide/reglages.webp"
+   },
+   {
+    "title": "Cambio e partenza",
+    "body": "Le F1 hanno 8 marce. Con il cambio manuale, il gioco non cambia mai marcia al posto tuo. Il cambio rifiuta una marcia che manderebbe il motore fuori giri. Manuale o automatico si sceglie dalla pausa o dalle impostazioni, non in piena gara.\n\n## La partenza (Gran Premio e Campionato)\n\n- Inserisci la prima (freno + gas): parte il conto alla rovescia.\n- Cinque luci rosse si accendono una alla volta, poi tutto diventa verde.\n- Al verde, dai tra il 60 e il 70 % di gas. Troppo e le ruote pattinano. Troppo poco e il motore si spegne."
+   },
+   {
+    "title": "Regole di gara",
+    "image": "/images/guide/regles.webp",
+    "body": "Tre preimpostazioni: Arcade, Equilibrato e Simulazione. Poi puoi regolare ogni regola. Modificare una sola riga porta la preimpostazione su «Personalizzato».\n\n- La vettura: usura gomme, consumo di carburante, temperatura di gomme e freni, aerodinamica realistica, danni.\n- Gli aiuti: assistenza in frenata, assistenza allo sterzo, riferimenti di frenata.\n- Gli avversari: apprendimento IA PRO.\n\nGli aiuti non ci sono in multigiocatore. Quando sono attivi, compare un badge verde «AIUTI»."
+   },
+   {
+    "title": "La mia F1 e l'assetto",
+    "image": "/images/guide/monoplace.webp",
+    "body": "Scegli la tua F1 tra le scuderie: ognuna ha i suoi punti di forza in accelerazione, velocità e aderenza. Dalle un soprannome, un numero e una livrea (25 loghi).\n\n## Assetto di gara\n\n- Alettone posteriore: meno alettone dà più velocità massima, più alettone dà più carico nelle curve veloci.\n- Assetto basso: più carico, ma il fondo tocca ad alta velocità.\n- Sospensione posteriore rigida: meno sottosterzo, ma il posteriore scivola in accelerazione.\n- Cambio regolabile marcia per marcia, gomme, carburante, freni e pit stop."
+   },
+   {
+    "title": "Multigiocatore locale",
+    "image": "/images/guide/multi.webp",
+    "body": "Fino a 4 giocatori a schermo diviso sullo stesso computer, con tastiera o controller.\n\n- Ogni posto può essere affidato a un bot, per provare da solo o completare la griglia.\n- Turbo: una carica a ogni giro, al massimo tre.\n- Recupero: più sei lontano dal primo, più la tua F1 spinge (disattivabile).\n- Qualifiche tra giocatori, poi partenza secondo i tempi.\n- In campionato anche i bot fanno punti."
+   },
+   {
+    "title": "Bandiere e penalità",
+    "body": "- DRS: una linea arancione e cartelli «DRS» segnalano ogni zona.\n- Bandiera blu: stai per essere doppiato, lascia passare.\n- Limiti della pista: tagliare una curva per guadagnare tempo costa 5 secondi. Un'uscita senza vantaggio non costa nulla.\n- Contromano: avviso dopo 2 secondi, bandiera nera dopo 5 secondi.\n- Alettone rotto: riparalo ai box (da 2 a 5 secondi), altrimenti arriva la bandiera nera e arancione."
+   }
+  ],
+  "tips": [
+   {
+    "title": "Frena dritto, poi sterza",
+    "body": "Non si può frenare forte e sterzare forte insieme. Frena in rettilineo, poi rilascia il freno entrando in curva."
+   },
+   {
+    "title": "Scalda le gomme",
+    "body": "Le gomme partono fredde (blu sullo schermo) con il 18 % di aderenza in meno. Fai il primo giro con calma finché non diventano verdi."
+   },
+   {
+    "title": "Azzecca la partenza",
+    "body": "Al verde punta al 60-70 % di gas. È lì che si conquistano le prime posizioni."
+   },
+   {
+    "title": "Sfrutta il DRS",
+    "body": "Nelle zone segnate dalla linea arancione, il DRS ti dà più velocità in rettilineo. È il momento migliore per sorpassare."
+   },
+   {
+    "title": "Regola l'alettone per il circuito",
+    "body": "Poco alettone per i lunghi rettilinei, molto per le curve veloci. Il carico aiuta poco nei tornanti: l'assetto migliore cambia da un circuito all'altro."
+   },
+   {
+    "title": "Sotto la pioggia, anticipa",
+    "body": "Monta le gomme da pioggia, frena circa il 40 % prima e dosa il gas in uscita: il posteriore parte se le ruote pattinano."
+   },
+   {
+    "title": "Resta sull'asfalto",
+    "body": "Sabbia e ghiaia sporcano le gomme: perdi aderenza finché non si puliscono."
+   },
+   {
+    "title": "Studia la telemetria",
+    "body": "In Allenamento, metti in pausa e scegli Telemetria: il tuo ultimo giro contro il migliore, con velocità, gas, freno e marcia."
+   },
+   {
+    "title": "Insegna all'IA a batterti",
+    "body": "Attiva l'apprendimento IA PRO: il tuo miglior giro pulito viene registrato e i piloti PRO copiano la tua traiettoria e i tuoi punti di frenata."
+   },
+   {
+    "title": "In Arcade, evita gli urti",
+    "body": "Urtare un'altra F1 sparpaglia le monete della gara in corso. Un contatto leggero non costa nulla e le monete già in banca sono al sicuro."
+   }
+  ]
+ },
+ "ar": {
+  "manual": [
+   {
+    "title": "أوضاع اللعب",
+    "body": "تنقسم القائمة الرئيسية إلى قسمين.\n\n## أوضاع اللعب\n\n- التدريب: قُد وحدك مع القياس عن بُعد ونصائح مهندس السباق.\n- الأركيد: نقاط تفتيش وعملات تجمعها وتحسينات تشتريها.\n- الجائزة الكبرى: تصفيات ثم سباق ضد الذكاء الاصطناعي.\n- البطولة: من 2 إلى 4 سباقات، نظام نقاط الفورمولا 1، حفظ تلقائي.\n- سباق ضد الساعة: حطّم رقمك القياسي، مع ميداليات وأشباح.\n- اللعب الجماعي المحلي: من 2 إلى 4 لاعبين على شاشة مقسّمة.\n- أفضل الأوقات: أرقامك القياسية في كل حلبة.\n\n## التحضير\n\n- سيارتي: الفريق والاسم المستعار والرقم والطلاء وضبط السيارة.\n- قواعد السباق: مدى صعوبة اللعبة.\n- الإعدادات: التحكم والصورة والصوت والموسيقى واللغة."
+   },
+   {
+    "title": "التحكم",
+    "body": "تُلعب Pole Racer بلوحة المفاتيح أو بذراع التحكم، حتى 4 أذرع. يمكن إعادة تعيين كل المفاتيح من الإعدادات > التحكم.\n\n- ذراع التحكم: رفع السرعة بزر X (A)، خفضها بزر المربع (X)، المرايا بزر R1.\n- لوحة المفاتيح: المفتاح O يشغّل المرايا أو يطفئها.\n- السهم السفلي في لوحة الأرقام: النظر إلى الخلف.\n- Escape أو الدائرة (B): رجوع وإغلاق قائمة الإيقاف المؤقت.\n\nيمكن التنقل في كل القوائم بالعصا أو بأزرار الاتجاه.",
+    "image": "/images/guide/reglages.webp"
+   },
+   {
+    "title": "علبة السرعات والانطلاق",
+    "body": "لسيارات الفورمولا 1 ثماني سرعات. في الوضع اليدوي لا تغيّر اللعبة السرعة بدلاً منك أبداً. وترفض العلبة أي سرعة تجعل المحرك يتجاوز حدّ الدوران. تختار اليدوي أو الآلي من قائمة الإيقاف أو الإعدادات، لا أثناء السباق.\n\n## الانطلاق (الجائزة الكبرى والبطولة)\n\n- ضع السرعة الأولى (فرامل + وقود): يبدأ العد التنازلي.\n- تضيء خمسة أضواء حمراء واحداً تلو الآخر، ثم يتحول كل شيء إلى الأخضر.\n- عند الأخضر، اضغط الوقود بين 60 و70 ٪. أكثر من ذلك تنزلق العجلات، وأقل من ذلك يتوقف المحرك."
+   },
+   {
+    "title": "قواعد السباق",
+    "image": "/images/guide/regles.webp",
+    "body": "ثلاثة إعدادات جاهزة: أركيد ومتوازن ومحاكاة. ثم يمكنك ضبط كل قاعدة. تغيير سطر واحد يحوّل الإعداد إلى «مخصّص».\n\n- السيارة: تآكل الإطارات، استهلاك الوقود، حرارة الإطارات والفرامل، ديناميكا هوائية واقعية، الأضرار.\n- المساعدات: مساعدة الكبح، مساعدة التوجيه، علامات الكبح.\n- المنافسون: تعلّم الذكاء الاصطناعي PRO.\n\nلا توجد مساعدات في اللعب الجماعي. وعند تفعيلها تظهر شارة خضراء «مساعدات»."
+   },
+   {
+    "title": "سيارتي وضبطها",
+    "image": "/images/guide/monoplace.webp",
+    "body": "اختر سيارتك من بين الفرق: لكل منها نقاط قوتها في التسارع والسرعة والتماسك. أعطها اسماً مستعاراً ورقماً وطلاءً (25 شعاراً).\n\n## ضبط السباق\n\n- الجناح الخلفي: جناح أقل يعني سرعة قصوى أعلى، وجناح أكثر يعني ضغطاً أكبر في المنعطفات السريعة.\n- ارتفاع منخفض: ضغط أكبر، لكن أرضية السيارة تحتك بالمسار في السرعات العالية.\n- تعليق خلفي صلب: انزلاق أمامي أقل، لكن المؤخرة تنزلق عند إعادة التسارع.\n- علبة سرعات قابلة للضبط سرعة بسرعة، والإطارات والوقود والفرامل والتوقف في المرآب."
+   },
+   {
+    "title": "اللعب الجماعي المحلي",
+    "image": "/images/guide/multi.webp",
+    "body": "حتى 4 لاعبين على شاشة مقسّمة في الحاسوب نفسه، بلوحة المفاتيح أو بأذرع التحكم.\n\n- يمكن إسناد أي مقعد إلى روبوت، لتجرّب وحدك أو تكمل خط الانطلاق.\n- التوربو: شحنة واحدة في كل لفة، ثلاث كحد أقصى.\n- اللحاق: كلما ابتعدت عن المتصدر زادت قوة دفع سيارتك (يمكن إيقافه).\n- تصفيات بين اللاعبين، ثم انطلاق حسب الأوقات.\n- في البطولة تحصد الروبوتات النقاط أيضاً."
+   },
+   {
+    "title": "الأعلام والعقوبات",
+    "body": "- DRS: خط برتقالي ولوحات «DRS» تحدد كل منطقة.\n- العلم الأزرق: سيتجاوزك أحدهم بفارق لفة، أفسح له الطريق.\n- حدود المسار: قطع منعطف لكسب الوقت يكلّف 5 ثوانٍ. أما الخروج دون أفضلية فلا يكلّف شيئاً.\n- الاتجاه المعاكس: تحذير بعد ثانيتين، وعلم أسود بعد 5 ثوانٍ.\n- جناح مكسور: أصلحه في المرآب (من 2 إلى 5 ثوانٍ)، وإلا رُفع لك العلم الأسود والبرتقالي."
+   }
+  ],
+  "tips": [
+   {
+    "title": "اكبح في خط مستقيم ثم انعطف",
+    "body": "لا يمكن الكبح بقوة والتوجيه بقوة في الوقت نفسه. اكبح في خط مستقيم، ثم خفّف الفرامل عند دخول المنعطف."
+   },
+   {
+    "title": "سخّن إطاراتك",
+    "body": "تبدأ الإطارات باردة (زرقاء على الشاشة) بتماسك أقل بنسبة 18 ٪. قُد بهدوء في اللفة الأولى حتى تصبح خضراء."
+   },
+   {
+    "title": "أتقن الانطلاق",
+    "body": "عند الضوء الأخضر، استهدف 60 إلى 70 ٪ من الوقود. هناك تُكسب المراكز الأولى."
+   },
+   {
+    "title": "استفد من DRS",
+    "body": "في المناطق المحددة بالخط البرتقالي يمنحك DRS سرعة إضافية على الخط المستقيم. إنها أفضل لحظة للتجاوز."
+   },
+   {
+    "title": "اضبط الجناح حسب الحلبة",
+    "body": "جناح قليل للخطوط المستقيمة الطويلة، وجناح كبير للمنعطفات السريعة. الضغط لا يفيد تقريباً في المنعطفات الحادة، لذا يتغير أفضل ضبط من حلبة إلى أخرى."
+   },
+   {
+    "title": "تحت المطر، استبق الأمور",
+    "body": "ركّب إطارات المطر، واكبح أبكر بنحو 40 ٪، وتحكّم في الوقود عند الخروج من المنعطف: تنزلق المؤخرة إذا دارت العجلات في مكانها."
+   },
+   {
+    "title": "ابقَ على الإسفلت",
+    "body": "الرمل والحصى يوسّخان الإطارات: تفقد التماسك حتى تنظف."
+   },
+   {
+    "title": "حلّل بيانات القياس",
+    "body": "في التدريب، أوقف اللعبة واختر القياس عن بُعد: لفتك الأخيرة مقابل أفضل لفة، مع السرعة والوقود والفرامل والسرعة المعشّقة."
+   },
+   {
+    "title": "علّم الذكاء الاصطناعي أن يهزمك",
+    "body": "فعّل تعلّم الذكاء الاصطناعي PRO: تُسجَّل أفضل لفة نظيفة لك، ويقلّد سائقو PRO مسارك ونقاط كبحك."
+   },
+   {
+    "title": "في الأركيد، تجنّب الاصطدامات",
+    "body": "الاصطدام بسيارة أخرى يبعثر عملات السباق الجاري. اللمسة الخفيفة لا تكلّف شيئاً، والعملات المودعة في البنك آمنة."
+   }
+  ]
+ }
+}

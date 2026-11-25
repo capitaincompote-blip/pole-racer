@@ -25,7 +25,11 @@
     "h_media": "Médias",
     "tab_photos": "Photos",
     "tab_videos": "Vidéos",
-    "no_videos": "La bande-annonce arrive bientôt."
+    "no_videos": "La bande-annonce arrive bientôt.",
+    "nav_guide": "Guide",
+    "h_guide": "Guide du jeu",
+    "tab_manual": "Notice",
+    "tab_tips": "Trucs et astuces"
   },
   "en": {
     "title": "Pole Racer — Formula 1 in low poly",
@@ -53,7 +57,11 @@
     "h_media": "Media",
     "tab_photos": "Photos",
     "tab_videos": "Videos",
-    "no_videos": "The trailer is coming soon."
+    "no_videos": "The trailer is coming soon.",
+    "nav_guide": "Guide",
+    "h_guide": "Game guide",
+    "tab_manual": "Manual",
+    "tab_tips": "Tips & tricks"
   },
   "de": {
     "title": "Pole Racer — Formel 1 in Low Poly",
@@ -81,7 +89,11 @@
     "h_media": "Medien",
     "tab_photos": "Fotos",
     "tab_videos": "Videos",
-    "no_videos": "Der Trailer kommt bald."
+    "no_videos": "Der Trailer kommt bald.",
+    "nav_guide": "Anleitung",
+    "h_guide": "Spielanleitung",
+    "tab_manual": "Handbuch",
+    "tab_tips": "Tipps und Tricks"
   },
   "es": {
     "title": "Pole Racer — La Fórmula 1 en low poly",
@@ -109,7 +121,11 @@
     "h_media": "Multimedia",
     "tab_photos": "Fotos",
     "tab_videos": "Vídeos",
-    "no_videos": "El tráiler llega pronto."
+    "no_videos": "El tráiler llega pronto.",
+    "nav_guide": "Guía",
+    "h_guide": "Guía del juego",
+    "tab_manual": "Manual",
+    "tab_tips": "Trucos y consejos"
   },
   "it": {
     "title": "Pole Racer — La Formula 1 in low poly",
@@ -137,7 +153,11 @@
     "h_media": "Media",
     "tab_photos": "Foto",
     "tab_videos": "Video",
-    "no_videos": "Il trailer arriva presto."
+    "no_videos": "Il trailer arriva presto.",
+    "nav_guide": "Guida",
+    "h_guide": "Guida al gioco",
+    "tab_manual": "Manuale",
+    "tab_tips": "Trucchi e consigli"
   },
   "ar": {
     "title": "Pole Racer — فورمولا 1 بأسلوب لو بولي",
@@ -165,6 +185,10 @@
     "h_media": "الوسائط",
     "tab_photos": "الصور",
     "tab_videos": "الفيديوهات",
-    "no_videos": "العرض الترويجي قادم قريبًا."
+    "no_videos": "العرض الترويجي قادم قريبًا.",
+    "nav_guide": "الدليل",
+    "h_guide": "دليل اللعبة",
+    "tab_manual": "الكتيّب",
+    "tab_tips": "نصائح وحيل"
   }
 }
