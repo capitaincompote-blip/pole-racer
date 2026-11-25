@@ -184,14 +184,14 @@
       return el("div", { "class": cls }, [el("iframe", {
         src: "https://www.youtube-nocookie.com/embed/" + ytId(x.youtube),
         title: x.title || "Pole Racer", loading: "lazy", allowfullscreen: ""
-      })]);
+      })].concat(x.title ? [el("p", { "class": "video-title", text: x.title })] : []));
     }
     if (vids.length) {
       vm.appendChild(el("iframe", {
         src: "https://www.youtube-nocookie.com/embed/" + ytId(vids[0].youtube),
         title: vids[0].title || "Pole Racer", loading: "lazy", allowfullscreen: ""
       }));
-      vids.slice(1).forEach(function (x) { vl.appendChild(frame(x, "video-small")); });
+      vids.slice(1).forEach(function (x) { vl.appendChild(frame(x, /shorts\//.test(x.youtube) ? "video-small is-short" : "video-small")); });
     }
 
     /* Le jeu en détail */

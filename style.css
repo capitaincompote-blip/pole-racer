@@ -229,3 +229,9 @@ h1 .w:nth-child(2){animation-delay:.14s}
 .tips h3{color:var(--hard);font-size:18px;margin:0 0 8px;line-height:1.3}
 .tips li:nth-child(3n+2){border-top-color:var(--soft)}
 .tips li:nth-child(3n){border-top-color:var(--inter)}
+
+/* Shorts verticaux dans la liste des vidéos */
+.video-small{display:flex;flex-direction:column}
+.video-small.is-short{aspect-ratio:auto;background:none;border:0;overflow:visible;max-width:320px}
+.video-small.is-short iframe{position:static;aspect-ratio:9/16;height:auto;border-radius:14px;border:1px solid var(--line);background:#000}
+.video-title{color:var(--muted);font-size:15px;margin-top:10px}
