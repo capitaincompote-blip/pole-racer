@@ -205,6 +205,17 @@
       vids.slice(1).forEach(function (x) { vl.appendChild(frame(x, /shorts\//.test(x.youtube) ? "video-small is-short" : "video-small")); });
     }
 
+    /* Short vertical dans la partie « Le jeu » */
+    var gs = $("gameShort"); clear(gs);
+    var short = vids.filter(function (x) { return /shorts\//.test(x.youtube); })[0];
+    if (short) {
+      gs.appendChild(el("iframe", {
+        src: "https://www.youtube-nocookie.com/embed/" + ytId(short.youtube),
+        title: short.title || "Pole Racer", loading: "lazy", allowfullscreen: ""
+      }));
+    }
+    gs.hidden = !short;
+
     /* Le jeu en détail */
     var dl = $("details"); clear(dl);
     var dshots = [];
