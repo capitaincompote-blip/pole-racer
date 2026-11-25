@@ -114,3 +114,30 @@ collections:
             fields:
               - { name: label, label: Texte du lien, widget: string }
               - { name: url, label: Adresse (https://…), widget: string }
+      - name: guide
+        label: "Guide du jeu (notice et astuces)"
+        file: content/guide.json
+        format: json
+        i18n: true
+        fields:
+          - name: manual
+            label: Notice
+            label_singular: rubrique
+            widget: list
+            i18n: true
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: Titre de la rubrique, widget: string }
+              - { name: image, label: Image (facultatif), widget: image, required: false }
+              - { name: body, label: "Texte (ligne vide = nouveau paragraphe, « - » = liste, « ## » = sous-titre)", widget: text }
+          - name: tips
+            label: Trucs et astuces
+            label_singular: astuce
+            widget: list
+            i18n: true
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: Titre, widget: string }
+              - { name: body, label: Texte, widget: text }
